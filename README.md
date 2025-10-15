@@ -46,5 +46,8 @@ vCard Portfolio Nuxt 3 Template<br>
 
 If you prefer to do it manually with the cleaner git history
 
-npm run install
+node version 20.11.1
+
+npm install
+
 npm run dev

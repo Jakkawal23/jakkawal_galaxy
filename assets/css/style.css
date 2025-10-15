@@ -775,7 +775,7 @@ main {
 
 .timeline { margin-bottom: 30px; }
 
-.timeline .title-wrapper {
+.title-wrapper {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -831,6 +831,73 @@ main {
   line-height: 1.6;
 }
 
+.resume-section {
+  margin-top: 2.5rem;
+}
+
+.language-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.language-item {
+  background-color: var(--onyx);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.language-item:hover {
+  box-shadow: 1px 1px 5px var(--text-gradient-yellow);
+}
+
+.language-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.language-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.language-level {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.language-description {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--light-gray);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tag-list li {
+  background-color: var(--onyx);
+  color: var(--white-1);
+  font-size: 0.875rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.tag-list li:hover {
+  background-color: var(--text-gradient-yellow);
+  transform: translateY(-2px);
+}
 
 /**
  * skills 
