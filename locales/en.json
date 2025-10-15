@@ -1,0 +1,28 @@
+{
+    "hello": "Hello",
+    "goodbye": "Good Bye",
+    "all": {
+        "all": "All",
+        "back": "Back",
+        "share": "Share"
+    },
+    "pageTitles": {
+        "about": "About",
+        "resume": "Resume",
+        "portfolio": "Portfolio",
+        "activity": "Activity",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+
+    "about": {
+        "intro1": "I'm a Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.",
+        "intro2": "I enjoy turning complex problems into simple, beautiful and intuitive designs. My goal is to create functional, user-friendly, and visually appealing websites that reflect your message and brand identity.",
+        "servicesTitle": "What I'm doing?",
+        "testimonialsTitle": "Testimonials",
+        "clientsTitle": "Clients",
+        "sampleDate": "14 June, 2021",
+        "companyName": "Company Co.",
+        "clientAlt": "Client logo {{ number }}"
+    }
+}

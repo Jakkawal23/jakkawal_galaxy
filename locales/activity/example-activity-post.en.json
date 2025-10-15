@@ -1,0 +1,38 @@
+{
+  "title": "Example Blog Post",
+  "imageDescription": "“A moment of focus can change everything.”",
+  "intro": {
+    "heading": "Introduction",
+    "content": "Welcome to this example blog post! In this article, we’ll explore how to design a stunning blog layout using Tailwind CSS, Vue 3, and Nuxt 3 — with modern and reusable components."
+  },
+  "gettingStarted": {
+    "heading": "Getting Started",
+    "description": "Let’s begin with creating a clean and flexible layout that works across all screen sizes.",
+    "list": [
+      "Use flex and grid utilities",
+      "Apply responsive prefixes like md:, lg:",
+      "Use consistent padding and spacing"
+    ]
+  },
+  "codeExample": {
+    "heading": "Example Code Block"
+  },
+  "highlightBox": {
+    "heading": "Pro Tip:",
+    "content": "You can create reusable CSS classes for commonly used sections to keep your template clean."
+  },
+  "quote": {
+    "heading": "“Good design is as little design as possible.”",
+    "content": "Dieter Rams"
+  },
+  "subSection": {
+    "heading": "Styling Ideas",
+    "content": "You can add different content types such as tables, image grids, or embedded code to make your blog more interactive and rich in visuals."
+  },
+  "tableExample": {
+    "heading": "Comparison Table"
+  },
+  "gallery": {
+    "heading": "Gallery Example"
+  }
+}
