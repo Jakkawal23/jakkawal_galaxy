@@ -5,38 +5,106 @@ export default defineEventHandler(() => {
     {
       id: 1,
       title: {
-        en: 'Creative Director',
-        th: 'ผู้อำนวยการฝ่ายสร้างสรรค์',
+        en: 'Software Developer',
+        th: 'Software Developer',
       },
-      period: '2015 — Present',
+      period: 'Apr 2024 — Present',
       description: {
-        en: 'Managed creative projects, leading a team of designers and developers.',
-        th: 'บริหารโปรเจกต์ด้านความคิดสร้างสรรค์ พร้อมทีมดีไซเนอร์และนักพัฒนา',
+        en: 'SOFT SQUARE 1999 CO.,LTD',
+        th: 'SOFT SQUARE 1999 CO.,LTD',
       },
+      remark: {
+        en: 'Developed the vendor expense approve system for Burgundy Product (PRQ System) and other systems',
+        th: 'พัฒนาระบบขอเบิกค่าใช้จ่ายสำหรับผู้ค้า Burgundy Product (PRQ System) และระบบอื่นๆ',
+      },
+      content: [
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+      ],
     },
     {
       id: 2,
       title: {
-        en: 'Art Director',
-        th: 'ผู้อำนวยการฝ่ายศิลป์',
+        en: 'Software Developer (Internship)',
+        th: 'Software Developer (Internship)',
       },
-      period: '2013 — 2015',
+      period: 'Oct 2023 - Feb 2024 ( 5 mos. )',
       description: {
-        en: 'Oversaw visual design and branding for multiple campaigns.',
-        th: 'ดูแลการออกแบบภาพลักษณ์และแบรนด์สำหรับแคมเปญหลายโปรเจกต์',
+        en: 'SOFT SQUARE 1999 CO.,LTD',
+        th: 'SOFT SQUARE 1999 CO.,LTD',
       },
+      remark: {
+        en: 'Developed the Accrued Expense System for Burgundy Product (Accrued Expense System)',
+        th: 'พัฒนาระบบตั้งบัญชีค่าใช้จ่ายค้างจ่าย Burgundy Product (Accrued Expense System)',
+      },
+      content: [
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+      ],
     },
     {
       id: 3,
       title: {
-        en: 'Web Designer',
-        th: 'นักออกแบบเว็บไซต์',
+        en: 'Software Developer (Internship)',
+        th: 'Software Developer (Internship)',
       },
-      period: '2010 — 2013',
+      period: 'Mar 2023 - May 2023 ( 3 mos. )',
       description: {
-        en: 'Designed websites with focus on UI/UX and responsive design.',
-        th: 'ออกแบบเว็บไซต์โดยเน้นประสบการณ์ผู้ใช้และการแสดงผลแบบตอบสนอง',
+        en: 'SOFT SQUARE 1999 CO.,LTD',
+        th: 'SOFT SQUARE 1999 CO.,LTD',
       },
+      remark: {
+        en: 'Developed an internal expense reimbursement system for employees (Soft-Xpense)',
+        th: 'พัฒนาระบบเบิกค่าใช้จ่ายสำหรับพนักงานภายในองค์กร (Soft-Xpense)',
+      },
+      content: [
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: {
+        en: 'Software Developer (Internship)',
+        th: 'Software Developer (Internship)',
+      },
+      period: 'Apr 2022 - Jun 2022 ( 3 mos. )',
+      description: {
+        en: 'SOFT SQUARE 1999 CO.,LTD',
+        th: 'SOFT SQUARE 1999 CO.,LTD',
+      },
+      remark: {
+        en: 'Trained and developed a data management system (Master Program)',
+        th: 'ฝึกอบรมและพัฒนาระบบจัดการข้อมูลโปรแกรม (Master Program)',
+      },
+      content: [
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+      ],
     },
   ]
 })

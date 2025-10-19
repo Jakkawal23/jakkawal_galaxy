@@ -21,14 +21,20 @@ const { data: experience } = await useFetch("/api/resume/experience");
           <ion-icon name="book-outline" />
         </div>
 
-        <h3 class="h3">Education</h3>
+        <h3 class="h3">Experience</h3>
       </div>
 
       <ol class="timeline-list">
-        <li v-for="item in education" :key="item.id" class="timeline-item">
+        <li v-for="item in experience" :key="item.id" class="timeline-item">
           <h4 class="h4 timeline-item-title">{{ item.title[locale] }}</h4>
           <span>{{ item.period }}</span>
-          <p class="timeline-text">{{ item.description[locale] }}</p>
+          <p v-if="item.description" class="timeline-text">{{ item.description[locale] }}</p>
+          <p v-if="item.remark" class="timeline-text">{{ item.remark[locale] }}</p> 
+          <ul v-if="item.content" class="timeline-sublist">
+            <li v-for="(con, index) in item.content" :key="index" class="timeline-text">
+              <strong>- {{ con.title[locale] }}</strong> : {{ con.description[locale] }}
+            </li>
+          </ul>
         </li>
       </ol>
     </section>
@@ -39,17 +45,25 @@ const { data: experience } = await useFetch("/api/resume/experience");
           <ion-icon name="book-outline" />
         </div>
 
-        <h3 class="h3">Experience</h3>
+        <h3 class="h3">Education</h3>
       </div>
 
       <ol class="timeline-list">
-        <li v-for="item in experience" :key="item.id" class="timeline-item">
+        <li v-for="item in education" :key="item.id" class="timeline-item">
           <h4 class="h4 timeline-item-title">{{ item.title[locale] }}</h4>
           <span>{{ item.period }}</span>
-          <p class="timeline-text">{{ item.description[locale] }}</p>
+          <p v-if="item.description" class="timeline-text">{{ item.description[locale] }}</p>
+          <p v-if="item.remark" class="timeline-text">{{ item.remark[locale] }}</p> 
+          <ul v-if="item.content" class="timeline-sublist">
+            <li v-for="(con, index) in item.content" :key="index" class="timeline-text">
+              <strong>- {{ con.title[locale] }}</strong> : {{ con.description[locale] }}
+            </li>
+          </ul>
         </li>
       </ol>
     </section>
+
+    
 
     <section class="skill">
       <h3 class="h3 skills-title">My skills</h3>
@@ -229,3 +243,10 @@ const { data: experience } = await useFetch("/api/resume/experience");
     </section>
   </article>
 </template>
+
+<style>
+.timeline-sublist {
+  margin-top: 0.2rem;
+  padding-left: 1.5rem;
+}
+</style>

@@ -5,38 +5,132 @@ export default defineEventHandler(() => {
     {
       id: 1,
       title: {
-        en: 'University School of the Arts',
-        th: 'มหาวิทยาลัยโรงเรียนศิลปะ',
+        en: 'University of Phayao',
+        th: 'มหาวิทยาลัยพะเยา',
       },
-      period: '2007 — 2008',
+      period: '2021 — 2025',
       description: {
-        en: 'Studied fine arts and design, focusing on modern art techniques.',
-        th: 'ศึกษาศิลปะและการออกแบบโดยเน้นเทคนิคศิลปะสมัยใหม่',
+        en: 'Computer Engineering, Graduated with a GPA of 3.81 (First-Class Honors)',
+        th: 'วิศวกรรมคอมพิวเตอร์ เกรดเฉลี่ย 3.81 (เหรียญทอง เกรียรตินิยมอันดับ 1)',
       },
+      remark: {
+        en: 'Held the position of Student Organization Committee Member at University of Phayao, Served as Class President of Computer Engineering',
+        th: 'ดำรงตำแหน่งกรรมการองค์การนิสิต มหาวิทยาลัยพะเยา, ดำรงตำแหน่งประธานชั้นปี สาขาวิศวกรรอมคอมพิวเตอร์',
+      },
+      content: [
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์ 1' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์ 1 description' },
+        },
+      ],
     },
     {
       id: 2,
       title: {
-        en: 'New York Academy of Art',
-        th: 'สถาบันศิลปะนิวยอร์ก',
+        en: 'Measai Vocational College',
+        th: 'วิทยาลัยอาชีวศึกษาแม่สาย',
       },
-      period: '2006 — 2007',
+      period: '2018 — 2021',
       description: {
-        en: 'Specialized in visual arts and contemporary design practices.',
-        th: 'เชี่ยวชาญด้านศิลปะภาพและแนวปฏิบัติการออกแบบร่วมสมัย',
+        en: 'Chinese Language School (High School)',
+        th: 'โรงเรียนสอนภาษาจีน มัธยมศึกษาตอนปลาย',
       },
+      remark: {
+        en: 'Held the position of Vice President of Student Council',
+        th: 'ดำรงตำแหน่งรองประธานนักเรียน',
+      },
+      content: [
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+      ],
     },
     {
       id: 3,
       title: {
-        en: 'High School of Art and Design',
-        th: 'โรงเรียนมัธยมศิลปะและการออกแบบ',
+        en: 'Watthumpla Witthayakhom School',
+        th: 'โรงเรียนวัดถ้ำปลาวิทยาคม',
       },
-      period: '2002 — 2004',
+      period: '2018 — 2021',
       description: {
-        en: 'Learned foundational skills in art, design, and creativity.',
-        th: 'เรียนรู้ทักษะพื้นฐานด้านศิลปะ การออกแบบ และความคิดสร้างสรรค์',
+        en: 'Science-Math Program, Graduated with a GPA of 3.70',
+        th: 'แผนกวิทย์-คณิต เกรดเฉลี่ย 3.70',
       },
+      remark: {
+        en: 'Held the position of Student Council President',
+        th: 'ดำรงตำแหน่งประธานนักเรียน',
+      },
+      content: [
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+      ],
     },
+    {
+      id: 4,
+      title: {
+        en: 'Santiwana School',
+        th: 'โรงเรียนสันติวนา',
+      },
+      period: '2015 — 2018',
+      description: {
+        en: 'Graduated with a GPA of 3.50',
+        th: 'เกรดเฉลี่ย 3.50',
+      },
+      remark: {
+        en: 'Studied at the lower secondary level',
+        th: 'ศึกษาในระดับมัธยมศึกษาตอนต้น',
+      },
+      content: [
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+      ],
+    },
+    {
+      id: 5,
+      title: {
+        en: 'Banphadang School',
+        th: 'โรงเรียนบ้านผาแดง',
+      },
+      period: '2007 — 2015',
+      description: {
+        en: 'Graduated with a GPA of 3.25',
+        th: 'เกรดเฉลี่ย 3.25',
+      },
+      remark: {
+        en: 'Studied at the kindergarten and elementary levels',
+        th: 'ศึกษาในระดับอนุบาลและประถมศึกษา',
+      },
+      content: [
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+        {
+          title: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+          description: { en: 'Web Development', th: 'พัฒนาเว็บไซต์' },
+        },
+      ],
+    }
   ]
 })
