@@ -86,23 +86,26 @@ function changeFilter(id) {
             </figure>
           
             <div class="activity-content">
-              <div class="activity-meta">
+              <div class="activity-meta mb-1">
                 <p class="activity-category">
                   <span v-for="(cat, index) in activity.categories" :key="cat.id">
                     {{ locale === 'en' ? cat.title.en : cat.title.th }}
                   </span>
                 </p>
-
-                <span class="dot" />
-
-                <time :datetime="activity.date">
-                  {{ new Date(activity.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) }}
-                </time>
               </div>
 
-              <h3 class="h3 activity-item-title">{{ activity.title[locale] }}</h3>
+              <h3 class="h3 activity-item-title mb-2">{{ activity.title[locale] }}</h3>
 
               <p class="activity-text">{{ activity.description[locale] }}</p>
+
+              <div class="activity-meta mt-1">
+                <!-- <time :datetime="activity.date">
+                  {{ new Date(activity.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) }}
+                </time> -->
+                <span>
+                  {{ activity.date }}
+                </span>
+              </div>
             </div>
           </NuxtLink>
         </li>

@@ -86,23 +86,23 @@ function changeFilter(id) {
             </figure>
           
             <div class="blog-content">
-              <div class="blog-meta">
+              <div class="blog-meta mb-1">
                 <p class="blog-category">
                   <span v-for="(cat, index) in blog.categories" :key="cat.id">
                     {{ locale === 'en' ? cat.title.en : cat.title.th }}
                   </span>
                 </p>
+              </div>
 
-                <span class="dot" />
+              <h3 class="h3 blog-item-title mb-2">{{ blog.title[locale] }}</h3>
 
+              <p class="blog-text">{{ blog.description[locale] }}</p>
+
+              <div class="blog-meta mt-1">
                 <time :datetime="blog.date">
                   {{ new Date(blog.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) }}
                 </time>
               </div>
-
-              <h3 class="h3 blog-item-title">{{ blog.title[locale] }}</h3>
-
-              <p class="blog-text">{{ blog.description[locale] }}</p>
             </div>
           </NuxtLink>
         </li>

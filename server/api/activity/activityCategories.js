@@ -23,5 +23,26 @@ export default defineEventHandler(() => {
         th: 'ทำงาน',
       },
     },
+    {
+      id: 4,
+      title: {
+        en: 'Company activities',
+        th: 'Company activities',
+      },
+    },
+    {
+      id: 5,
+      title: {
+        en: 'Tuek Som Garage (Startup)',
+        th: 'Tuek Som Garage (Startup)',
+      },
+    },
+    {
+      id: 6,
+      title: {
+        en: 'Training',
+        th: 'Training',
+      },
+    },
   ]
 })
