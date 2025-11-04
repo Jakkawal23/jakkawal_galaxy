@@ -5,22 +5,29 @@ export default defineEventHandler(() => {
     {
       id: 1,
       title: {
-        en: 'Design',
-        th: 'ออกแบบ',
+        en: 'Technology',
+        th: 'เทคโนโลยี',
       },
     },
     {
       id: 2,
       title: {
-        en: 'Design 2',
-        th: 'ออกแบบ 2',
+        en: 'Business & Finance',
+        th: 'ธุรกิจและการเงิน',
       },
     },
     {
       id: 3,
       title: {
-        en: 'UI/UX',
-        th: 'UI/UX',
+        en: 'Book Summaries & Reviews',
+        th: 'สรุปและรีวิวหนังสือ',
+      },
+    },
+    {
+      id: 4,
+      title: {
+        en: 'Tips & How-To',
+        th: 'ทริค/ฮาวทู',
       },
     },
   ]
