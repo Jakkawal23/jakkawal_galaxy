@@ -13,7 +13,7 @@ export default defineEventHandler(() => {
       ],
       date: '2024-12-17',
       slug: '20241217_01_iot',
-      image: '/images/blog-1.jpg',
+      image: '/images/blog/20241217_01/20241217_01_01.png',
       description: {
         en: 'In this article, we will get to know IoT, the Internet of Things.',
         th: 'บทความนี้เรามาทำความรู้จักกับ IoT อินเทอร์เน็ตในทุกสรรพสิ่ง',
@@ -30,7 +30,7 @@ export default defineEventHandler(() => {
       ],
       date: '2024-12-17',
       slug: '20241217_02_nb_iot',
-      image: '/images/blog-1.jpg',
+      image: '/images/blog/20241217_02/20241217_02_01.png',
       description: {
         en: 'In this article, we will learn about NB IoT and how it differs from IoT. Let\'s find the answer.',
         th: 'บทความนี้เรามาทำความรู้จักกับ NB IoT แล้วต่างจาก IoT ยังไง มาหาคำตอบกัน',
@@ -47,7 +47,7 @@ export default defineEventHandler(() => {
       ],
       date: '2024-12-30',
       slug: '20241230_nas_and_raid',
-      image: '/images/blog-1.jpg',
+      image: '/images/blog/20241230/20241230_01.png',
       description: {
         en: 'In this article, let\'s get to know NAS.',
         th: 'บทความนี้เรามาทำความรู้จัก NAS กันเถอะ….',
@@ -60,12 +60,11 @@ export default defineEventHandler(() => {
         th: 'สรุปหนังสือ Four Perfectionists',
       },
       categories: [
-        { id: 2, title: { en: 'Business & Finance', th: 'ธุรกิจและการเงิน' } },
         { id: 3, title: { en: 'Book Summaries & Reviews', th: 'สรุปและรีวิวหนังสือ' } },
       ],
       date: '2022-01-06',
       slug: '20250106_01_four_perfectionists',
-      image: '/images/blog-1.jpg',
+      image: '/images/blog/20250106_01/1.png',
       description: {
         en: 'To you…… who wants everything to be perfect',
         th: 'แด่คุณ…… ที่อยากให้ทุกอย่างเพอร์เฟกต์',
@@ -78,12 +77,11 @@ export default defineEventHandler(() => {
         th: 'สรุปหนังสือ ATOMIC HABITS',
       },
       categories: [
-        { id: 2, title: { en: 'Business & Finance', th: 'ธุรกิจและการเงิน' } },
         { id: 3, title: { en: 'Book Summaries & Reviews', th: 'สรุปและรีวิวหนังสือ' } },
       ],
       date: '2022-01-06',
       slug: '20250106_02_atomic_habits',
-      image: '/images/blog-1.jpg',
+      image: '/images/blog/20250106_02/1.png',
       description: {
         en: 'Atomic Habits because life can be better than it is',
         th: 'Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น',
@@ -101,13 +99,12 @@ export default defineEventHandler(() => {
       ],
       date: '2022-01-06',
       slug: '20250106_03_double_entry_system',
-      image: '/images/blog-1.jpg',
+      image: '/images/blog/20250106_03/1.png',
       description: {
         en: 'In this article, let\'s get to know the Double Entry System.',
         th: 'บทความนี้เรามาทำความรู้จัก ระบบคู่บัญชี Double Entry System กับเถอะ',
       },
     },
-
     {
       id: 20250107_01,
       title: {
@@ -119,7 +116,7 @@ export default defineEventHandler(() => {
       ],
       date: '2022-01-07',
       slug: '20250107_01_check_tin_id',
-      image: '/images/blog-1.jpg',
+      image: '/images/blog/20250107_01/20250107_01_01.png',
       description: {
         en: 'Did you know that we can check our 13-digit national identification number ourselves?',
         th: 'รู้หรือไม่ เราสามารถตรวจสอบเลขประจำตัวประชาชน 13 หลัก ด้วยตนเอง',
@@ -136,7 +133,7 @@ export default defineEventHandler(() => {
       ],
       date: '2022-01-07',
       slug: '20250107_02_tsic',
-      image: '/images/blog-1.jpg',
+      image: '/images/blog/20250107_02/20250107_02_01.png',
       description: {
         en: 'Thailand Industrial Standards Classification',
         th: 'การจัดประเภทมาตรฐานอุตสาหกรรมของประเทศไทย',
