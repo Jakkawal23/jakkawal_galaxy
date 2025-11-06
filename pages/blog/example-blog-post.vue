@@ -109,6 +109,36 @@ watch(locale, (newLang) => {
         </pre>
       </div>
 
+      <div class="blog-section my-8">
+        <h3 class="blog-section-title text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
+          {{ t('blog.codeExample.heading') }}
+        </h3>
+
+        <div class="relative bg-gray-900 text-gray-100 rounded-xl shadow-md overflow-hidden">
+          <!-- Header bar (เหมือน code editor) -->
+          <div class="flex items-center gap-2 px-4 py-2 bg-gray-800 border-b border-gray-700">
+            <span class="w-3 h-3 rounded-full bg-red-500"></span>
+            <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
+            <span class="w-3 h-3 rounded-full bg-green-500"></span>
+            <span class="ml-3 text-sm text-gray-400">example.py</span>
+          </div>
+
+          <!-- Code content -->
+          <pre class="p-4 overflow-x-auto text-sm leading-relaxed">
+            <code class="language-python">
+            def check_id(value: str) -> bool:
+                if len(value) == 13 and value.isdigit():
+                    check_sum = 0
+                    for i in range(len(value) - 1):
+                        check_sum += int(value[i]) * (13 - i)
+                    check_digit = (11 - (check_sum % 11)) % 10
+                    return check_digit == int(value[12])
+                return False
+            </code>
+          </pre>
+        </div>
+      </div>
+
       <!-- Highlight Box -->
       <div class="blog-highlight">
         💡 <span class="font-semibold text-white">{{ t('blog.highlightBox.heading') }}</span>
