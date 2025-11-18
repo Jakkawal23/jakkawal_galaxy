@@ -110,96 +110,96 @@ watch(locale, (newLang) => {
       </div>
 
       <!-- Code Example Section -->
-        <div class="blog-section my-8">
-          <h3 class="blog-section-title text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
-            {{ t('blog.section5.heading') }}
-          </h3>
-          
-          <!-- Content 01 -->
-          <div class="relative bg-gray-900 text-gray-100 rounded-xl shadow-md overflow-hidden">
-            <!-- Header bar (เหมือน code editor) -->
-            <div class="flex items-center gap-2 px-4 py-2 bg-gray-800 border-b border-gray-700">
-              <span class="w-3 h-3 rounded-full bg-red-500"></span>
-              <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
-              <span class="w-3 h-3 rounded-full bg-green-500"></span>
-              <span class="ml-3 text-sm text-gray-400">{{ t('blog.section5.content01') }}</span>
-            </div>
-
-            <!-- Code content -->
-            <pre class="p-4 overflow-x-auto text-sm leading-relaxed">
-              <code class="language-python">
-def check_id(value: str) -> bool:
-    if len(value) == 13 and value.isdigit():
-        check_sum = 0
-        for i in range(len(value) - 1):
-            check_sum += int(value[i]) * (13 - i)
-        check_digit = (11 - (check_sum % 11)) % 10
-        return check_digit == int(value[12])
-    return False
-              </code>
-            </pre>
+      <div class="blog-section my-8">
+        <h3 class="blog-section-title text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
+          {{ t('blog.section5.heading') }}
+        </h3>
+        
+        <!-- Content 01 -->
+        <div class="relative bg-gray-900 text-gray-100 rounded-xl shadow-md overflow-hidden">
+          <!-- Header bar (เหมือน code editor) -->
+          <div class="flex items-center gap-2 px-4 py-2 bg-gray-800 border-b border-gray-700">
+            <span class="w-3 h-3 rounded-full bg-red-500"></span>
+            <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
+            <span class="w-3 h-3 rounded-full bg-green-500"></span>
+            <span class="ml-3 text-sm text-gray-400">{{ t('blog.section5.content01') }}</span>
           </div>
 
-          <!-- Content 02 -->
-          <div class="relative bg-gray-900 text-gray-100 rounded-xl shadow-md overflow-hidden">
-            <!-- Header bar (เหมือน code editor) -->
-            <div class="flex items-center gap-2 px-4 py-2 bg-gray-800 border-b border-gray-700">
-              <span class="w-3 h-3 rounded-full bg-red-500"></span>
-              <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
-              <span class="w-3 h-3 rounded-full bg-green-500"></span>
-              <span class="ml-3 text-sm text-gray-400">{{ t('blog.section5.content02') }}</span>
-            </div>
+          <!-- Code content -->
+          <pre class="p-4 overflow-x-auto text-sm leading-relaxed">
+            <code class="language-python">
+def check_id(value: str) -> bool:
+  if len(value) == 13 and value.isdigit():
+      check_sum = 0
+      for i in range(len(value) - 1):
+          check_sum += int(value[i]) * (13 - i)
+      check_digit = (11 - (check_sum % 11)) % 10
+      return check_digit == int(value[12])
+  return False
+            </code>
+          </pre>
+        </div>
 
-            <!-- Code content -->
-            <pre class="p-4 overflow-x-auto text-sm leading-relaxed">
-              <code class="language-python">
+        <!-- Content 02 -->
+        <div class="relative bg-gray-900 text-gray-100 rounded-xl shadow-md overflow-hidden">
+          <!-- Header bar (เหมือน code editor) -->
+          <div class="flex items-center gap-2 px-4 py-2 bg-gray-800 border-b border-gray-700">
+            <span class="w-3 h-3 rounded-full bg-red-500"></span>
+            <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
+            <span class="w-3 h-3 rounded-full bg-green-500"></span>
+            <span class="ml-3 text-sm text-gray-400">{{ t('blog.section5.content02') }}</span>
+          </div>
+
+          <!-- Code content -->
+          <pre class="p-4 overflow-x-auto text-sm leading-relaxed">
+            <code class="language-python">
 private bool CheckID(string id)
 {
-    if (id.Length == 13 && id.All(char.IsDigit))
-    {
-        int sum = 0;
-        for (int i = 0; i < id.Length - 1; i++)
-        {
-            sum += int.Parse(id[i].ToString()) * (13 - i);
-        }
-        int checkDigit = (11 - (sum % 11)) % 10;
+  if (id.Length == 13 && id.All(char.IsDigit))
+  {
+      int sum = 0;
+      for (int i = 0; i < id.Length - 1; i++)
+      {
+          sum += int.Parse(id[i].ToString()) * (13 - i);
+      }
+      int checkDigit = (11 - (sum % 11)) % 10;
 
-        return checkDigit == int.Parse(id[12].ToString());
-    }
-    return true;
+      return checkDigit == int.Parse(id[12].ToString());
+  }
+  return true;
 }
-              </code>
-            </pre>
-          </div>
-
-          <!-- Content 03 -->
-          <div class="relative bg-gray-900 text-gray-100 rounded-xl shadow-md overflow-hidden">
-            <!-- Header bar (เหมือน code editor) -->
-            <div class="flex items-center gap-2 px-4 py-2 bg-gray-800 border-b border-gray-700">
-              <span class="w-3 h-3 rounded-full bg-red-500"></span>
-              <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
-              <span class="w-3 h-3 rounded-full bg-green-500"></span>
-              <span class="ml-3 text-sm text-gray-400">{{ t('blog.section5.content03') }}</span>
-            </div>
-
-            <!-- Code content -->
-            <pre class="p-4 overflow-x-auto text-sm leading-relaxed">
-              <code class="language-python">
-export function CheckID(value) {
-    if(value.length == 13){
-        let checkSum = 0;
-        for (let i = 0; i < value.length - 1; i++) {
-            checkSum = checkSum + (Number(value[i]) * (value.length - i));
-        }
-        let result = (11 - (checkSum % 11)) % 10;
-        return result === Number(value[12]);
-    }
-    return false;
-}
-              </code>
-            </pre>
-          </div>
+            </code>
+          </pre>
         </div>
+
+        <!-- Content 03 -->
+        <div class="relative bg-gray-900 text-gray-100 rounded-xl shadow-md overflow-hidden">
+          <!-- Header bar (เหมือน code editor) -->
+          <div class="flex items-center gap-2 px-4 py-2 bg-gray-800 border-b border-gray-700">
+            <span class="w-3 h-3 rounded-full bg-red-500"></span>
+            <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
+            <span class="w-3 h-3 rounded-full bg-green-500"></span>
+            <span class="ml-3 text-sm text-gray-400">{{ t('blog.section5.content03') }}</span>
+          </div>
+
+          <!-- Code content -->
+          <pre class="p-4 overflow-x-auto text-sm leading-relaxed">
+            <code class="language-python">
+export function CheckID(value) {
+  if(value.length == 13){
+      let checkSum = 0;
+      for (let i = 0; i < value.length - 1; i++) {
+          checkSum = checkSum + (Number(value[i]) * (value.length - i));
+      }
+      let result = (11 - (checkSum % 11)) % 10;
+      return result === Number(value[12]);
+  }
+  return false;
+}
+            </code>
+          </pre>
+        </div>
+      </div>
 
       <!-- Section 6 -->
       <div class="blog-highlight">

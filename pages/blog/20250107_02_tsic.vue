@@ -1,40 +1,38 @@
 <script setup>
-import { useI18n } from 'vue-i18n'
+import { useI18n } from "vue-i18n";
 // import { useRouter } from 'vue-router'
-import { useRouter, useRoute } from 'vue-router'
+import { useRouter, useRoute } from "vue-router";
 useHead({
-  title: 'Blog Detail',
-})
+  title: "Blog Detail",
+});
 
 definePageMeta({
   hideNavbar: true,
-})
+});
 
-const router = useRouter()
-const route = useRoute()
+const router = useRouter();
+const route = useRoute();
 
 function goBack() {
-  router.back()
+  router.back();
 }
 
-const { t, tm, locale, mergeLocaleMessage } = useI18n()
+const { t, tm, locale, mergeLocaleMessage } = useI18n();
 
-const slug = route.params.slug
+const slug = route.params.slug;
 
 const loadBlogLocale = async (lang) => {
-  const messages = await import(`~/locales/blogs/example-blog-post.${lang}.json`)
-  mergeLocaleMessage(lang, { blog: messages.default })
-}
+  const messages = await import(`~/locales/blogs/20250107_02_tsic.${lang}.json`);
+  mergeLocaleMessage(lang, { blog: messages.default });
+};
 
 onMounted(() => {
-  loadBlogLocale(locale.value)
-})
+  loadBlogLocale(locale.value);
+});
 
 watch(locale, (newLang) => {
-  loadBlogLocale(newLang)
-})
-
-
+  loadBlogLocale(newLang);
+});
 </script>
 
 <template>
@@ -45,144 +43,144 @@ watch(locale, (newLang) => {
         class="blog-back-btn flex items-center gap-2 text-gray-300 hover:text-white transition mb-2"
       >
         <ion-icon name="arrow-back-outline" class="text-lg"></ion-icon>
-        <span><p>{{ $t('all.back') }}</p></span>
+        <span
+          ><p>{{ $t("all.back") }}</p></span
+        >
       </button>
     </div>
 
     <header>
-      <h2 class="h2 article-title ">
-        <p>{{ t('blog.title') }}</p>
+      <h2 class="h2 article-title">
+        <p>{{ t("blog.title") }}</p>
       </h2>
     </header>
 
     <!-- SECTION -->
     <section class="blog-content px-4 md:px-12 lg:px-32 py-10 space-y-12">
-
-      <!-- Hero Image -->
+      <!-- Image 1 -->
       <figure class="w-full">
         <img
-          src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200"
-          alt="Blog Cover"
+          src="/images/blog/20250107_02/20250107_02_01.png"
+          alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
-          <p>{{ t('blog.imageDescription') }}</p>
+          <p>{{ t("blog.image1Description") }}</p>
         </figcaption>
       </figure>
 
-      <!-- Introduction -->
+      <!-- Section 1 -->
       <div class="blog-section">
-        <h3 class="blog-section-title">{{ t('blog.intro.heading') }}</h3>
-        <p>{{ t('blog.intro.content') }}</p>
+        <h3 class="blog-section-title">{{ t("blog.section1.heading") }}</h3>
+        <p>{{ t("blog.section1.content") }}</p>
       </div>
 
-      <!-- Sub Section with Icon -->
+      <!-- Section 2 -->
+      <div class="blog-section">
+        <h3 class="blog-section-title">{{ t("blog.section2.heading") }}</h3>
+        <p>{{ t("blog.section2.content") }}</p>
+      </div>
+
+      <!-- Section 3 -->
       <div class="blog-section">
         <h3 class="blog-section-title flex items-center gap-2">
-          <ion-icon name="rocket-outline" class="text-sky-400"></ion-icon>
-          {{ t('blog.gettingStarted.heading') }}
+          {{ t("blog.section3.heading") }}
         </h3>
         <p>
-          {{ t('blog.gettingStarted.description') }}
+          {{ t("blog.section3.description") }}
         </p>
 
-        <ul class="blog-list">
-          <li v-for="(item, i) in tm('blog.gettingStarted.list')" :key="i">
-            {{ item }}
+        <ul class="blog-list pl-4">
+          <li v-for="(item, i) in tm('blog.section3.list')" :key="i">
+            • &nbsp;&nbsp;&nbsp; {{ item }}
           </li>
         </ul>
       </div>
 
-      <!-- Code Example -->
-      <div class="blog-section">
-        <h3 class="blog-section-title">{{ t('blog.codeExample.heading') }}</h3>
-        <pre class="blog-code">
-          <code class="language-js">
-          // Example component setup
-          export default {
-            setup() {
-              const message = ref('Hello Tailwind!')
-              return { message }
-            }
-          }
-          </code>
-        </pre>
-      </div>
-
-      <!-- Highlight Box -->
-      <div class="blog-highlight">
-        💡 <span class="font-semibold text-white">{{ t('blog.highlightBox.heading') }}</span>
-        {{ t('blog.highlightBox.content') }}
-      </div>
-
-      <!-- Quote -->
-      <blockquote class="blog-quote">
-        {{ t('blog.quote.heading') }}
-        <span class="text-gray-400">— {{ t('blog.quote.content') }}</span>
-      </blockquote>
-
-      <!-- Sub Section -->
+      <!-- Section 4 -->
       <div class="blog-section">
         <h3 class="blog-section-title flex items-center gap-2">
-          <ion-icon name="color-palette-outline" class="text-pink-400"></ion-icon>
-          {{ t('blog.subSection.heading') }}
+          {{ t("blog.section4.heading") }}
         </h3>
         <p>
-          {{ t('blog.subSection.content') }}
+          {{ t("blog.section4.description") }}
         </p>
+
+        <ul class="blog-list pl-4">
+          <li v-for="(item, i) in tm('blog.section4.list')" :key="i">
+            • &nbsp;&nbsp;&nbsp; {{ item }}
+          </li>
+        </ul>
       </div>
 
-      <!-- Table Example -->
+      <!-- Image 2 -->
       <div class="blog-section">
-        <h3 class="blog-section-title">{{ t('blog.tableExample.heading') }}</h3>
-        <div class="overflow-x-auto">
-          <table class="blog-table w-full text-left border-collapse">
-            <thead>
-              <tr>
-                <th>Feature</th>
-                <th>Vue 3</th>
-                <th>React</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Setup</td>
-                <td>Composition API</td>
-                <td>Hooks</td>
-              </tr>
-              <tr>
-                <td>Styling</td>
-                <td>Scoped CSS</td>
-                <td>CSS-in-JS</td>
-              </tr>
-              <tr>
-                <td>Performance</td>
-                <td>🚀 Fast</td>
-                <td>⚡ Fast</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <h3 class="blog-section-title">{{ t("blog.imageSection.heading02") }}</h3>
+        <figure class="w-full">
+          <img
+            src="/images/blog/20250107_02/20250107_02_02.png"
+            alt="Machine To Machine"
+            class="rounded-2xl shadow-lg w-full object-cover blog-image"
+          />
+          <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
+            <p>{{ t("blog.image2Description") }}</p>
+          </figcaption>
+        </figure>
       </div>
 
-      <!-- Image Grid -->
+      <!-- Image 3 -->
       <div class="blog-section">
-        <h3 class="blog-section-title">{{ t('blog.gallery.heading') }}</h3>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="https://picsum.photos/id/1015/400/250" class="rounded-lg object-cover" />
-          <img src="https://picsum.photos/id/1016/400/250" class="rounded-lg object-cover" />
-          <img src="https://picsum.photos/id/1018/400/250" class="rounded-lg object-cover" />
-          <img src="https://picsum.photos/id/1021/400/250" class="rounded-lg object-cover" />
-          <img src="https://picsum.photos/id/1022/400/250" class="rounded-lg object-cover" />
-          <img src="https://picsum.photos/id/1023/400/250" class="rounded-lg object-cover" />
-        </div>
+        <h3 class="blog-section-title">{{ t("blog.imageSection.heading03") }}</h3>
+        <figure class="w-full">
+          <img
+            src="/images/blog/20250107_02/20250107_02_03.png"
+            alt="Machine To Machine"
+            class="rounded-2xl shadow-lg w-full object-cover blog-image"
+          />
+          <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
+            <p>{{ t("blog.image2Description") }}</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- Image 4 -->
+      <div class="blog-section">
+        <h3 class="blog-section-title">{{ t("blog.imageSection.heading04") }}</h3>
+        <figure class="w-full">
+          <img
+            src="/images/blog/20250107_02/20250107_02_04.png"
+            alt="Machine To Machine"
+            class="rounded-2xl shadow-lg w-full object-cover blog-image"
+          />
+          <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
+            <p>{{ t("blog.image2Description") }}</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- Section 5 -->
+      <div class="blog-section">
+        <h3 class="blog-section-title">{{ t("blog.section5.heading") }}</h3>
+      </div>
+
+      <!-- Section 6 -->
+      <div class="blog-highlight">
+        <span class="font-semibold text-white">
+          {{ t("blog.section6.heading") }}
+        </span>
+        {{ t("blog.section6.content") }}
       </div>
 
       <!-- Tags + Share -->
       <div class="blog-section flex flex-col gap-6">
         <div class="flex flex-wrap gap-2">
           <span
-            v-for="tag in ['vue', 'tailwind', 'frontend', 'design', 'tutorial']"
+            v-for="tag in [
+              'เลขบัตรประชาชน',
+              'บัตรประชาชน',
+              'เลขประจำตัวผู้เสียภาษี',
+              'ตรวจสอบเลขบัตรประชาชน',
+            ]"
             :key="tag"
             class="blog-tag"
           >
@@ -191,10 +189,14 @@ watch(locale, (newLang) => {
         </div>
 
         <div class="flex items-center gap-4">
-          <span class="text-gray-400 text-sm">{{ $t('all.share') }}:</span>
+          <span class="text-gray-400 text-sm">{{ $t("all.share") }}:</span>
+          <ion-icon name="logo-tiktok" class="blog-icon"></ion-icon>
+          <ion-icon name="logo-youtube" class="blog-icon"></ion-icon>
+          <ion-icon name="logo-instagram" class="blog-icon"></ion-icon>
           <ion-icon name="logo-facebook" class="blog-icon"></ion-icon>
           <ion-icon name="logo-twitter" class="blog-icon"></ion-icon>
           <ion-icon name="logo-linkedin" class="blog-icon"></ion-icon>
+          <ion-icon name="logo-medium" class="blog-icon"></ion-icon>
         </div>
       </div>
     </section>
