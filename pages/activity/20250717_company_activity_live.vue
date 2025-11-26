@@ -104,20 +104,35 @@ watch(locale, (newLang) => {
         </ul>
       </div>
 
-      <!-- Code Example -->
+      <!-- Section 4 -->
       <div class="activity-section">
-        <h3 class="activity-section-title">{{ t('activity.codeExample.heading') }}</h3>
-        <pre class="activity-code">
-          <code class="language-js">
-          // Example component setup
-          export default {
-            setup() {
-              const message = ref('Hello Tailwind!')
-              return { message }
-            }
-          }
-          </code>
-        </pre>
+        <h3 class="activity-section-title">{{ t('activity.section4.heading') }}</h3>
+        <p>{{ t('activity.section4.content01') }}</p>
+        <p>{{ t('activity.section4.content02') }}</p>
+        <p>{{ t('activity.section4.content03') }}</p>
+      </div>
+
+      <!-- Section 5 -->
+      <div class="activity-section">
+        <h3 class="activity-section-title">{{ t('activity.section5.heading') }}</h3>
+        <p>{{ t('activity.section5.content01') }}</p>
+        <p>{{ t('activity.section5.content02') }}</p>
+      </div>
+
+      <!-- Section 6 -->
+      <div class="activity-section">
+        <h3 class="activity-section-title flex items-center gap-2">
+          {{ t('activity.section6.heading') }}
+        </h3>
+        <p>
+          {{ t('activity.section6.description') }}
+        </p>
+
+        <ul class="activity-list pl-4">
+          <li v-for="(item, i) in tm('activity.section6.list')" :key="i">
+            • &nbsp;&nbsp;&nbsp; {{ item }}
+          </li>
+        </ul>
       </div>
 
       <!-- Highlight Box -->

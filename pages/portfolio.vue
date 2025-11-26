@@ -8,8 +8,8 @@ useHead({
 })
 
 const { locale } = useI18n({ useScope: 'global' })
-const { data: projects } = await useFetch('/api/portfolio/projects')
-const { data: categories } = await useFetch('/api/portfolio/projectCategories')
+const { data: projects } = await useFetch('/api/portfolio/portfolio')
+const { data: categories } = await useFetch('/api/portfolio/portfolioCategories')
 
 const projectList = [...projects.value]
 const activeCategory = ref(0)

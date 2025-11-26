@@ -24,6 +24,12 @@
       </li>
 
       <li class="navbar-item">
+        <NuxtLink to="/project" class="navbar-link">
+          {{ $t('pageTitles.project') }}
+        </NuxtLink>
+      </li>
+
+      <li class="navbar-item">
         <NuxtLink to="/activity" class="navbar-link">
           {{ $t('pageTitles.activity') }}
         </NuxtLink>

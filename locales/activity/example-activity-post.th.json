@@ -1,19 +1,65 @@
 {
-  "title": "ตัวอย่างบล็อกโพสต์",
-  "imageDescription": "A moment of focus can change everything.",
-
+  "title": "กำลังเขียน...",
+  "imageDescription": "“A moment of focus can change everything.”",
   "intro": {
-    "heading": "เกริ่นนำ",
-    "content": "ยินดีต้อนรับสู่ตัวอย่างบล็อกโพสต์! ในบทความนี้เราจะมาดูวิธีสร้างเลย์เอาท์บล็อกสวยๆ ด้วย Tailwind CSS, Vue 3 และ Nuxt 3 โดยใช้คอมโพเนนต์ที่สามารถนำกลับมาใช้ซ้ำได้."
+    "heading": "Introduction",
+    "content": "Welcome to this example blog post! In this article, we’ll explore how to design a stunning blog layout using Tailwind CSS, Vue 3, and Nuxt 3 — with modern and reusable components."
   },
   "gettingStarted": {
-    "heading": "เริ่มต้นกันเลย",
+    "heading": "Getting Started",
+    "description": "Let’s begin with creating a clean and flexible layout that works across all screen sizes.",
     "list": [
-      "ใช้ flex และ grid utilities",
-      "ใช้ prefix สำหรับ responsive เช่น md:, lg:",
-      "จัด spacing ให้สม่ำเสมอ"
+      "Use flex and grid utilities",
+      "Apply responsive prefixes like md:, lg:",
+      "Use consistent padding and spacing"
     ]
   },
-  "quote": "การออกแบบที่ดี คือการออกแบบที่น้อยที่สุดเท่าที่จะเป็นไปได้",
-  "proTip": "คุณสามารถสร้างคลาส CSS ที่นำกลับมาใช้ซ้ำได้ เพื่อทำให้โค้ดดูสะอาดและง่ายต่อการจัดการ."
+  "codeExample": {
+    "heading": "Example Code Block"
+  },
+  "highlightBox": {
+    "heading": "Pro Tip:",
+    "content": "You can create reusable CSS classes for commonly used sections to keep your template clean."
+  },
+  "quote": {
+    "heading": "“Good design is as little design as possible.”",
+    "content": "Dieter Rams"
+  },
+  "subSection": {
+    "heading": "Styling Ideas",
+    "content": "You can add different content types such as tables, image grids, or embedded code to make your blog more interactive and rich in visuals."
+  },
+  "tableExample": {
+    "heading": "Comparison Table"
+  },
+  "gallery": {
+    "heading": "Gallery Example"
+  },
+  "section4": {
+    "heading": "IoT != Software JOIN Hardware",
+    "content01": "หากบอกว่า IoT คือการที่ Machine สามารถสื่อสารกับ Machine ได้ แสดงว่า Machine ก็หมายถึง Hardware และ Software หรือเปล่า ?",
+    "content02": "หลายคนอาจเข้าใจผิดว่า IoT คือ อุปกรณ์ Hardware ที่มี Software เป็นโปรแกรมหรือชุดคำสั่ง IoT = Hardware + Software",
+    "content03": "แต่ในความเป็นจริงแล้ว IoT ไม่ได้ประกอบด้วยเพียง Hardware ที่เป็นอุปกรณ์ต่างๆและ Software สำหรับโปรแกรมชุดคำสั่งเท่านั้น IoT ยังประกอบด้วย Connectivity เป็นมาตรฐานในการเชื่อต่อข้อมูลต่างๆสำหรับอุปกรณ์ Data ข้อมูลต่างๆที่ได้จากอุปกรณ์ เป็นข้อมูลในการติดต่อสื่อสารอาจเก็บไว้บน Cloud เพื่อสามารถนำมาประยุกต์ใช้งานต่อไปได้ และ Intelligence AI เพื่อเพิ่มความสามารถให้กับระบบและนำข้อมูลต่างๆที่เก็บไว้บน Cloud ไปใช้ประโยชน์ได้สูงสุด"
+  },
+
+  "section5": {
+    "heading": "What is Internet of Things",
+    "content01": "อุปกรณ์เบื้องต้นสำหรับเรียนรู้และพัฒนา IoT ที่ง่ายต่อการเรียนรู้ พัฒนา และได้รับความนิยมเลยก็คือ บอร์ด Raspberry Pi และ บอร์ด Arduino บอร์ดนี้ก็เสมือนเครื่องคอมพิวเตอร์ขนาดเล็กที่เอาไว้ประมวลผลข้อมูลต่างๆและทำงานตามโปรแกรมที่เราได้กำหนดไว้",
+    "content02": "คอมพิวเตอร์ที่เราใช้งานอยู่ประจำทุกวันนั้น เราต้องมีการต่อเมาส์ คีย์บอร์ด สำหรับ Input ข้อมูล และต่อจอแสดงผลสำหรับ Output ข้อมูล ในบอร์ด Raspberry Pi และ บอร์ด Arduino ก็เหมือนกัน โดยข้อมูล Input อาจเป็นข้อมูลจาก Senser อะไรบ้างอย่าง เช่น การตรวจจับการเคลื่อนไหว การวัดอุณหภูมิ การวัดความเข้มแสง เป็นต้น เมื่อบอร์ดได้รับข้อมูล Input แล้ว บอร์ดจะทำการประมวลผลข้อมูลและทำงานตามโปรแกรมที่เราได้กำหนดไว้ เราอาจตั้งค่าข้อมูล Output เป็นการสั่งการให้ Servo ทำงาน หรือมอเตอร์ทำงานเป็นต้น"
+  },
+
+  "section6": {
+    "heading": "Example Internet of Things",
+    "description": "ตัวอย่างระบบ IoT ในชีวิตประจำวัน",
+    "list": [
+      "Smart Home",
+      "Smart Wearable",
+      "Smart City",
+      "Smart Grids",
+      "Connected Car",
+      "Smart Retail",
+      "Smart Supply chain",
+      "Smart Farming"
+    ]
+  }
 }
