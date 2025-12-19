@@ -22,7 +22,7 @@ const { t, tm, locale, mergeLocaleMessage } = useI18n()
 const slug = route.params.slug
 
 const loadBlogLocale = async (lang) => {
-  const messages = await import(`~/locales/blogs/example-blog-post.${lang}.json`)
+  const messages = await import(`~/locales/project/example-blog-post.${lang}.json`)
   mergeLocaleMessage(lang, { blog: messages.default })
 }
 

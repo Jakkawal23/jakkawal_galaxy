@@ -5,29 +5,29 @@ export default defineEventHandler(() => {
     {
       id: 1,
       title: {
-        en: 'Technology',
-        th: 'เทคโนโลยี',
+        en: 'Production',
+        th: 'โปรดักชั่น',
       },
     },
     {
       id: 2,
       title: {
-        en: 'Business & Finance',
-        th: 'ธุรกิจและการเงิน',
+        en: 'Mobile Applications',
+        th: 'แอปพลิเคชันบนมือถือ',
       },
     },
     {
       id: 3,
       title: {
-        en: 'Book Summaries & Reviews',
-        th: 'สรุปและรีวิวหนังสือ',
+        en: 'Web Applications',
+        th: 'เว็บแอปพลิเคชัน',
       },
     },
     {
       id: 4,
       title: {
-        en: 'Tips & How-To',
-        th: 'ทริค/ฮาวทู',
+        en: 'Hobby',
+        th: 'งานอดิเรก',
       },
     },
   ]

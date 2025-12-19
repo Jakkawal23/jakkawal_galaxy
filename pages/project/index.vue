@@ -6,10 +6,10 @@ useHead({
 })
 
 const { locale } = useI18n({ useScope: 'global' })
-const { data: blogs } = await useFetch('/api/project/projects')
+const { data: project } = await useFetch('/api/project/projects')
 const { data: categories } = await useFetch('/api/project/projectCategories')
 
-const blogList = [...blogs.value]
+const projectList = [...project.value]
 const activeCategory = ref(0)
 const filterMenu = ref(false)
 const activeCategoryName = ref('')
@@ -28,7 +28,7 @@ function changeFilter(id) {
   <article class="blog active" data-page="blog">
     <header>
       <h2 class="h2 article-title">
-        {{ $t('pageTitles.blog') }}
+        {{ $t('pageTitles.project') }}
       </h2>
     </header>
 
@@ -75,32 +75,32 @@ function changeFilter(id) {
 
       <ul class="blog-posts-list">
         <li
-          v-for="blog in blogList"
-          :key="blog.id"
-          :class="{ active: activeCategory === 0 || blog.categories.some(c => c.id === activeCategory) }"
+          v-for="project in projectList"
+          :key="project.id"
+          :class="{ active: activeCategory === 0 || project.categories.some(c => c.id === activeCategory) }"
           class="blog-post-item"
         >
-          <NuxtLink :to="`/blog/${blog.slug}`">
+          <NuxtLink :to="`/project/${project.slug}`">
             <figure class="blog-banner-box">
-              <img :src="blog.image" :alt="blog.title[locale]" loading="lazy" />
+              <img :src="project.image" :alt="project.title[locale]" loading="lazy" />
             </figure>
           
             <div class="blog-content">
               <div class="blog-meta mb-1">
                 <p class="blog-category">
-                  <span v-for="(cat, index) in blog.categories" :key="cat.id">
+                  <span v-for="(cat, index) in project.categories" :key="cat.id">
                     {{ locale === 'en' ? cat.title.en : cat.title.th }}
                   </span>
                 </p>
               </div>
 
-              <h3 class="h3 blog-item-title mb-2">{{ blog.title[locale] }}</h3>
+              <h3 class="h3 blog-item-title mb-2">{{ project.title[locale] }}</h3>
 
-              <p class="blog-text">{{ blog.description[locale] }}</p>
+              <p class="blog-text">{{ project.description[locale] }}</p>
 
               <div class="blog-meta mt-1">
-                <time :datetime="blog.date">
-                  {{ new Date(blog.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) }}
+                <time :datetime="project.date">
+                  {{ new Date(project.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) }}
                 </time>
               </div>
             </div>
