@@ -94,26 +94,13 @@ watch(locale, (newLang) => {
         <p>{{ t("project.section4.content") }}</p>
       </div>
 
-      <!-- Image Grid -->
-      <div class="blog-section">
-        <h3 class="blog-section-title">{{ t('project.gallery.heading') }}</h3>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="/images/project/20251001/20251001_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20251001/20251001_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20251001/20251001_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20251001/20251001_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20251001/20251001_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20251001/20251001_01.png" class="rounded-lg object-cover" />
-        </div>
-      </div>
-
       <!-- Tags + Share -->
       <div class="blog-section flex flex-col gap-6">
         <div class="flex flex-wrap gap-2">
           <span
             v-for="tag in [
-              'เลขบัตรประชาชน',
-              'บัตรประชาชน',
+              'ระบบรับเอกสารต้นฉบับ',
+              'Receive Document System',
             ]"
             :key="tag"
             class="blog-tag"

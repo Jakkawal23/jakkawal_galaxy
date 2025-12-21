@@ -98,12 +98,12 @@ watch(locale, (newLang) => {
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t('project.gallery.heading') }}</h3>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="/images/project/20230417/20230417_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20230417/20230417_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20230417/20230417_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20230417/20230417_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20230417/20230417_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20230417/20230417_01.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20230417/20230417_02.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20230417/20230417_03.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20230417/20230417_04.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20230417/20230417_05.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20230417/20230417_06.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20230417/20230417_07.png" class="rounded-lg object-cover" />
         </div>
       </div>
 
@@ -112,8 +112,9 @@ watch(locale, (newLang) => {
         <div class="flex flex-wrap gap-2">
           <span
             v-for="tag in [
-              'เลขบัตรประชาชน',
-              'บัตรประชาชน',
+              'ระบบขออนุมัติจ่ายเงิน',
+              'ระบบบริหารจัดการค่าใช้จ่าย',
+              'Soft Xpense',
             ]"
             :key="tag"
             class="blog-tag"

@@ -98,12 +98,12 @@ watch(locale, (newLang) => {
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t('project.gallery.heading') }}</h3>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="/images/project/20240801/20240801_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20240801/20240801_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20240801/20240801_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20240801/20240801_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20240801/20240801_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20240801/20240801_01.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20240801/20240801_02.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20240801/20240801_03.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20240801/20240801_04.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20240801/20240801_05.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20240801/20240801_06.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20240801/20240801_07.png" class="rounded-lg object-cover" />
         </div>
       </div>
 
@@ -112,8 +112,10 @@ watch(locale, (newLang) => {
         <div class="flex flex-wrap gap-2">
           <span
             v-for="tag in [
-              'เลขบัตรประชาชน',
-              'บัตรประชาชน',
+              'ระบบกรอกเอกสารอัตโนมัติ',
+              'ระบบบริหารจัดการค่าใช้จ่าย',
+              'Burgundy',
+              'Burgundy OCR',
             ]"
             :key="tag"
             class="blog-tag"

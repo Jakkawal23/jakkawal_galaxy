@@ -333,22 +333,7 @@ export default defineEventHandler(() => {
       },
     },
     {
-      id: 2025012802,
-      title: {
-        en: 'COVID-19 Tracker: Real-time Data Visualization',
-        th: 'COVID-19 Tracker: ระบบวิเคราะห์และแสดงผลข้อมูลโควิดรายวัน',
-      },
-      categories: [{ id: 1, title: { en: 'Dashboard', th: 'แดชบอร์ด' } }],
-      date: '2025-01-28',
-      slug: '20250128_covid_tracker_dashboard',
-      image: '/images/project/20250128/02.png',
-      description: {
-        en: 'A comprehensive dashboard visualizing pandemic statistics and trends through interactive data charts.',
-        th: 'ระบบแดชบอร์ดสรุปสถิติผู้ติดเชื้อและสถานการณ์รายวันผ่านกราฟข้อมูลที่เข้าใจง่ายและเป็นปัจจุบัน',
-      },
-    },
-    {
-      id: 2025012801,
+      id: 20250128,
       title: {
         en: 'CNY Wishes: Festive Interactive Card Platform',
         th: 'CNY Wishes: แพลตฟอร์มส่งคำอวยพรตรุษจีนอัจฉริยะ',
@@ -396,7 +381,7 @@ export default defineEventHandler(() => {
       id: 20240801,
       title: {
         en: 'OCR Smart Expense: AI-Powered Data Extraction',
-        th: 'OCR Smart Expense: ระบบสกัดข้อมูลเอกสารเบิกจ่ายด้วย AI',
+        th: 'OCR Smart Expense: ระบบกรอกข้อมูลเอกสารเบิกจ่ายด้วย AI',
       },
       categories: [{ id: 1, title: { en: 'Production', th: 'โปรดักชั่น' } }],
       date: '2024-08-01',
@@ -411,7 +396,7 @@ export default defineEventHandler(() => {
       id: 20240601,
       title: {
         en: 'E-Memo: Digital Content & Approval Workflow',
-        th: 'E-Memo: ระบบขออนุมัติเอกสารและประกาศอิเล็กทรอนิกส์',
+        th: 'E-Memo: ระบบขออนุมัติเอกสารอิเล็กทรอนิกส์',
       },
       categories: [{ id: 1, title: { en: 'Production', th: 'โปรดักชั่น' } }],
       date: '2024-06-01',
@@ -441,7 +426,7 @@ export default defineEventHandler(() => {
       id: 20231024,
       title: {
         en: 'Burgundy Accrued: Expense Accrual Tracking',
-        th: 'Burgundy Accrued: ระบบตั้งค่าใช้จ่ายค้างจ่ายอัจฉริยะ',
+        th: 'Burgundy Accrued: ระบบตั้งค่าใช้จ่ายค้างจ่าย',
       },
       categories: [{ id: 1, title: { en: 'Production', th: 'โปรดักชั่น' } }],
       date: '2023-10-24',
@@ -449,7 +434,7 @@ export default defineEventHandler(() => {
       image: '/images/project/20231024/20231024_01.png',
       description: {
         en: 'An automated accounting solution for tracking unpaid expenses and ensuring financial balance with multi-currency support.',
-        th: 'โซลูชันทางบัญชีเพื่อติดตามค่าใช้จ่ายค้างจ่ายอัตโนมัติ พร้อมรองรับการคำนวณหลายสกุลเงินเพื่อความถูกต้องแม่นยำ',
+        th: 'โซลูชันทางบัญชีเพื่อติดตามค่าใช้จ่ายค้างจ่าย พร้อมรองรับการคำนวณหลายสกุลเงินเพื่อความถูกต้องแม่นยำ',
       },
     },
     {
@@ -471,7 +456,7 @@ export default defineEventHandler(() => {
       id: 20230417,
       title: {
         en: 'Soft Xpense: Corporate Expense Management',
-        th: 'Soft Xpense: ระบบบริหารจัดการค่าใช้จ่ายในองค์กรครบวงจร',
+        th: 'Soft Xpense: ระบบบริหารจัดการค่าใช้จ่ายในองค์กร',
       },
       categories: [{ id: 1, title: { en: 'Production', th: 'โปรดักชั่น' } }],
       date: '2023-04-17',
@@ -495,6 +480,21 @@ export default defineEventHandler(() => {
       description: {
         en: 'A strategic simulation of Tic-Tac-Toe using minimax algorithm and AI decision making.',
         th: 'การพัฒนาเกมโอเทลโล่/ทิกแทกโทที่ขับเคลื่อนด้วยอัลกอริทึมในการตัดสินใจเพื่อฝึกฝนทักษะการเขียนโปรแกรมเชิงลอจิก',
+      },
+    },
+    {
+      id: 20220827,
+      title: {
+        en: 'COVID-19 Tracker: Real-time Data Visualization',
+        th: 'COVID-19 Tracker: ระบบวิเคราะห์และแสดงผลข้อมูลโควิดรายวัน',
+      },
+      categories: [{ id: 1, title: { en: 'Dashboard', th: 'แดชบอร์ด' } }],
+      date: '2022-08-27',
+      slug: '20220827_covid_tracker_dashboard',
+      image: '/images/project/20220827/02.png',
+      description: {
+        en: 'A comprehensive dashboard visualizing pandemic statistics and trends through interactive data charts.',
+        th: 'ระบบแดชบอร์ดสรุปสถิติผู้ติดเชื้อและสถานการณ์รายวันผ่านกราฟข้อมูลที่เข้าใจง่ายและเป็นปัจจุบัน',
       },
     },
     {

@@ -99,11 +99,11 @@ watch(locale, (newLang) => {
         <h3 class="blog-section-title">{{ t('project.gallery.heading') }}</h3>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
           <img src="/images/project/20220506/20220506_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20220506/20220506_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20220506/20220506_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20220506/20220506_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20220506/20220506_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/20220506/20220506_01.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20220506/20220506_02.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20220506/20220506_03.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20220506/20220506_04.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20220506/20220506_05.png" class="rounded-lg object-cover" />
+          <img src="/images/project/20220506/20220506_06.png" class="rounded-lg object-cover" />
         </div>
       </div>
 
@@ -112,8 +112,10 @@ watch(locale, (newLang) => {
         <div class="flex flex-wrap gap-2">
           <span
             v-for="tag in [
-              'เลขบัตรประชาชน',
-              'บัตรประชาชน',
+              'โครงสร้างองค์กรมาตรฐาน',
+              'Standard Organization',
+              'Web Standard',
+              'SS Clean',
             ]"
             :key="tag"
             class="blog-tag"
