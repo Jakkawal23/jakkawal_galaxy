@@ -3,6 +3,36 @@ import { defineEventHandler } from 'h3'
 export default defineEventHandler(() => {
   return [
     {
+      id: 20260108_02,
+      title: {
+        en: "OCR Number Digits Training Model: High-Precision Digit Recognition",
+        th: "OCR Number Digits Training Model (โมเดลอัจฉริยะเพื่อการอ่านค่าตัวเลขความแม่นยำสูง)"
+      },
+      categories: [{ id: 1, title: { en: 'AI', th: 'เอไอ' } }],
+      date: '2025-01-08',
+      slug: '20260108_02_ocr-number-digits-training-model',
+      image: '/images/project/20260108_02/20260108_02_01.png',
+      description: {
+        en: "A high-precision model for digit recognition, optimized for industrial accuracy and diverse fonts through synthetic data training.",
+        th: "โมเดลเพื่อการอ่านตัวเลขโดยเฉพาะ รองรับทุกฟอนต์และหน้าปัดหมุนด้วยเทคนิคการจำลองข้อมูลอัจฉริยะ"
+      },
+    },
+    {
+      id: 20260108_01,
+      title: {
+        en: "OCR Meter Segment Training Model: End-to-End Smart Meter Reading",
+        th: 'OCR Meter Segment Training Model (ระบบอ่านค่ามิเตอร์ไฟฟ้าแบบเบ็ดเสร็จ)',
+      },
+      categories: [{ id: 1, title: { en: 'AI', th: 'เอไอ' } }],
+      date: '2025-01-08',
+      slug: '20260108_01_ocr_meter_segment_training_model',
+      image: '/images/project/20260108_01/20260108_01_01.png',
+      description: {
+        en: 'A robust OCR model trained with image augmentation to accurately extract meter readings despite glare, shadows, or angles.',
+        th: 'โมเดล OCR ประสิทธิภาพสูงที่ถูกเทรนให้ดึงค่ามิเตอร์ได้อย่างแม่นยำ แม้ภาพจะมีแสงสะท้อน เงา หรือมุมเอียง',
+      },
+    },
+    {
       id: 20251215,
       title: {
         en: 'Typing PIN: UI Automation & Security Testing Helper',
@@ -11,7 +41,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Tool', th: 'เครื่องมือ' } }],
       date: '2025-12-15',
       slug: '20251215_typing_pin_automation_test',
-      image: '/images/project/20251215/01.png',
+      image: '/images/project/20251215/20251215_01.png',
       description: {
         en: 'Automating PIN entry for system recovery and security stress testing using UI Automation techniques.',
         th: 'ระบบจำลองการพิมพ์รหัส PIN อัตโนมัติเพื่อกู้คืนการเข้าถึงและทดสอบความแข็งแกร่งของระบบรักษาความปลอดภัย',
@@ -20,13 +50,13 @@ export default defineEventHandler(() => {
     {
       id: 20251206,
       title: {
-        en: 'MarqGo: Real-time Market & SKU Locator',
-        th: 'MarqGo: แพลตฟอร์มค้นหาพิกัดร้านค้าและสินค้าในตลาดนัด',
+        en: 'MarqGo: Real-time Market & SKU Locator (Mockup)',
+        th: 'MarqGo: แพลตฟอร์มค้นหาพิกัดร้านค้าและสินค้าในตลาดนัด (Mockup)',
       },
       categories: [{ id: 1, title: { en: 'Mobile App', th: 'แอปมือถือ' } }],
       date: '2025-12-06',
       slug: '20251206_marqgo_market_locator_app',
-      image: '/images/project/20251206/01.png',
+      image: '/images/project/20251206/20251206_01.png',
       description: {
         en: 'A mobile solution for tracking market stalls in real-time and finding specific items (SKU) within local markets.',
         th: 'โซลูชันบนมือถือเพื่อติดตามพิกัดร้านค้าในตลาดแบบเรียลไทม์และค้นหาสินค้าเฉพาะจุดภายในตลาดนัด',
@@ -71,7 +101,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Web Service', th: 'เว็บเซอร์วิส' } }],
       date: '2025-10-28',
       slug: '20251028_yunnan_homestay_seo_web',
-      image: '/images/project/20251028/01.png',
+      image: '/images/project/20251028/20251028_01.png',
       description: {
         en: 'Centralizing homestay information and local attractions with advanced SEO strategies for better visibility.',
         th: 'เว็บศูนย์กลางข้อมูลโฮมสเตย์และสถานที่ท่องเที่ยวที่เน้นกลยุทธ์ SEO เพื่อเพิ่มโอกาสในการมองเห็นทางธุรกิจ',
@@ -86,7 +116,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Knowledge', th: 'องค์ความรู้' } }],
       date: '2025-10-14',
       slug: '20251014_jakkawal_galaxy_personal_profile',
-      image: '/images/project/20251014/01.png',
+      image: '/images/project/20251014/20251014_01.png',
       description: {
         en: 'A centralized repository for tracking projects, activities, and expertise built on open-source standards.',
         th: 'ระบบบันทึกโครงงานและประสบการณ์ส่วนบุคคลอย่างเป็นระบบ เพื่อเป็นคลังความรู้สำหรับการต่อยอดในอนาคต',
@@ -116,7 +146,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Interactive', th: 'อินเตอร์แอคทีฟ' } }],
       date: '2025-09-25',
       slug: '20250925_02_tiktok_wordle_collaboration',
-      image: '/images/project/20250925_01/01.png',
+        image: '/images/project/20250925_02/20250925_02_01.png',
       description: {
         en: 'Transforming Wordle into a massive multiplayer experience by processing live comments into game actions.',
         th: 'เปลี่ยนเกมทายคำให้เป็นประสบการณ์ร่วมระหว่างสตรีมเมอร์และผู้ชมด้วยระบบประมวลผลคำตอบจากแชทอัตโนมัติ',
@@ -131,7 +161,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Interactive', th: 'อินเตอร์แอคทีฟ' } }],
       date: '2025-09-25',
       slug: '20250925_01_follower_ranking_system',
-      image: '/images/project/20250925_01/01.png',
+      image: '/images/project/20250925_01/20250925_01_01.png',
       description: {
         en: 'A web-based overlay for livestreams that tracks and displays real-time statistics of viewer participation.',
         th: 'ระบบแสดงผลอันดับและสถิติการเล่นเกมของผู้ชมผ่านหน้าจอไลฟ์สด เพื่อสร้างความสนุกและการแข่งขันในคอมมูนิตี้',
@@ -176,7 +206,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Management', th: 'การจัดการ' } }],
       date: '2025-09-16',
       slug: '20250916_construction_work_tracking_system',
-      image: '/images/project/20250916/01.png',
+      image: '/images/project/20250916/20250916_01.png',
       description: {
         en: 'Applying software development agile methodologies to manage complex construction tasks and resources.',
         th: 'การนำแนวคิด Agile และ Mds มาปรับใช้กับการบริหารงานก่อสร้าง เพื่อควบคุมเวลาและงบประมาณอย่างเป็นระบบ',
@@ -341,7 +371,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Interactive', th: 'อินเตอร์แอคทีฟ' } }],
       date: '2025-01-28',
       slug: '20250128_chinese_new_year_wishes',
-      image: '/images/project/20250128/01.png',
+      image: '/images/project/20250128/20250128_01.png',
       description: {
         en: 'Interactive web platform for generating and sharing personalized Chinese New Year greetings.',
         th: 'ระบบสร้างการ์ดและส่งคำอวยพรออนไลน์เนื่องในเทศกาลตรุษจีนเพื่อสร้างสีสันในการสื่อสารดิจิทัล',
@@ -356,7 +386,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Management', th: 'การจัดการ' } }],
       date: '2025-01-12',
       slug: '20250112_debt_management_system',
-      image: '/images/project/20250112/01.png',
+      image: '/images/project/20250112/20250112_01.png',
       description: {
         en: 'Secure financial tracking system for individual credit, repayments, and automated interest calculation.',
         th: 'ระบบบริหารจัดการสินเชื่อและติดตามการชำระหนี้ส่วนบุคคล พร้อมการคำนวณยอดคงค้างอัตโนมัติ',
@@ -446,7 +476,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Enterprise', th: 'เอ็นเตอร์ไพรส์' } }],
       date: '2023-09-14',
       slug: '20230914_ad_management_portal',
-      image: '/images/project/20230914/01.png',
+      image: '/images/project/20230914/20230914_01.png',
       description: {
         en: 'Managing complex active directory accounts and access controls through a centralized web interface.',
         th: 'แพลตฟอร์มจัดการบัญชีผู้ใช้งานและสิทธิ์การเข้าถึงข้อมูลที่ซับซ้อนในระบบ Active Directory ผ่านหน้าเว็บเดียว',
@@ -476,7 +506,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Games', th: 'เกม' } }],
       date: '2023-03-02',
       slug: '20230302_tictactoe_ai',
-      image: '/images/project/20230302/01.png',
+      image: '/images/project/20230302/20230302_01.png',
       description: {
         en: 'A strategic simulation of Tic-Tac-Toe using minimax algorithm and AI decision making.',
         th: 'การพัฒนาเกมโอเทลโล่/ทิกแทกโทที่ขับเคลื่อนด้วยอัลกอริทึมในการตัดสินใจเพื่อฝึกฝนทักษะการเขียนโปรแกรมเชิงลอจิก',

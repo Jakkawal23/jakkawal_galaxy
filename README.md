@@ -1,16 +1,22 @@
-<h2 align="center">
+# Persoal Profile Web
 
-vCard Portfolio Nuxt 3 Template<br>
-<small>(extends from [codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio))</small>
+Personal Profile Web / Blog / Activity / Project / Resume / Contract.
 
-</h2><br>
 
-<pre align="center">
-🧪 Working in Progress
-</pre>
+## Setup Project
 
-![vCard Desktop Demo](https://github.com/codewithsadee/vcard-personal-portfolio/raw/master/website-demo-image/desktop.png)
-![vCard Mobile Demo](https://github.com/codewithsadee/vcard-personal-portfolio/raw/master/website-demo-image/mobile.png)
+### 1. Use Node Version
+* node version 20.11.1
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Run Project
+```bash
+npm run dev
+```
 
 ## Features
 
@@ -42,12 +48,11 @@ vCard Portfolio Nuxt 3 Template<br>
 - [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
 - [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
 
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
-
-node version 20.11.1
-
-npm install
-
-npm run dev
+## Example Demo
+![Example](/public/images/example/20251014_01.png)
+![Example](/public/images/example/20251014_02.png)
+![Example](/public/images/example/20251014_03.png)
+![Example](/public/images/example/20251014_04.png)
+![Example](/public/images/example/20251014_05.png)
+![Example](/public/images/example/20251014_06.png)
+![Example](/public/images/example/20251014_07.png)
