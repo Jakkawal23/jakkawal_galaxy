@@ -251,7 +251,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'AI', th: 'เอไอ' } }],
       date: '2025-06-17',
       slug: '20250617_04_read_meter_ocr_api',
-      image: '/images/project/20250617_04/01.png',
+      image: '/images/project/20250617_04/20250617_04_01.png',
       description: {
         en: 'Combining object detection and OCR via Fast API to provide an end-to-end utility meter reading service.',
         th: 'การนำโมเดล Object Detection และ OCR มาทำงานร่วมกันผ่าน Fast API เพื่ออ่านข้อมูลมิเตอร์อย่างครบวงจร',
@@ -266,7 +266,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'AI', th: 'เอไอ' } }],
       date: '2025-06-17',
       slug: '20250617_03_water_meter_detection_model',
-      image: '/images/project/20250617_03/01.png',
+      image: '/images/project/20250617_03/20250617_03_01.png',
       description: {
         en: 'Deep Learning model focused on identifying numeric displays on water meters in complex environments.',
         th: 'โมเดล Deep Learning สำหรับระบุตำแหน่งตัวเลขบนมิเตอร์น้ำภายใต้สภาพแสงและสภาพแวดล้อมที่หลากหลาย',
@@ -281,7 +281,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'AI', th: 'เอไอ' } }],
       date: '2025-06-17',
       slug: '20250617_02_electric_meter_detection_model',
-      image: '/images/project/20250617_02/01.png',
+      image: '/images/project/20250617_02/20250617_02_01.png',
       description: {
         en: 'AI model designed for high-accuracy number localization on electricity meters to support OCR processing.',
         th: 'โมเดล AI สำหรับระบุตำแหน่งพิกัดชุดตัวเลขบนมิเตอร์ไฟฟ้า เพื่อเป็นหัวใจสำคัญในการนำข้อมูลไปอ่านค่าดิจิทัล',
@@ -296,7 +296,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'AI', th: 'เอไอ' } }],
       date: '2025-06-17',
       slug: '20250617_01_qr_detection_model',
-      image: '/images/project/20250617_01/01.png',
+      image: '/images/project/20250617_01/20250617_01_01.png',
       description: {
         en: 'Efficient object detection for locating QR codes on utility meters and documents for fast identity verification.',
         th: 'ระบบตรวจจับตำแหน่งพิกัดของ QR Code เพื่อใช้ในการระบุตัวตนและเชื่อมโยงข้อมูลในระบบอัตโนมัติ',
