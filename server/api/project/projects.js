@@ -116,7 +116,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Interactive', th: 'อินเตอร์แอคทีฟ' } }],
       date: '2025-09-25',
       slug: '20250925_02_tiktok_wordle_collaboration',
-      image: '/images/project/20250925/02.png',
+      image: '/images/project/20250925_01/01.png',
       description: {
         en: 'Transforming Wordle into a massive multiplayer experience by processing live comments into game actions.',
         th: 'เปลี่ยนเกมทายคำให้เป็นประสบการณ์ร่วมระหว่างสตรีมเมอร์และผู้ชมด้วยระบบประมวลผลคำตอบจากแชทอัตโนมัติ',
@@ -131,7 +131,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Interactive', th: 'อินเตอร์แอคทีฟ' } }],
       date: '2025-09-25',
       slug: '20250925_01_follower_ranking_system',
-      image: '/images/project/20250925/01.png',
+      image: '/images/project/20250925_01/01.png',
       description: {
         en: 'A web-based overlay for livestreams that tracks and displays real-time statistics of viewer participation.',
         th: 'ระบบแสดงผลอันดับและสถิติการเล่นเกมของผู้ชมผ่านหน้าจอไลฟ์สด เพื่อสร้างความสนุกและการแข่งขันในคอมมูนิตี้',
@@ -146,7 +146,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Automation', th: 'ออโตเมชัน' } }],
       date: '2025-09-23',
       slug: '20250923_color_sonic_pro_automation',
-      image: '/images/project/20250923/01.png',
+      image: '/images/project/20250923/20250923_01.png',
       description: {
         en: 'Automatically triggering sound effects by monitoring specific pixel colors on the screen during livestreams.',
         th: 'ระบบตรวจจับพิกัดสีบนหน้าจอเพื่อสั่งงานเสียงเอฟเฟกต์อัตโนมัติ ช่วยลดภาระของสตรีมเมอร์ในขณะจัดรายการ',
@@ -161,7 +161,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Interactive', th: 'อินเตอร์แอคทีฟ' } }],
       date: '2025-09-20',
       slug: '20250920_tiktok_game_automation_context',
-      image: '/images/project/20250920/01.png',
+      image: '/images/project/20250920/20250920_01.png',
       description: {
         en: 'An intelligent system that extracts commands from live comments to play games automatically with the host.',
         th: 'ระบบดึงคำตอบจากแชทผู้ชมมาควบคุมการเล่นเกมบนหน้าจออัตโนมัติ เพื่อสร้างการมีส่วนร่วมในรูปแบบใหม่',
@@ -191,7 +191,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Interactive', th: 'อินเตอร์แอคทีฟ' } }],
       date: '2025-09-15',
       slug: '20250915_tiktok_live_interaction_system',
-      image: '/images/project/20250915/01.png',
+      image: '/images/project/20250915/20250915_01.png',
       description: {
         en: 'A Python middleware connecting TikTok events (Gifts, Likes, Comments) to external hardware and software triggers.',
         th: 'ระบบเชื่อมต่อข้อมูลการโต้ตอบจาก TikTok Live เช่น ของขวัญ และคอมเมนต์ เพื่อสั่งงานอุปกรณ์หรือซอฟต์แวร์ภายนอก',
@@ -206,7 +206,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Security', th: 'ความปลอดภัย' } }],
       date: '2025-09-06',
       slug: '20250906_hello_secret_encryption_tool',
-      image: '/images/project/20250906/01.png',
+      image: '/images/project/20250906/20250906_01.png',
       description: {
         en: 'A privacy tool for keyboard language mapping correction and encrypted secure messaging.',
         th: 'เครื่องมือแก้ไขปัญหาการพิมพ์ผิดภาษาพร้อมระบบเข้ารหัสข้อความเพื่อความเป็นส่วนตัวสูงสุดในการสื่อสาร',
@@ -221,7 +221,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Mobile App', th: 'แอปมือถือ' } }],
       date: '2025-08-01',
       slug: '20250801_card_draw_play_platform',
-      image: '/images/project/20250801/01.png',
+      image: '/images/project/20250801/20250801_01.png',
       description: {
         en: 'A mobile-first solution for managing and drawing custom question cards for group discussions and deep talks.',
         th: 'แอปพลิเคชันจัดการสำรับการ์ดและระบบสุ่มคำถามเพื่อสร้างบทสนทนาเชิงลึกและการทบทวนตนเองร่วมกัน',
@@ -236,7 +236,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Web Design', th: 'เว็บดีไซน์' } }],
       date: '2025-06-21',
       slug: '20250621_vscode_style_profile_web',
-      image: '/images/project/20250621/01.png',
+      image: '/images/project/20250621/20250621_01.png',
       description: {
         en: 'A web-based portfolio mimicking the VSCode environment to present projects in a developer-centric way.',
         th: 'เว็บแอปพลิเคชันนำเสนอข้อมูลส่วนตัวและผลงานผ่านอินเตอร์เฟซที่คุ้นเคยในรูปแบบของ Visual Studio Code',
@@ -251,7 +251,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'AI', th: 'เอไอ' } }],
       date: '2025-06-17',
       slug: '20250617_04_read_meter_ocr_api',
-      image: '/images/project/20250617/04.png',
+      image: '/images/project/20250617_04/01.png',
       description: {
         en: 'Combining object detection and OCR via Fast API to provide an end-to-end utility meter reading service.',
         th: 'การนำโมเดล Object Detection และ OCR มาทำงานร่วมกันผ่าน Fast API เพื่ออ่านข้อมูลมิเตอร์อย่างครบวงจร',
@@ -266,7 +266,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'AI', th: 'เอไอ' } }],
       date: '2025-06-17',
       slug: '20250617_03_water_meter_detection_model',
-      image: '/images/project/20250617/03.png',
+      image: '/images/project/20250617_03/01.png',
       description: {
         en: 'Deep Learning model focused on identifying numeric displays on water meters in complex environments.',
         th: 'โมเดล Deep Learning สำหรับระบุตำแหน่งตัวเลขบนมิเตอร์น้ำภายใต้สภาพแสงและสภาพแวดล้อมที่หลากหลาย',
@@ -281,7 +281,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'AI', th: 'เอไอ' } }],
       date: '2025-06-17',
       slug: '20250617_02_electric_meter_detection_model',
-      image: '/images/project/20250617/02.png',
+      image: '/images/project/20250617_02/01.png',
       description: {
         en: 'AI model designed for high-accuracy number localization on electricity meters to support OCR processing.',
         th: 'โมเดล AI สำหรับระบุตำแหน่งพิกัดชุดตัวเลขบนมิเตอร์ไฟฟ้า เพื่อเป็นหัวใจสำคัญในการนำข้อมูลไปอ่านค่าดิจิทัล',
@@ -296,7 +296,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'AI', th: 'เอไอ' } }],
       date: '2025-06-17',
       slug: '20250617_01_qr_detection_model',
-      image: '/images/project/20250617/01.png',
+      image: '/images/project/20250617_01/01.png',
       description: {
         en: 'Efficient object detection for locating QR codes on utility meters and documents for fast identity verification.',
         th: 'ระบบตรวจจับตำแหน่งพิกัดของ QR Code เพื่อใช้ในการระบุตัวตนและเชื่อมโยงข้อมูลในระบบอัตโนมัติ',
@@ -491,7 +491,7 @@ export default defineEventHandler(() => {
       categories: [{ id: 1, title: { en: 'Dashboard', th: 'แดชบอร์ด' } }],
       date: '2022-08-27',
       slug: '20220827_covid_tracker_dashboard',
-      image: '/images/project/20220827/02.png',
+      image: '/images/project/20220827/20220827_01.png',
       description: {
         en: 'A comprehensive dashboard visualizing pandemic statistics and trends through interactive data charts.',
         th: 'ระบบแดชบอร์ดสรุปสถิติผู้ติดเชื้อและสถานการณ์รายวันผ่านกราฟข้อมูลที่เข้าใจง่ายและเป็นปัจจุบัน',
