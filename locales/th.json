@@ -24,6 +24,6 @@
         "clientsTitle": "ลูกค้าของเรา",
         "sampleDate": "14 มิถุนายน 2021",
         "companyName": "บริษัท จำกัด",
-        "clientAlt": "โลโก้ลูกค้าหมายเลข {{ number }}"
+        "clientAlt": "โลโก้ลูกค้าหมายเลข"
     }
 }

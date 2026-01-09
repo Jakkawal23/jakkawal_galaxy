@@ -24,6 +24,6 @@
         "clientsTitle": "Clients",
         "sampleDate": "14 June, 2021",
         "companyName": "Company Co.",
-        "clientAlt": "Client logo {{ number }}"
+        "clientAlt": "Client logo"
     }
 }
