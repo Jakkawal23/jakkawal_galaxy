@@ -577,12 +577,18 @@ main {
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
+  //scroll-snap-type: inline mandatory;
+
+  scroll-snap-type: none !important; 
+  -webkit-overflow-scrolling: touch;
 }
 
 .testimonials-item {
   min-width: 100%;
   scroll-snap-align: center;
+
+  flex-shrink: 0;
+  width: 300px;
 }
 
 .testimonials-avatar-box {

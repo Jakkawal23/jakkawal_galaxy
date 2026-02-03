@@ -44,7 +44,7 @@ const { data: services } = await useFetch('/api/about/services')
     </section>
 
     <!-- Highlight Projects -->
-    <section class="testimonials">
+    <!-- <section class="testimonials">
       <h3 class="h3 testimonials-title">
         {{ $t('about.highlightProjectTitle') }}
       </h3>
@@ -72,10 +72,21 @@ const { data: services } = await useFetch('/api/about/services')
           </NuxtLink>
         </li>
       </ul>
+    </section> -->
+
+    <section class="testimonials">
+      <h3 class="h3 testimonials-title">
+        {{ $t('about.highlightProjectTitle') }}
+      </h3>
+      <AutoScrollList
+        :items="highlightProjects"
+        :locale="locale"
+        base-path="/project"
+      />
     </section>
 
     <!-- Highlight Activity -->
-    <section class="testimonials">
+    <!-- <section class="testimonials">
       <h3 class="h3 testimonials-title">
         {{ $t('about.highlightActivityTitle') }}
       </h3>
@@ -103,10 +114,20 @@ const { data: services } = await useFetch('/api/about/services')
           </NuxtLink>
         </li>
       </ul>
+    </section> -->
+    <section class="testimonials">
+      <h3 class="h3 testimonials-title">
+        {{ $t('about.highlightActivityTitle') }}
+      </h3>
+      <AutoScrollList
+        :items="highlightActivites"
+        :locale="locale"
+        base-path="/activity"
+      />
     </section>
 
     <!-- Highlight Award -->
-    <section class="testimonials">
+    <!-- <section class="testimonials">
       <h3 class="h3 testimonials-title">
         {{ $t('about.highlightAwardTitle') }}
       </h3>
@@ -134,6 +155,16 @@ const { data: services } = await useFetch('/api/about/services')
           </NuxtLink>
         </li>
       </ul>
+    </section> -->
+    <section class="testimonials">
+      <h3 class="h3 testimonials-title">
+        {{ $t('about.highlightAwardTitle') }}
+      </h3>
+      <AutoScrollList
+        :items="highlightAward"
+        :locale="locale"
+        base-path="/award"
+      />
     </section>
 
     <!-- clients -->
