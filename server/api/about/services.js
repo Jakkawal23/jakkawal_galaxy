@@ -4,29 +4,39 @@ export default defineEventHandler(() => {
   return [
     {
       id: 1,
-      title: {
-        en: 'Laravel',
-        th: 'ลาเวล',
-      },
+      title: { en: 'Software Developer', th: 'นักพัฒนาซอฟต์แวร์' },
       description: {
-        en: 'I build modern and advanced websites and applications with Laravel, the PHP framework.',
-        th: 'ผมพัฒนาเว็บไซต์และแอปพลิเคชันสมัยใหม่ด้วย Laravel ซึ่งเป็นเฟรมเวิร์ก PHP ที่ทรงพลังและทันสมัย',
+        en: 'Crafting robust Full-stack solutions with Angular and .NET Core, driven by a Product Owner mindset.',
+        th: 'พัฒนา Full-stack โซลูชันด้วย Angular และ .NET Core โดยยึดหลัก Product Owner Mindset',
       },
-      icon: 'logo-laravel',
-      image: null,
+      image: '/images/partner-logo-1.png',
     },
     {
       id: 2,
-      title: {
-        en: 'Vue JS',
-        th: 'วิวเจเอส',
-      },
+      title: { en: 'Content Creator', th: 'นักสร้างสรรค์คอนเทนต์' },
       description: {
-        en: 'I use VueJS, a modern JavaScript framework, while making dynamic and static websites and applications.',
-        th: 'ผมใช้ VueJS ซึ่งเป็นเฟรมเวิร์ก JavaScript สมัยใหม่ สำหรับสร้างเว็บไซต์และแอปพลิเคชันที่ทั้งมีการโต้ตอบและแบบคงที่',
+        en: 'Simplifying technology and sharing developer life experiences through engaging digital content.',
+        th: 'ย่อยเรื่องเทคโนโลยีและแชร์ประสบการณ์ชีวิตนักพัฒนาผ่านคอนเทนต์ดิจิทัลที่น่าสนใจ',
       },
-      icon: 'logo-vue',
-      image: null,
+      image: '/images/partner-logo-1.png',
+    },
+    {
+      id: 3,
+      title: { en: 'Tech Pitcher', th: 'นักนำเสนอแผนธุรกิจเทคโนโลยี' },
+      description: {
+        en: 'Award-winning presenter skilled in translating technical concepts into persuasive business narratives.',
+        th: 'นักนำเสนอรางวัลระดับประเทศ ที่เชี่ยวชาญการเปลี่ยนแนวคิดเทคนิคให้เป็นเรื่องราวทางธุรกิจที่จูงใจ',
+      },
+      image: '/images/partner-logo-1.png',
+    },
+    {
+      id: 4,
+      title: { en: 'Startup Enthusiast', th: 'ผู้หลงใหลในโลกสตาร์ทอัพ' },
+      description: {
+        en: 'Passionate about building MVPs and innovative products from zero to one.',
+        th: 'คลั่งไคล้การสร้าง MVP และนวัตกรรมใหม่ๆ ตั้งแต่เริ่มต้นจนใช้งานได้จริง',
+      },
+      image: '/images/partner-logo-1.png',
     },
   ]
 })

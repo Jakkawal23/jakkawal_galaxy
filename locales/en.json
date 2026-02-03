@@ -1,30 +1,29 @@
 {
-    "all": {
-        "all": "All",
-        "back": "Back",
-        "share": "Share"
-    },
-    "pageTitles": {
-        "about": "About",
-        "resume": "Resume",
-        "portfolio": "Portfolio",
-        "project": "Project",
-        "activity": "Activity",
-        "blog": "Blog",
-        "contact": "Contact"
-    },
+  "all": {
+    "all": "All",
+    "back": "Back",
+    "share": "Share"
+  },
+  "pageTitles": {
+    "about": "About",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "project": "Project",
+    "activity": "Activity",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
 
-    "about": {
-        "intro1": "Full-stack Developer & Strategic Thinker (3+ Years Experience) I am a Full-stack Developer specializing in Angular and .NET Core with over 3 years of experience. Beyond writing code, I bring a Product Owner Mindset to every project—transforming raw ideas into high-impact MVPs. My track record of success is backed by multiple awards from national and corporate Startup competitions.",
-        "intro2": "Bilingual Communicator & Presentation Expert I excel at pitching and translating complex technical concepts into clear business value. With professional proficiency in Mandarin Chinese, I bridge the gap between technology and international collaboration. I am ready to leverage my technical skills and communication strengths to drive meaningful growth for your team.",
-        
-        "servicesTitle": "What I'm doing?",
-        "testimonialsTitle": "Testimonials",
+  "about": {
+    "intro1": "Full-stack Developer & Strategic Thinker (3+ Years Experience) I am a Full-stack Developer specializing in Angular and .NET Core with over 3 years of experience. Beyond writing code, I bring a Product Owner Mindset to every project—transforming raw ideas into high-impact MVPs. My track record of success is backed by multiple awards from national and corporate Startup competitions.",
+    "intro2": "Bilingual Communicator & Presentation Expert I excel at pitching and translating complex technical concepts into clear business value. With professional proficiency in Mandarin Chinese, I bridge the gap between technology and international collaboration. I am ready to leverage my technical skills and communication strengths to drive meaningful growth for your team.",
 
-        "clientsTitle": "Clients",
+    "servicesTitle": "",
+    "highlightProjectTitle": "",
+    "highlightActivityTitle": "",
+    "highlightAwardTitle": "",
 
-        "sampleDate": "14 June, 2021",
-        "companyName": "Company Co.",
-        "clientAlt": "Client logo"
-    }
+    "clientsTitle": "",
+    "clientAlt": "Client logo"
+  }
 }

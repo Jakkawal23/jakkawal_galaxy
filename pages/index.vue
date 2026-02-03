@@ -9,24 +9,10 @@ onMounted(() => {
 
 const { locale } = useI18n({ useScope: 'global' })
 
-/* Testimonials */
-const { data: testimonials } = await useFetch('/api/about/testimonials')
-
-const testimonialItem = ref({})
-const activeModal = ref(false)
-const activeOverlay = ref(false)
-
-function showTestimonial(id) {
-  testimonialItem.value = testimonials.value.find(item => item.id === id)
-  activeModal.value = true
-  activeOverlay.value = true
-}
-
-function closeTestimonaial() {
-  testimonialItem.value = {}
-  activeModal.value = false
-  activeOverlay.value = false
-}
+/* Highlight */
+const { data: highlightProjects } = await useFetch('/api/about/highlightProjects')
+const { data: highlightActivites } = await useFetch('/api/about/highlightActivites')
+const { data: highlightAward } = await useFetch('/api/about/highlightAward')
 
 /* Services */
 const { data: services } = await useFetch('/api/about/services')
@@ -57,72 +43,98 @@ const { data: services } = await useFetch('/api/about/services')
       </ul>
     </section>
 
-    <!-- testimonials -->
+    <!-- Highlight Projects -->
     <section class="testimonials">
       <h3 class="h3 testimonials-title">
-        {{ $t('about.testimonialsTitle') }}
+        {{ $t('about.highlightProjectTitle') }}
       </h3>
 
       <ul class="testimonials-list has-scrollbar">
         <li
-          v-for="testimonial in testimonials"
-          :key="testimonial.id"
+          v-for="project in highlightProjects"
+          :key="project.id"
           class="testimonials-item"
-          @click="showTestimonial(testimonial.id)"
         >
-          <div class="content-card">
+          <NuxtLink :to="`/project/${project.slug}`" class="content-card">
             <figure class="testimonials-avatar-box">
-              <img :src="testimonial.image" alt="Daniel lewis" width="60">
+              <img :src="project.image" alt="Daniel lewis" width="60">
             </figure>
 
             <h4 class="h4 testimonials-item-title">
-              {{ testimonial.title?.[locale] || testimonial.title?.en }}
+              {{ project.title?.[locale] || project.title?.en }}
             </h4>
 
             <div class="testimonials-text">
               <p>
-                {{ testimonial.content?.[locale] || testimonial.content?.en }}
+                {{ project.content?.[locale] || project.content?.en }}
               </p>
             </div>
-          </div>
+          </NuxtLink>
         </li>
       </ul>
     </section>
 
-    <!-- testimonial modal -->
-    <div class="modal-container" :class="{ active: activeModal }">
-      <div v-show="activeModal" class="overlay" :class="{ active: activeOverlay }" />
+    <!-- Highlight Activity -->
+    <section class="testimonials">
+      <h3 class="h3 testimonials-title">
+        {{ $t('about.highlightActivityTitle') }}
+      </h3>
 
-      <section class="testimonials-modal">
-        <button class="modal-close-btn" @click="closeTestimonaial">
-          <ion-icon name="close-outline" />
-        </button>
+      <ul class="testimonials-list has-scrollbar">
+        <li
+          v-for="activity in highlightActivites"
+          :key="activity.id"
+          class="testimonials-item"
+        >
+          <NuxtLink :to="`/project/${activity.slug}`" class="content-card">
+            <figure class="testimonials-avatar-box">
+              <img :src="activity.image" alt="Daniel lewis" width="60">
+            </figure>
 
-        <div class="flex gap-5 mb-5 justify-start items-center">
-          <div class="modal-avatar-box">
-            <img :src="testimonialItem.image" alt="Daniel lewis" width="80">
-          </div>
-
-          <div class="modal-content">
-            <h4 class="h3 modal-title">
-              {{ testimonialItem.title }}
+            <h4 class="h4 testimonials-item-title">
+              {{ activity.title?.[locale] || activity.title?.en }}
             </h4>
-            <time datetime="2021-06-14">{{ $t('about.sampleDate') }}</time>
-          </div>
-        </div>
 
-        <div class="flex gap-5 items-start">
-          <img class="my-auto hidden md:block" src="/images/icon-quote.svg" alt="quote icon">
-          <p
-            class="text-justify text-gray-400 text-sm md:text-md"
-            v-html="locale === 'en' ? testimonialItem.content?.en : testimonialItem.content?.th"
-          />
-        </div>
-        <div class="mt-2 flex justify-end text-sm text-gray-600 italic">
-          {{ $t('about.companyName') }}
-        </div>
-      </section>
-    </div>
+            <div class="testimonials-text">
+              <p>
+                {{ activity.content?.[locale] || activity.content?.en }}
+              </p>
+            </div>
+          </NuxtLink>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Highlight Award -->
+    <section class="testimonials">
+      <h3 class="h3 testimonials-title">
+        {{ $t('about.highlightAwardTitle') }}
+      </h3>
+
+      <ul class="testimonials-list has-scrollbar">
+        <li
+          v-for="award in highlightAward"
+          :key="award.id"
+          class="testimonials-item"
+        >
+          <NuxtLink :to="`/project/${award.slug}`" class="content-card">
+            <figure class="testimonials-avatar-box">
+              <img :src="award.image" alt="Daniel lewis" width="60">
+            </figure>
+
+            <h4 class="h4 testimonials-item-title">
+              {{ award.title?.[locale] || award.title?.en }}
+            </h4>
+
+            <div class="testimonials-text">
+              <p>
+                {{ award.content?.[locale] || award.content?.en }}
+              </p>
+            </div>
+          </NuxtLink>
+        </li>
+      </ul>
+    </section>
 
     <!-- clients -->
     <section class="clients">
@@ -131,7 +143,7 @@ const { data: services } = await useFetch('/api/about/services')
       </h3>
 
       <ul class="clients-list has-scrollbar">
-        <li class="clients-item" v-for="n in 5" :key="n">
+        <li v-for="n in 5" :key="n" class="clients-item">
           <a href="#">
             <img :src="`/images/partner-logo-${n}.png`" :alt="$t('about.clientAlt', { number: n })">
           </a>

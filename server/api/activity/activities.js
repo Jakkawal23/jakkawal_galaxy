@@ -368,10 +368,6 @@ export default defineEventHandler(() => {
         th: 'เข้าร่วมทีมจัดโครงการ Tuek Som Garage (Startup) โดยรับผิดชอบหน้าที่ส่วนจัดเตรียมสถานที่ เครื่องเสียง และระบบออนไลน์',
       },
     },
-
-
-
-
     {
       id: 1,
       title: {

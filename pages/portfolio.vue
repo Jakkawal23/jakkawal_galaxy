@@ -96,12 +96,11 @@ function closeItem() {
           :key="project.id"
           :class="{
             active:
-              activeCategory === 0 ||
-              project.categories.some(c => c.id === activeCategory),
+              activeCategory === 0
+              || project.categories.some(c => c.id === activeCategory),
           }"
           class="project-item"
         >
-
           <a class="cursor-pointer" @click="showItem(project.id)">
 
             <figure class="project-img">
@@ -143,7 +142,7 @@ function closeItem() {
             </h4>
 
             <small class="flex items-center justify-start gap-2 text-gray-500">
-              <span>14 June, 2021</span> | 
+              <span>14 June, 2021</span> |
 
               <span v-for="cat in activeItem.categories" :key="cat.id">
                 {{ locale === 'en' ? cat.title?.en : cat.title?.th }}
