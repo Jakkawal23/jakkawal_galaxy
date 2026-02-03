@@ -1413,6 +1413,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
+  .avatar-box img { 
+    width: 90px;
+    border-radius: 12px;
+  }
 
 
   /**
@@ -1512,7 +1516,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { 
+    width: 160px;
+    border-radius: 15px;
+  }
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1635,7 +1642,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
   }
 
-  .modal-avatar-box img { width: 65px; }
+  .modal-avatar-box img { 
+    width: 65px; 
+    border-radius: 20px;
+  }
 
   .modal-img-wrapper > img {
     display: block;
@@ -1763,7 +1773,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: 680px;
   }
 
-  .modal-avatar-box img { width: 80px; }
+  .modal-avatar-box img { 
+    width: 100px; 
+    border-radius: 20px;
+  }
 
 
 
@@ -2072,7 +2085,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { 
+    width: 200px;
+    border-radius: 20px;
+  }
 
   .info-content .name {
     white-space: nowrap;

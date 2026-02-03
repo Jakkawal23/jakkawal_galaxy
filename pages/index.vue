@@ -131,9 +131,9 @@ const { data: services } = await useFetch('/api/about/services')
       </h3>
 
       <ul class="clients-list has-scrollbar">
-        <li class="clients-item" v-for="n in 6" :key="n">
+        <li class="clients-item" v-for="n in 5" :key="n">
           <a href="#">
-            <img :src="`/images/logo-${n}-color.png`" :alt="$t('about.clientAlt', { number: n })">
+            <img :src="`/images/partner-logo-${n}.png`" :alt="$t('about.clientAlt', { number: n })">
           </a>
         </li>
       </ul>
