@@ -61,7 +61,7 @@ watch(locale, (newLang) => {
       <!-- Image 1 -->
       <figure class="w-full">
         <img
-          src="/images/project/20251001/20251001_01.png"
+          src="/images/project/2025/20251001/20251001_01.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />

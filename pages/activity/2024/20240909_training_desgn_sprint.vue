@@ -61,7 +61,7 @@ watch(locale, (newLang) => {
       <!-- Image 1 -->
       <figure class="w-full">
         <img
-          src="/images/activity/20240909/20240909_01.png"
+          src="/images/activity/2024/20240909/20240909_01.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -98,15 +98,15 @@ watch(locale, (newLang) => {
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t('activity.gallery.heading') }}</h3>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <!-- <img src="/images/activity/20240909/20240909_02.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/20240909/20240909_03.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/20240909/20240909_04.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/20240909/20240909_05.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/20240909/20240909_06.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/20240909/20240909_07.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/20240909/20240909_08.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/20240909/20240909_09.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/20240909/20240909_10.png" class="rounded-lg object-cover" /> -->
+          <!-- <img src="/images/activity/2024/20240909/20240909_02.png" class="rounded-lg object-cover" />
+          <img src="/images/activity/2024/20240909/20240909_03.png" class="rounded-lg object-cover" />
+          <img src="/images/activity/2024/20240909/20240909_04.png" class="rounded-lg object-cover" />
+          <img src="/images/activity/2024/20240909/20240909_05.png" class="rounded-lg object-cover" />
+          <img src="/images/activity/2024/20240909/20240909_06.png" class="rounded-lg object-cover" />
+          <img src="/images/activity/2024/20240909/20240909_07.png" class="rounded-lg object-cover" />
+          <img src="/images/activity/2024/20240909/20240909_08.png" class="rounded-lg object-cover" />
+          <img src="/images/activity/2024/20240909/20240909_09.png" class="rounded-lg object-cover" />
+          <img src="/images/activity/2024/20240909/20240909_10.png" class="rounded-lg object-cover" /> -->
         </div>
       </div>
 
