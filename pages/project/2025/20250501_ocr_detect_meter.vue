@@ -22,7 +22,7 @@ const { t, tm, locale, mergeLocaleMessage } = useI18n()
 const slug = route.params.slug
 
 const loadProjectLocale = async (lang) => {
-  const messages = await import(`~/locales/project/20250501_ocr_detect_meter.${lang}.json`)
+  const messages = await import(`~/locales/project/2025/20250501_ocr_detect_meter.${lang}.json`)
   mergeLocaleMessage(lang, { project: messages.default })
 }
 

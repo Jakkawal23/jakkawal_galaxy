@@ -22,7 +22,7 @@ const { t, tm, locale, mergeLocaleMessage } = useI18n()
 const slug = route.params.slug
 
 const loadActivityLocale = async (lang) => {
-  const messages = await import(`~/locales/activity/20240913_01_training_bmc.${lang}.json`)
+  const messages = await import(`~/locales/activity/2024/20240913_01_training_bmc.${lang}.json`)
   mergeLocaleMessage(lang, { activity: messages.default })
 }
 
