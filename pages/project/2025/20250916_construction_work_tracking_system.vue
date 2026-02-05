@@ -60,11 +60,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 1 -->
       <figure class="w-full">
-        <img
-          src="/images/project/2025/20250916/20250916_01.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/project/2025/20250916/20250916_01.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t("project.image1Description") }}</p>
         </figcaption>
@@ -97,17 +93,19 @@ watch(locale, (newLang) => {
       <!-- Image Grid -->
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t('project.gallery.heading') }}</h3>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="/images/project/2025/20250916/20250916_02.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2025/20250916/20250916_03.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2025/20250916/20250916_04.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2025/20250916/20250916_05.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2025/20250916/20250916_06.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2025/20250916/20250916_07.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2025/20250916/20250916_08.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2025/20250916/20250916_09.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2025/20250916/20250916_10.png" class="rounded-lg object-cover" />
-        </div>
+        <ImageGallery 
+          :images="[
+            '/images/project/2025/20250916/20250916_02.png',
+            '/images/project/2025/20250916/20250916_03.png',
+            '/images/project/2025/20250916/20250916_04.png',
+            '/images/project/2025/20250916/20250916_05.png',
+            '/images/project/2025/20250916/20250916_06.png',
+            '/images/project/2025/20250916/20250916_07.png',
+            '/images/project/2025/20250916/20250916_08.png',
+            '/images/project/2025/20250916/20250916_09.png',
+            '/images/project/2025/20250916/20250916_10.png',
+          ]" 
+        />
       </div>
 
       <!-- Tags + Share -->
@@ -115,8 +113,10 @@ watch(locale, (newLang) => {
         <div class="flex flex-wrap gap-2">
           <span
             v-for="tag in [
-              'เลขบัตรประชาชน',
-              'บัตรประชาชน',
+              'Work Tracking',
+              'Tasks Tracking',
+              'Construction',
+              'Construction Work Tracking',
             ]"
             :key="tag"
             class="blog-tag"

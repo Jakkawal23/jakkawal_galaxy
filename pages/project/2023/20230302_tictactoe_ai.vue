@@ -22,7 +22,7 @@ const { t, tm, locale, mergeLocaleMessage } = useI18n()
 const slug = route.params.slug
 
 const loadProjectLocale = async (lang) => {
-  const messages = await import(`~/locales/project/2022/20220506_standard_organization.${lang}.json`)
+  const messages = await import(`~/locales/project/2023/20230302_tictactoe_ai.${lang}.json`)
   mergeLocaleMessage(lang, { project: messages.default })
 }
 
@@ -60,11 +60,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 1 -->
       <figure class="w-full">
-        <img
-          src="/images/project/2022/20220506/20220506_01.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/project/2023/20230302/20230302_01.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t("project.image1Description") }}</p>
         </figcaption>
@@ -97,14 +93,16 @@ watch(locale, (newLang) => {
       <!-- Image Grid -->
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t('project.gallery.heading') }}</h3>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="/images/project/2022/20220506/20220506_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2022/20220506/20220506_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2022/20220506/20220506_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2022/20220506/20220506_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2022/20220506/20220506_01.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2022/20220506/20220506_01.png" class="rounded-lg object-cover" />
-        </div>
+        <ImageGallery 
+          :images="[
+            '/images/project/2023/20230302/20230302_02.png',
+            '/images/project/2023/20230302/20230302_03.png',
+            '/images/project/2023/20230302/20230302_04.png',
+            '/images/project/2023/20230302/20230302_05.png',
+            '/images/project/2023/20230302/20230302_06.png',
+            '/images/project/2023/20230302/20230302_07.png',
+          ]" 
+        />
       </div>
 
       <!-- Tags + Share -->
@@ -112,8 +110,10 @@ watch(locale, (newLang) => {
         <div class="flex flex-wrap gap-2">
           <span
             v-for="tag in [
-              'เลขบัตรประชาชน',
-              'บัตรประชาชน',
+              'Game',
+              'TicTacToce',
+              'AI',
+              'AI Game',
             ]"
             :key="tag"
             class="blog-tag"

@@ -60,11 +60,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 1 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2024/20241217_01/20241217_01_01.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2024/20241217_01/20241217_01_01.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image1Description') }}</p>
         </figcaption>
@@ -84,11 +80,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 2 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2024/20241217_01/20241217_01_02.png"
-          alt="Machine To Machine"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2024/20241217_01/20241217_01_02.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image2Description') }}</p>
         </figcaption>
@@ -102,11 +94,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 3 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2024/20241217_01/20241217_01_03.png"
-          alt="IoT != Software JOIN Hardware"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2024/20241217_01/20241217_01_03.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image3Description') }}</p>
         </figcaption>
@@ -122,11 +110,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 4 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2024/20241217_01/20241217_01_04.png"
-          alt="What is Internet of Things"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2024/20241217_01/20241217_01_04.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image4Description') }}</p>
         </figcaption>
@@ -141,11 +125,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 5 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2024/20241217_01/20241217_01_05.png"
-          alt="Example Internet of Things"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2024/20241217_01/20241217_01_05.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image5Description') }}</p>
         </figcaption>
@@ -169,11 +149,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 6 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2024/20241217_01/20241217_01_06.png"
-          alt="Smart City"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2024/20241217_01/20241217_01_06.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image6Description') }}</p>
         </figcaption>
@@ -187,11 +163,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 7 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2024/20241217_01/20241217_01_07.png"
-          alt="เราอยู่ในยุคของ Smart…."
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2024/20241217_01/20241217_01_07.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image7Description') }}</p>
         </figcaption>
@@ -206,11 +178,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 8 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2024/20241217_01/20241217_01_08.png"
-          alt="สรุปเปรียบเทียบ Internet Of Thing"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2024/20241217_01/20241217_01_08.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image8Description') }}</p>
         </figcaption>
@@ -224,11 +192,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 9 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2024/20241217_01/20241217_01_09.png"
-          alt="แล้วคุณ ให้คำนิยามของ IoT ว่าอย่างไร ?"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2024/20241217_01/20241217_01_09.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image9Description') }}</p>
         </figcaption>

@@ -59,11 +59,7 @@ watch(locale, (newLang) => {
     <section class="blog-content px-4 md:px-12 lg:px-32 py-10 space-y-12">
       <!-- Image 1 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250107_02/20250107_02_01.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250107_02/20250107_02_01.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t("blog.image1Description") }}</p>
         </figcaption>
@@ -117,11 +113,7 @@ watch(locale, (newLang) => {
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t("blog.imageSection.heading02") }}</h3>
         <figure class="w-full">
-          <img
-            src="/images/blog/2025/20250107_02/20250107_02_02.png"
-            alt="Machine To Machine"
-            class="rounded-2xl shadow-lg w-full object-cover blog-image"
-          />
+          <ImageGallery :images="['/images/blog/2025/20250107_02/20250107_02_02.png']"/>
           <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
             <p>{{ t("blog.image2Description") }}</p>
           </figcaption>
@@ -132,11 +124,7 @@ watch(locale, (newLang) => {
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t("blog.imageSection.heading03") }}</h3>
         <figure class="w-full">
-          <img
-            src="/images/blog/2025/20250107_02/20250107_02_03.png"
-            alt="Machine To Machine"
-            class="rounded-2xl shadow-lg w-full object-cover blog-image"
-          />
+          <ImageGallery :images="['/images/blog/2025/20250107_02/20250107_02_03.png']"/>
           <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
             <p>{{ t("blog.image2Description") }}</p>
           </figcaption>
@@ -147,11 +135,7 @@ watch(locale, (newLang) => {
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t("blog.imageSection.heading04") }}</h3>
         <figure class="w-full">
-          <img
-            src="/images/blog/2025/20250107_02/20250107_02_04.png"
-            alt="Machine To Machine"
-            class="rounded-2xl shadow-lg w-full object-cover blog-image"
-          />
+          <ImageGallery :images="['/images/blog/2025/20250107_02/20250107_02_04.png']"/>
           <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
             <p>{{ t("blog.image2Description") }}</p>
           </figcaption>

@@ -59,11 +59,7 @@ watch(locale, (newLang) => {
     <section class="blog-content px-4 md:px-12 lg:px-32 py-10 space-y-12">
       <!-- Image 01 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_01.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_01.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image1Description') }}</p>
         </figcaption>
@@ -77,11 +73,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 02 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_02.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_02.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image2Description') }}</p>
         </figcaption>
@@ -95,11 +87,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 03 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_03.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_03.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image3Description') }}</p>
         </figcaption>
@@ -115,11 +103,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 04 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_04.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_04.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image4Description') }}</p>
         </figcaption>
@@ -133,11 +117,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 05 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_05.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_05.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image5Description') }}</p>
         </figcaption>
@@ -154,11 +134,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 06 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_06.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_06.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image6Description') }}</p>
         </figcaption>
@@ -176,11 +152,7 @@ watch(locale, (newLang) => {
 
        <!-- Image 07 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_07.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_07.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image7Description') }}</p>
         </figcaption>
@@ -195,11 +167,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 08 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_08.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_08.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image8Description') }}</p>
         </figcaption>
@@ -223,11 +191,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 09 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_09.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_09.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image9Description') }}</p>
         </figcaption>
@@ -241,11 +205,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 10 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_10.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_10.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image10Description') }}</p>
         </figcaption>
@@ -263,11 +223,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 11 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_11.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_11.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image11Description') }}</p>
         </figcaption>
@@ -285,11 +241,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 12 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_12.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_12.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image12Description') }}</p>
         </figcaption>
@@ -305,11 +257,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 13 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_13.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_13.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image13Description') }}</p>
         </figcaption>
@@ -333,11 +281,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 14 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_14.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_14.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image14Description') }}</p>
         </figcaption>
@@ -361,11 +305,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 15 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_15.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_15.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image15Description') }}</p>
         </figcaption>
@@ -383,11 +323,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 16 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_16.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_16.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image16Description') }}</p>
         </figcaption>
@@ -403,11 +339,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 17 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_17.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_17.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image17Description') }}</p>
         </figcaption>
@@ -431,11 +363,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 18 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_18.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_18.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image18Description') }}</p>
         </figcaption>
@@ -459,11 +387,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 19 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_19.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_19.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image19Description') }}</p>
         </figcaption>
@@ -477,11 +401,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 20 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_20.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_20.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image20Description') }}</p>
         </figcaption>
@@ -495,11 +415,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 21 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250106_03/20250106_03_21.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250106_03/20250106_03_21.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image21Description') }}</p>
         </figcaption>

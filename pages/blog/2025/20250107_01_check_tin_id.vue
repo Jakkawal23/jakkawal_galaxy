@@ -60,11 +60,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 1 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250107_01/20250107_01_01.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250107_01/20250107_01_01.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image1Description') }}</p>
         </figcaption>
@@ -87,11 +83,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 2 -->
       <figure class="w-full">
-        <img
-          src="/images/blog/2025/20250107_01/20250107_01_02.png"
-          alt="Machine To Machine"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/blog/2025/20250107_01/20250107_01_02.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t('blog.image2Description') }}</p>
         </figcaption>

@@ -60,11 +60,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 1 -->
       <figure class="w-full">
-        <img
-          src="/images/project/2025/20250915/20250915_01.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/project/2025/20250915/20250915_01.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t("project.image1Description") }}</p>
         </figcaption>
@@ -97,11 +93,14 @@ watch(locale, (newLang) => {
       <!-- Image Grid -->
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t('project.gallery.heading') }}</h3>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="/images/project/2025/20250915/20250915_02.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2025/20250915/20250915_03.png" class="rounded-lg object-cover" />
-          <img src="/images/project/2025/20250915/20250915_04.png" class="rounded-lg object-cover" />
-        </div>
+        <ImageGallery 
+          :images="[
+            '/images/project/2025/20250915/20250915_01.png',
+            '/images/project/2025/20250915/20250915_02.png',
+            '/images/project/2025/20250915/20250915_03.png',
+            '/images/project/2025/20250915/20250915_04.png',
+          ]" 
+        />
       </div>
 
       <!-- Tags + Share -->
@@ -109,8 +108,9 @@ watch(locale, (newLang) => {
         <div class="flex flex-wrap gap-2">
           <span
             v-for="tag in [
-              'เลขบัตรประชาชน',
-              'บัตรประชาชน',
+              'Tiktok',
+              'Tiktok Live',
+              'Tiktok Live Comment',
             ]"
             :key="tag"
             class="blog-tag"

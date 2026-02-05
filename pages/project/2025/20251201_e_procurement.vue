@@ -60,11 +60,7 @@ watch(locale, (newLang) => {
 
       <!-- Image 1 -->
       <figure class="w-full">
-        <img
-          src="/images/project/2025/20251201/20251201_01.png"
-          alt="INTERNET OF THINGS"
-          class="rounded-2xl shadow-lg w-full object-cover blog-image"
-        />
+        <ImageGallery :images="['/images/project/2025/20251201/20251201_01.png']"/>
         <figcaption class="text-center text-gray-400 text-sm mt-2 italic">
           <p>{{ t("project.image1Description") }}</p>
         </figcaption>
@@ -92,6 +88,16 @@ watch(locale, (newLang) => {
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t("project.section4.heading") }}</h3>
         <p>{{ t("project.section4.content") }}</p>
+      </div>
+
+      <!-- Image Grid -->
+      <div class="blog-section">
+        <h3 class="blog-section-title">{{ t('project.gallery.heading') }}</h3>
+        <ImageGallery 
+          :images="[
+            '/images/project/2025/20251201/20251201_01.png',
+          ]" 
+        />
       </div>
 
       <!-- Tags + Share -->
