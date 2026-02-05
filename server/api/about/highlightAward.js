@@ -13,7 +13,7 @@ export default defineEventHandler(() => {
         th: 'สำเร็จการศึกษาหลักสูตรวิศวกรรมคอมพิวเตอร์ เกียรตินิยมอันดับ 1 เหรียญทอง จากมหาวิทยาลัยพะเยา การันตีความมุ่งมั่นและศักยภาพด้านวิชาการในระดับสูงสุด',
       },
       image: '/images/projects/s-power.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ export default defineEventHandler(() => {
         th: 'ได้รับรางวัลชนะเลิศจากการแข่งขัน Startup ภายในองค์กร ด้วยการนำเสนอโซลูชันที่ตอบโจทย์ธุรกิจและแสดงถึงแนวคิดแบบเจ้าของผลิตภัณฑ์ (Product Owner Mindset) อย่างชัดเจน',
       },
       image: '/images/projects/s-power.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ export default defineEventHandler(() => {
         th: 'ผ่านเข้ารอบ 200 ทีมสุดท้ายระดับประเทศในเวที Startup Thailand League พิสูจน์ความสามารถในการนำเสนอ (Pitching) และการปั้นนวัตกรรมเทคโนโลยีสู่ธุรกิจ',
       },
       image: '/images/projects/s-power.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 4,
@@ -52,7 +52,7 @@ export default defineEventHandler(() => {
         th: 'คว้าเหรียญเงินจากการแข่งขัน TESA Top Gun ซึ่งเป็นเวทีประลองทักษะวิศวกรรมระดับประเทศ เน้นการแก้ไขปัญหาทางเทคนิคและระบบฝังตัวขั้นสูง',
       },
       image: '/images/projects/s-power.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 5,
@@ -65,7 +65,7 @@ export default defineEventHandler(() => {
         th: 'ได้รับรางวัลชนะเลิศในการนำเสนอโครงงานวิศวกรรมคอมพิวเตอร์ แสดงถึงความเชี่ยวชาญเชิงลึกในโปรเจกต์ที่ทำพร้อมทักษะการถ่ายทอดข้อมูลที่ดีเยี่ยม',
       },
       image: '/images/projects/s-power.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
   ]
 })

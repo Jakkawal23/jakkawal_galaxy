@@ -61,7 +61,7 @@ watch(locale, (newLang) => {
       <!-- Image 1 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250107_01/20250107_01_01.png"
+          src="/images/blog/2025/20250107_01/20250107_01_01.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -88,7 +88,7 @@ watch(locale, (newLang) => {
       <!-- Image 2 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250107_01/20250107_01_02.png"
+          src="/images/blog/2025/20250107_01/20250107_01_02.png"
           alt="Machine To Machine"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />

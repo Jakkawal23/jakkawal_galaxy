@@ -60,7 +60,7 @@ watch(locale, (newLang) => {
       <!-- Image 1 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250107_02/20250107_02_01.png"
+          src="/images/blog/2025/20250107_02/20250107_02_01.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -118,7 +118,7 @@ watch(locale, (newLang) => {
         <h3 class="blog-section-title">{{ t("blog.imageSection.heading02") }}</h3>
         <figure class="w-full">
           <img
-            src="/images/blog/20250107_02/20250107_02_02.png"
+            src="/images/blog/2025/20250107_02/20250107_02_02.png"
             alt="Machine To Machine"
             class="rounded-2xl shadow-lg w-full object-cover blog-image"
           />
@@ -133,7 +133,7 @@ watch(locale, (newLang) => {
         <h3 class="blog-section-title">{{ t("blog.imageSection.heading03") }}</h3>
         <figure class="w-full">
           <img
-            src="/images/blog/20250107_02/20250107_02_03.png"
+            src="/images/blog/2025/20250107_02/20250107_02_03.png"
             alt="Machine To Machine"
             class="rounded-2xl shadow-lg w-full object-cover blog-image"
           />
@@ -148,7 +148,7 @@ watch(locale, (newLang) => {
         <h3 class="blog-section-title">{{ t("blog.imageSection.heading04") }}</h3>
         <figure class="w-full">
           <img
-            src="/images/blog/20250107_02/20250107_02_04.png"
+            src="/images/blog/2025/20250107_02/20250107_02_04.png"
             alt="Machine To Machine"
             class="rounded-2xl shadow-lg w-full object-cover blog-image"
           />

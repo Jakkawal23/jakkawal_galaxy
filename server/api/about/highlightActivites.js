@@ -13,7 +13,7 @@ export default defineEventHandler(() => {
         th: 'ได้รับเลือกเป็นประธานชั้นปีในช่วงปี 1 ทำหน้าที่เป็นผู้นำในการจัดกิจกรรมต่างๆ และเป็นตัวกลางประสานงานระหว่างนิสิตและคณะ',
       },
       image: '/images/activities/president.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ export default defineEventHandler(() => {
         th: 'ปฏิบัติหน้าที่คณะกรรมการฝ่ายเทคโนโลยีและสารสนเทศ ดูแลระบบและสนับสนุนกิจกรรมต่างๆ ขององค์การนิสิตในระดับมหาวิทยาลัย',
       },
       image: '/images/activities/committee.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ export default defineEventHandler(() => {
         th: 'ทำหน้าที่เป็นผู้ช่วยสอน (TA) คอยสนับสนุนการเรียนการสอน และให้คำแนะนำด้านวิชาการแก่เพื่อนนิสิตในรายวิชาของวิศวกรรมคอมพิวเตอร์',
       },
       image: '/images/activities/ta.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 4,
@@ -52,7 +52,7 @@ export default defineEventHandler(() => {
         th: 'ร่วมเป็นวิทยากรแบ่งปันความรู้และประสบการณ์ในรายการ Pitching และกิจกรรมติววิชาการต่างๆ ของทางมหาวิทยาลัย',
       },
       image: '/images/activities/speaker.png',
-      slug: '20250101_taladhubr',
+      slug: '2025/20250101_taladhubr',
     },
   ]
 })

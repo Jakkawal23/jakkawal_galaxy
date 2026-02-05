@@ -61,7 +61,7 @@ watch(locale, (newLang) => {
       <!-- Image 1 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_01.png"
+          src="/images/blog/2024/20241217_02/20241217_02_01.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -80,7 +80,7 @@ watch(locale, (newLang) => {
       <!-- Image 2 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_02.png"
+          src="/images/blog/2024/20241217_02/20241217_02_02.png"
           alt="Machine To Machine"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -98,7 +98,7 @@ watch(locale, (newLang) => {
       <!-- Image 3 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_03.png"
+          src="/images/blog/2024/20241217_02/20241217_02_03.png"
           alt="IoT != Software JOIN Hardware"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -116,7 +116,7 @@ watch(locale, (newLang) => {
       <!-- Image 4 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_04.png"
+          src="/images/blog/2024/20241217_02/20241217_02_04.png"
           alt="What is Internet of Things"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -134,7 +134,7 @@ watch(locale, (newLang) => {
       <!-- Image 5 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_05.png"
+          src="/images/blog/2024/20241217_02/20241217_02_05.png"
           alt="Example Internet of Things"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -152,7 +152,7 @@ watch(locale, (newLang) => {
       <!-- Image 6 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_06.png"
+          src="/images/blog/2024/20241217_02/20241217_02_06.png"
           alt="Smart City"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -173,7 +173,7 @@ watch(locale, (newLang) => {
       <!-- Image 7 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_07.png"
+          src="/images/blog/2024/20241217_02/20241217_02_07.png"
           alt="เราอยู่ในยุคของ Smart…."
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -191,7 +191,7 @@ watch(locale, (newLang) => {
       <!-- Image 8 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_08.png"
+          src="/images/blog/2024/20241217_02/20241217_02_08.png"
           alt="สรุปเปรียบเทียบ Internet Of Thing"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -209,7 +209,7 @@ watch(locale, (newLang) => {
       <!-- Image 9 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_09.png"
+          src="/images/blog/2024/20241217_02/20241217_02_09.png"
           alt="แล้วคุณ ให้คำนิยามของ IoT ว่าอย่างไร ?"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -227,7 +227,7 @@ watch(locale, (newLang) => {
       <!-- Image 10 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_10.png"
+          src="/images/blog/2024/20241217_02/20241217_02_10.png"
           alt="แล้วคุณ ให้คำนิยามของ IoT ว่าอย่างไร ?"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -255,7 +255,7 @@ watch(locale, (newLang) => {
       <!-- Image 11 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_11.png"
+          src="/images/blog/2024/20241217_02/20241217_02_11.png"
           alt="แล้วคุณ ให้คำนิยามของ IoT ว่าอย่างไร ?"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -273,7 +273,7 @@ watch(locale, (newLang) => {
       <!-- Image 12 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_12.png"
+          src="/images/blog/2024/20241217_02/20241217_02_12.png"
           alt="แล้วคุณ ให้คำนิยามของ IoT ว่าอย่างไร ?"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -291,7 +291,7 @@ watch(locale, (newLang) => {
       <!-- Image 13 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_13.png"
+          src="/images/blog/2024/20241217_02/20241217_02_13.png"
           alt="แล้วคุณ ให้คำนิยามของ IoT ว่าอย่างไร ?"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -309,7 +309,7 @@ watch(locale, (newLang) => {
       <!-- Image 14 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_14.png"
+          src="/images/blog/2024/20241217_02/20241217_02_14.png"
           alt="แล้วคุณ ให้คำนิยามของ IoT ว่าอย่างไร ?"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -327,7 +327,7 @@ watch(locale, (newLang) => {
       <!-- Image 15 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_15.png"
+          src="/images/blog/2024/20241217_02/20241217_02_15.png"
           alt="แล้วคุณ ให้คำนิยามของ IoT ว่าอย่างไร ?"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -355,7 +355,7 @@ watch(locale, (newLang) => {
       <!-- Image 16 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20241217_02/20241217_02_16.png"
+          src="/images/blog/2024/20241217_02/20241217_02_16.png"
           alt="แล้วคุณ ให้คำนิยามของ IoT ว่าอย่างไร ?"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />

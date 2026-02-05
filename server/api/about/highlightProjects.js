@@ -13,7 +13,7 @@ export default defineEventHandler(() => {
         th: 'แพลตฟอร์มบริหารตลาดครบวงจรที่พัฒนาด้วย Product Owner Mindset ครอบคลุมระบบจองแผงเช่า แจ้งชำระเงิน และออกใบแจ้งหนี้อัตโนมัติ ช่วยลดขั้นตอนการทำงานได้ถึง 50%',
       },
       image: '/images/projects/taladhub.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ export default defineEventHandler(() => {
         th: 'ระบบเบิกจ่ายเงินระดับองค์กร จัดการ Workflow การอนุมัติเอกสารและเบิกจ่ายเงินให้ Vendor พร้อมเชื่อมต่อระบบบัญชีเพื่อติดตามสถานะการเงินอย่างแม่นยำ',
       },
       image: '/images/projects/burgundy.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ export default defineEventHandler(() => {
         th: 'แอปพลิเคชันบริหารจัดการฟาร์มแบบครบวงจร ตั้งแต่การวางแผนสูตรการผลิต บันทึกกิจกรรมประจำวัน ไปจนถึงระบบวิเคราะห์ข้อมูลการเก็บเกี่ยว',
       },
       image: '/images/projects/farm-management.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 4,
@@ -52,7 +52,7 @@ export default defineEventHandler(() => {
         th: 'ระบบสกัดข้อมูลอัตโนมัติด้วยเทคโนโลยี OCR สำหรับอ่านมิเตอร์น้ำ/ไฟ และ QR Code เพิ่มความรวดเร็วในการบันทึกข้อมูลด้วยความแม่นยำถึง 95%',
       },
       image: '/images/projects/xtract.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
     {
       id: 5,
@@ -65,7 +65,7 @@ export default defineEventHandler(() => {
         th: 'ระบบบริหารจัดการการลงลางานสำหรับพนักงานผ่าน LINE LIFF เพื่อสร้างประสบการณ์การใช้งานที่สะดวกและเข้าถึงง่ายผ่านแอปพลิเคชันที่ใช้เป็นประจำ',
       },
       image: '/images/projects/s-power.png',
-      slug: '20250101_taladhub',
+      slug: '2025/20250101_taladhub',
     },
   ]
 })

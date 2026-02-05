@@ -60,7 +60,7 @@ watch(locale, (newLang) => {
       <!-- Image 01 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_01.png"
+          src="/images/blog/2025/20250106_03/20250106_03_01.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -78,7 +78,7 @@ watch(locale, (newLang) => {
       <!-- Image 02 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_02.png"
+          src="/images/blog/2025/20250106_03/20250106_03_02.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -96,7 +96,7 @@ watch(locale, (newLang) => {
       <!-- Image 03 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_03.png"
+          src="/images/blog/2025/20250106_03/20250106_03_03.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -116,7 +116,7 @@ watch(locale, (newLang) => {
       <!-- Image 04 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_04.png"
+          src="/images/blog/2025/20250106_03/20250106_03_04.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -134,7 +134,7 @@ watch(locale, (newLang) => {
       <!-- Image 05 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_05.png"
+          src="/images/blog/2025/20250106_03/20250106_03_05.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -155,7 +155,7 @@ watch(locale, (newLang) => {
       <!-- Image 06 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_06.png"
+          src="/images/blog/2025/20250106_03/20250106_03_06.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -177,7 +177,7 @@ watch(locale, (newLang) => {
        <!-- Image 07 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_07.png"
+          src="/images/blog/2025/20250106_03/20250106_03_07.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -196,7 +196,7 @@ watch(locale, (newLang) => {
       <!-- Image 08 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_08.png"
+          src="/images/blog/2025/20250106_03/20250106_03_08.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -224,7 +224,7 @@ watch(locale, (newLang) => {
       <!-- Image 09 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_09.png"
+          src="/images/blog/2025/20250106_03/20250106_03_09.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -242,7 +242,7 @@ watch(locale, (newLang) => {
       <!-- Image 10 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_10.png"
+          src="/images/blog/2025/20250106_03/20250106_03_10.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -264,7 +264,7 @@ watch(locale, (newLang) => {
       <!-- Image 11 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_11.png"
+          src="/images/blog/2025/20250106_03/20250106_03_11.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -286,7 +286,7 @@ watch(locale, (newLang) => {
       <!-- Image 12 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_12.png"
+          src="/images/blog/2025/20250106_03/20250106_03_12.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -306,7 +306,7 @@ watch(locale, (newLang) => {
       <!-- Image 13 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_13.png"
+          src="/images/blog/2025/20250106_03/20250106_03_13.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -334,7 +334,7 @@ watch(locale, (newLang) => {
       <!-- Image 14 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_14.png"
+          src="/images/blog/2025/20250106_03/20250106_03_14.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -362,7 +362,7 @@ watch(locale, (newLang) => {
       <!-- Image 15 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_15.png"
+          src="/images/blog/2025/20250106_03/20250106_03_15.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -384,7 +384,7 @@ watch(locale, (newLang) => {
       <!-- Image 16 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_16.png"
+          src="/images/blog/2025/20250106_03/20250106_03_16.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -404,7 +404,7 @@ watch(locale, (newLang) => {
       <!-- Image 17 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_17.png"
+          src="/images/blog/2025/20250106_03/20250106_03_17.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -432,7 +432,7 @@ watch(locale, (newLang) => {
       <!-- Image 18 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_18.png"
+          src="/images/blog/2025/20250106_03/20250106_03_18.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -460,7 +460,7 @@ watch(locale, (newLang) => {
       <!-- Image 19 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_19.png"
+          src="/images/blog/2025/20250106_03/20250106_03_19.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -478,7 +478,7 @@ watch(locale, (newLang) => {
       <!-- Image 20 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_20.png"
+          src="/images/blog/2025/20250106_03/20250106_03_20.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
@@ -496,7 +496,7 @@ watch(locale, (newLang) => {
       <!-- Image 21 -->
       <figure class="w-full">
         <img
-          src="/images/blog/20250106_03/20250106_03_21.png"
+          src="/images/blog/2025/20250106_03/20250106_03_21.png"
           alt="INTERNET OF THINGS"
           class="rounded-2xl shadow-lg w-full object-cover blog-image"
         />
