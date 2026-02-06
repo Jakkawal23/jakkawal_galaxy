@@ -367,25 +367,6 @@ export default defineEventHandler(() => {
         en: 'เข้าร่วมทีมจัดโครงการ Tuek Som Garage (Startup) โดยรับผิดชอบหน้าที่ส่วนจัดเตรียมสถานที่ เครื่องเสียง และระบบออนไลน์',
         th: 'เข้าร่วมทีมจัดโครงการ Tuek Som Garage (Startup) โดยรับผิดชอบหน้าที่ส่วนจัดเตรียมสถานที่ เครื่องเสียง และระบบออนไลน์',
       },
-    },
-    {
-      id: 1,
-      title: {
-        en: 'Example Activity',
-        th: 'ตัวอย่ากิจกรรม',
-      },
-      categories: [
-        { id: 1, title: { en: 'High School', th: 'มัธยมศึกษา' } },
-        { id: 2, title: { en: 'University', th: 'มหาวิทยาลัย' } },
-        { id: 3, title: { en: 'Work', th: 'ทำงาน' } },
-      ],
-      date: '2022-02-23',
-      slug: 'example-activity-post',
-      image: '/images/blog-5.jpg',
-      description: {
-        en: 'Example description for the blog post in English.',
-        th: 'Example description for the blog post in Thai.',
-      },
-    },
+    }
   ]
 })
