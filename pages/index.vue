@@ -16,6 +16,12 @@ const { data: highlightAward } = await useFetch('/api/about/highlightAward')
 
 /* Services */
 const { data: services } = await useFetch('/api/about/services')
+
+// Define your logos array
+const partnerLogos = Array.from({ length: 5 }, (_, i) => ({
+  src: `/images/partner-logo-${i + 1}.png`,
+  alt: `Partner Logo ${i + 1}`
+}))
 </script>
 
 <template>
@@ -44,36 +50,6 @@ const { data: services } = await useFetch('/api/about/services')
     </section>
 
     <!-- Highlight Projects -->
-    <!-- <section class="testimonials">
-      <h3 class="h3 testimonials-title">
-        {{ $t('about.highlightProjectTitle') }}
-      </h3>
-
-      <ul class="testimonials-list has-scrollbar">
-        <li
-          v-for="project in highlightProjects"
-          :key="project.id"
-          class="testimonials-item"
-        >
-          <NuxtLink :to="`/project/${project.slug}`" class="content-card">
-            <figure class="testimonials-avatar-box">
-              <img :src="project.image" alt="Daniel lewis" width="60">
-            </figure>
-
-            <h4 class="h4 testimonials-item-title">
-              {{ project.title?.[locale] || project.title?.en }}
-            </h4>
-
-            <div class="testimonials-text">
-              <p>
-                {{ project.content?.[locale] || project.content?.en }}
-              </p>
-            </div>
-          </NuxtLink>
-        </li>
-      </ul>
-    </section> -->
-
     <section class="testimonials">
       <h3 class="h3 testimonials-title">
         {{ $t('about.highlightProjectTitle') }}
@@ -86,35 +62,6 @@ const { data: services } = await useFetch('/api/about/services')
     </section>
 
     <!-- Highlight Activity -->
-    <!-- <section class="testimonials">
-      <h3 class="h3 testimonials-title">
-        {{ $t('about.highlightActivityTitle') }}
-      </h3>
-
-      <ul class="testimonials-list has-scrollbar">
-        <li
-          v-for="activity in highlightActivites"
-          :key="activity.id"
-          class="testimonials-item"
-        >
-          <NuxtLink :to="`/project/${activity.slug}`" class="content-card">
-            <figure class="testimonials-avatar-box">
-              <img :src="activity.image" alt="Daniel lewis" width="60">
-            </figure>
-
-            <h4 class="h4 testimonials-item-title">
-              {{ activity.title?.[locale] || activity.title?.en }}
-            </h4>
-
-            <div class="testimonials-text">
-              <p>
-                {{ activity.content?.[locale] || activity.content?.en }}
-              </p>
-            </div>
-          </NuxtLink>
-        </li>
-      </ul>
-    </section> -->
     <section class="testimonials">
       <h3 class="h3 testimonials-title">
         {{ $t('about.highlightActivityTitle') }}
@@ -127,35 +74,6 @@ const { data: services } = await useFetch('/api/about/services')
     </section>
 
     <!-- Highlight Award -->
-    <!-- <section class="testimonials">
-      <h3 class="h3 testimonials-title">
-        {{ $t('about.highlightAwardTitle') }}
-      </h3>
-
-      <ul class="testimonials-list has-scrollbar">
-        <li
-          v-for="award in highlightAward"
-          :key="award.id"
-          class="testimonials-item"
-        >
-          <NuxtLink :to="`/project/${award.slug}`" class="content-card">
-            <figure class="testimonials-avatar-box">
-              <img :src="award.image" alt="Daniel lewis" width="60">
-            </figure>
-
-            <h4 class="h4 testimonials-item-title">
-              {{ award.title?.[locale] || award.title?.en }}
-            </h4>
-
-            <div class="testimonials-text">
-              <p>
-                {{ award.content?.[locale] || award.content?.en }}
-              </p>
-            </div>
-          </NuxtLink>
-        </li>
-      </ul>
-    </section> -->
     <section class="testimonials">
       <h3 class="h3 testimonials-title">
         {{ $t('about.highlightAwardTitle') }}
@@ -167,19 +85,94 @@ const { data: services } = await useFetch('/api/about/services')
       />
     </section>
 
+    <!-- Soft Skills -->
+    <section class="resume-section">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="people-outline" />
+        </div>
+        <h3 class="h3">Soft Skills</h3>
+      </div>
+      <ul class="tag-list">
+        <li
+          v-for="skill in [
+            'Problem Solving',
+            'Teamwork',
+            'Adaptability',
+            'Leadership',
+            'Communication',
+            'Time Management',
+          ]"
+          :key="skill"
+        >
+          {{ skill }}
+        </li>
+      </ul>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="resume-section">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="code-slash-outline" />
+        </div>
+        <h3 class="h3">Technical Skills</h3>
+      </div>
+      <ul class="tag-list">
+        <li
+          v-for="tech in [
+            'JavaScript',
+            'TypeScript',
+            'Vue.js',
+            'Nuxt',
+            'Node.js',
+            'Flutter',
+            'Python',
+            'Tailwind CSS',
+            'REST API',
+            'Docker',
+          ]"
+          :key="tech"
+        >
+          {{ tech }}
+        </li>
+      </ul>
+    </section>
+
+    <!-- Tools & Platforms -->
+    <section class="resume-section">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="hammer-outline" />
+        </div>
+        <h3 class="h3">Tools & Platforms</h3>
+      </div>
+      <ul class="tag-list">
+        <li
+          v-for="tool in [
+            'VS Code',
+            'Postman',
+            'Git',
+            'GitHub',
+            'Figma',
+            'Vercel',
+            'Firebase',
+            'Notion',
+            'Jira',
+          ]"
+          :key="tool"
+        >
+          {{ tool }}
+        </li>
+      </ul>
+    </section>
+
     <!-- clients -->
     <section class="clients">
       <h3 class="h3 clients-title">
         {{ $t('about.clientsTitle') }}
       </h3>
-
-      <ul class="clients-list has-scrollbar">
-        <li v-for="n in 5" :key="n" class="clients-item">
-          <a href="#">
-            <img :src="`/images/partner-logo-${n}.png`" :alt="$t('about.clientAlt', { number: n })">
-          </a>
-        </li>
-      </ul>
+      <AutoScrollLogos :images="partnerLogos" />
     </section>
   </article>
 </template>

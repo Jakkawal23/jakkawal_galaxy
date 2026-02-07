@@ -11,7 +11,8 @@
     "project": "Project",
     "activity": "Activity",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "github": "GitHub"
   },
 
   "about": {

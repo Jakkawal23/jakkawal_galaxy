@@ -12,7 +12,6 @@ export default defineEventHandler(() => {
         en: 'A comprehensive market management platform developed with a Product Owner mindset. Features include stall rentals, automated invoicing, and payment notifications, successfully reducing operational workflows by 50%.',
         th: 'แพลตฟอร์มบริหารตลาดครบวงจรที่พัฒนาด้วย Product Owner Mindset ครอบคลุมระบบจองแผงเช่า แจ้งชำระเงิน และออกใบแจ้งหนี้อัตโนมัติ ช่วยลดขั้นตอนการทำงานได้ถึง 50%',
       },
-      image: '/images/projects/taladhub.png',
       slug: '2025/20250101_taladhub',
     },
     {
@@ -25,7 +24,6 @@ export default defineEventHandler(() => {
         en: 'An enterprise-grade disbursement system featuring multi-level approval workflows for vendor expenses and seamless accounting integration for precise financial tracking.',
         th: 'ระบบเบิกจ่ายเงินระดับองค์กร จัดการ Workflow การอนุมัติเอกสารและเบิกจ่ายเงินให้ Vendor พร้อมเชื่อมต่อระบบบัญชีเพื่อติดตามสถานะการเงินอย่างแม่นยำ',
       },
-      image: '/images/projects/burgundy.png',
       slug: '2025/20250101_taladhub',
     },
     {
@@ -38,7 +36,6 @@ export default defineEventHandler(() => {
         en: 'A full-scale mobile application for agriculture management, including production recipes, cultivation planning, daily activity logs, and harvesting analytics.',
         th: 'แอปพลิเคชันบริหารจัดการฟาร์มแบบครบวงจร ตั้งแต่การวางแผนสูตรการผลิต บันทึกกิจกรรมประจำวัน ไปจนถึงระบบวิเคราะห์ข้อมูลการเก็บเกี่ยว',
       },
-      image: '/images/projects/farm-management.png',
       slug: '2025/20250101_taladhub',
     },
     {
@@ -51,7 +48,6 @@ export default defineEventHandler(() => {
         en: 'Automated data extraction system utilizing OCR technology to scan utility meters and QR codes, achieving 95% accuracy and significantly speeding up data entry.',
         th: 'ระบบสกัดข้อมูลอัตโนมัติด้วยเทคโนโลยี OCR สำหรับอ่านมิเตอร์น้ำ/ไฟ และ QR Code เพิ่มความรวดเร็วในการบันทึกข้อมูลด้วยความแม่นยำถึง 95%',
       },
-      image: '/images/projects/xtract.png',
       slug: '2025/20250101_taladhub',
     },
     {
@@ -64,7 +60,6 @@ export default defineEventHandler(() => {
         en: 'An internal employee leave management system integrated with LINE LIFF, designed to provide a seamless and accessible user experience for staff members.',
         th: 'ระบบบริหารจัดการการลงลางานสำหรับพนักงานผ่าน LINE LIFF เพื่อสร้างประสบการณ์การใช้งานที่สะดวกและเข้าถึงง่ายผ่านแอปพลิเคชันที่ใช้เป็นประจำ',
       },
-      image: '/images/projects/s-power.png',
       slug: '2025/20250101_taladhub',
     },
   ]

@@ -20,7 +20,6 @@ const { data: experience } = await useFetch("/api/resume/experience");
         <div class="icon-box">
           <ion-icon name="book-outline" />
         </div>
-
         <h3 class="h3">Experience</h3>
       </div>
 
@@ -30,9 +29,19 @@ const { data: experience } = await useFetch("/api/resume/experience");
           <span>{{ item.period }}</span>
           <p v-if="item.description" class="timeline-text">{{ item.description[locale] }}</p>
           <p v-if="item.remark" class="timeline-text">{{ item.remark[locale] }}</p> 
-          <ul v-if="item.content" class="timeline-sublist">
+          <!-- <ul v-if="item.content" class="timeline-sublist">
             <li v-for="(con, index) in item.content" :key="index" class="timeline-text">
               <strong>- {{ con.title[locale] }}</strong> : {{ con.description[locale] }}
+            </li>
+          </ul> -->
+          <ul v-if="item.content" class="timeline-sublist">
+            <li v-for="(con, index) in item.content" :key="index" class="timeline-subitem">
+              <span class="bullet">•</span> 
+              
+              <div class="subitem-content">
+                <strong class="subitem-title">{{ con.title[locale] }} :</strong>
+                <dev class="subitem-description">{{ con.description[locale] }}</dev>
+              </div>
             </li>
           </ul>
         </li>
@@ -44,7 +53,6 @@ const { data: experience } = await useFetch("/api/resume/experience");
         <div class="icon-box">
           <ion-icon name="book-outline" />
         </div>
-
         <h3 class="h3">Education</h3>
       </div>
 
@@ -55,64 +63,23 @@ const { data: experience } = await useFetch("/api/resume/experience");
           <p v-if="item.description" class="timeline-text">{{ item.description[locale] }}</p>
           <p v-if="item.remark" class="timeline-text">{{ item.remark[locale] }}</p> 
           <ul v-if="item.content" class="timeline-sublist">
+            <li v-for="(con, index) in item.content" :key="index" class="timeline-subitem">
+              <span class="bullet">•</span> 
+              
+              <div class="subitem-content">
+                <strong class="subitem-title">{{ con.title[locale] }} :</strong>
+                <dev class="subitem-description">{{ con.description[locale] }}</dev>
+              </div>
+            </li>
+          </ul>
+
+          <!-- <ul v-if="item.content" class="timeline-sublist">
             <li v-for="(con, index) in item.content" :key="index" class="timeline-text">
               <strong>- {{ con.title[locale] }}</strong> : {{ con.description[locale] }}
             </li>
-          </ul>
+          </ul> -->
         </li>
       </ol>
-    </section>
-
-    
-
-    <section class="skill">
-      <h3 class="h3 skills-title">My skills</h3>
-
-      <ul class="skills-list content-card">
-        <li class="skills-item">
-          <div class="title-wrapper">
-            <h5 class="h5">Web design</h5>
-            <data value="80">80%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 80%" />
-          </div>
-        </li>
-
-        <li class="skills-item">
-          <div class="title-wrapper">
-            <h5 class="h5">Graphic design</h5>
-            <data value="70">70%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 70%" />
-          </div>
-        </li>
-
-        <li class="skills-item">
-          <div class="title-wrapper">
-            <h5 class="h5">Branding</h5>
-            <data value="90">90%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 90%" />
-          </div>
-        </li>
-
-        <li class="skills-item">
-          <div class="title-wrapper">
-            <h5 class="h5">WordPress</h5>
-            <data value="50">50%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 50%" />
-          </div>
-        </li>
-      </ul>
     </section>
 
     <!-- 💬 Languages -->
@@ -156,6 +123,31 @@ const { data: experience } = await useFetch("/api/resume/experience");
             เข้าใจและสามารถสื่อสารในหัวข้อทั่วไป อ่านและเขียนตัวอักษรพื้นฐานได้ดี
             เหมาะสำหรับการสื่อสารเบื้องต้นกับเจ้าของภาษา
           </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 🎯 Soft Skills -->
+    <section class="resume-section">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="people-outline" />
+        </div>
+        <h3 class="h3">Soft Skills</h3>
+      </div>
+      <ul class="tag-list">
+        <li
+          v-for="skill in [
+            'Problem Solving',
+            'Teamwork',
+            'Adaptability',
+            'Leadership',
+            'Communication',
+            'Time Management',
+          ]"
+          :key="skill"
+        >
+          {{ skill }}
         </li>
       </ul>
     </section>
@@ -217,36 +209,89 @@ const { data: experience } = await useFetch("/api/resume/experience");
       </ul>
     </section>
 
-    <!-- 🎯 Soft Skills -->
-    <section class="resume-section">
-      <div class="title-wrapper">
-        <div class="icon-box">
-          <ion-icon name="people-outline" />
-        </div>
-        <h3 class="h3">Soft Skills</h3>
-      </div>
-      <ul class="tag-list">
-        <li
-          v-for="skill in [
-            'Problem Solving',
-            'Teamwork',
-            'Adaptability',
-            'Leadership',
-            'Communication',
-            'Time Management',
-          ]"
-          :key="skill"
-        >
-          {{ skill }}
+    <!-- <section class="skill">
+      <h3 class="h3 skills-title">My skills</h3>
+
+      <ul class="skills-list content-card">
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">Web design</h5>
+            <data value="80">80%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%" />
+          </div>
+        </li>
+
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">Graphic design</h5>
+            <data value="70">70%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 70%" />
+          </div>
+        </li>
+
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">Branding</h5>
+            <data value="90">90%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 90%" />
+          </div>
+        </li>
+
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">WordPress</h5>
+            <data value="50">50%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 50%" />
+          </div>
         </li>
       </ul>
-    </section>
+    </section> -->
   </article>
 </template>
 
 <style>
 .timeline-sublist {
-  margin-top: 0.2rem;
-  padding-left: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin-top: 10px; /* ระยะห่างจาก period หรือ description ด้านบน */
+}
+
+.timeline-subitem {
+  display: flex;         /* ใช้ flex เพื่อแยก bullet ออกจากข้อความ */
+  gap: 8px;              /* ระยะห่างระหว่างจุดกับตัวหนังสือ */
+  margin-bottom: 12px;   /* ระยะห่างระหว่างแต่ละหัวข้อย่อย */
+  align-items: flex-start;
+}
+
+.timeline-subitem:last-child {
+  margin-bottom: 0;      /* หัวข้อสุดท้ายไม่ต้องมี margin ล่าง */
+}
+
+.bullet {
+  /* color: var(--orange-yellow-crayola); หรือสีที่คุณใช้ในโปรเจกต์ */
+  flex-shrink: 0;        /* ป้องกันจุดโดนบีบ */
+  line-height: 1.4;      /* ปรับให้ตรงกับบรรทัดแรก */
+}
+
+.subitem-content {
+  line-height: 1.5;
+  color: var(--light-gray);
+}
+
+.subitem-title {
+  color: var(--white-2);  /* เน้นสีหัวข้อนิดหน่อย */
+  margin-right: 4px;
 }
 </style>

@@ -58,9 +58,6 @@ onUnmounted(() => stopAutoScroll())
       class="testimonials-item"
     >
       <NuxtLink :to="`${basePath}/${item.slug}`" class="content-card">
-        <figure class="testimonials-avatar-box">
-          <img :src="item.image" :alt="item.title?.en" width="60">
-        </figure>
         <h4 class="h4 testimonials-item-title">
           {{ item.title?.[locale] || item.title?.en }}
         </h4>

@@ -50,20 +50,6 @@ function toggleMenu() {
 
         <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="logo-github" />
-          </div>
-
-          <div class="contact-info">
-            <p class="contact-title">
-              Github
-            </p>
-
-            <a href="https://github.com/jakkawal23" class="contact-link" target="_blank">jakkawal23</a>
-          </div>
-        </li>
-
-        <li class="contact-item">
-          <div class="icon-box">
             <ion-icon name="logo-linkedin" />
           </div>
 
@@ -75,6 +61,34 @@ function toggleMenu() {
             <a href="https://tr.linkedin.com/in/jakkawal-p" class="contact-link" target="_blank">Jakkawal Phooluemsai</a>
           </div>
         </li>
+
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="logo-github" />
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">
+              Github
+            </p>
+
+            <a href="https://github.com/jakkawal23" class="contact-link" target="_blank">Jakkawal23</a>
+          </div>
+        </li>
+
+        <!-- <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="logo-github" />
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">
+              Github
+            </p>
+
+            <a href="https://github.com/jakkawal-p" class="contact-link" target="_blank">Jakkawal-p</a>
+          </div>
+        </li> -->
 
         <li class="contact-item">
           <div class="icon-box">

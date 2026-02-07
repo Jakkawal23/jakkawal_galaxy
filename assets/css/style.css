@@ -278,7 +278,7 @@ article.active {
   position: relative;
   background: var(--border-gradient-onyx);
   padding: 15px;
-  padding-top: 45px;
+  padding-top: 25px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   cursor: pointer;
@@ -564,7 +564,7 @@ main {
 
 .testimonials { margin-bottom: 30px; }
 
-.testimonials-title { margin-bottom: 20px; }
+.testimonials-title { margin-bottom: 5px; }
 
 .testimonials-list {
   display: flex;
@@ -734,7 +734,10 @@ main {
  * #clients 
  */
 
-.clients { margin-bottom: 15px; }
+.clients { 
+  margin-bottom: 15px; 
+  margin-top: 35px;  
+}
 
 .clients-list {
   display: flex;
@@ -798,9 +801,10 @@ main {
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
 
 .timeline-item-title {
-  font-size: var(--fs-6);
+  font-size: var(--fs-3);
   line-height: 1.3;
   margin-bottom: 7px;
+  font-weight: 500;
 }
 
 .timeline-list span {
@@ -1457,7 +1461,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
     --fs-1: 32px;
     --fs-2: 24px;
-    --fs-3: 26px;
+    --fs-3: 20px;
     --fs-4: 18px;
     --fs-6: 15px;
     --fs-7: 15px;
@@ -1594,7 +1598,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   /* testimonials */
 
-  .testimonials-title { margin-bottom: 25px; }
+  .testimonials-title { margin-bottom: 5px; }
 
   .testimonials-list {
     gap: 30px;
@@ -1617,7 +1621,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-item-title {
     margin-bottom: 10px;
-    margin-left: 95px;
   }
 
   .testimonials-text {

@@ -42,15 +42,18 @@
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="/contact" class="navbar-link">
-          {{ $t('pageTitles.contact') }}
+        <NuxtLink to="/github" class="navbar-link">
+          {{ $t('pageTitles.github') }}
         </NuxtLink>
       </li>
 
-      <li class="navbar-item">
-        <!-- <NuxtLink to="/contact" class="navbar-link">
+      <!-- <li class="navbar-item">
+        <NuxtLink to="/contact" class="navbar-link">
           {{ $t('pageTitles.contact') }}
-        </NuxtLink> -->
+        </NuxtLink>
+      </li> -->
+
+      <li class="navbar-item">
         <LangSwitcher2 />
       </li>
     </ul>
