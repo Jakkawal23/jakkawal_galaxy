@@ -109,37 +109,37 @@ function toggleMenu() {
 
       <ul class="social-list">
         <li class="social-item">
-          <NuxtLink to="https://www.instagram.com/jakkawal_galaxy" class="social-link" target="_blank">
+          <NuxtLink to="https://www.instagram.com/jakkawal_galaxy/" class="social-link" target="_blank">
             <ion-icon name="logo-instagram" />
           </NuxtLink>
         </li>
 
         <li class="social-item">
-          <NuxtLink to="https://www.instagram.com/jakkawal_galaxy" class="social-link" target="_blank">
+          <NuxtLink to="https://www.facebook.com/jakkawal.phooluemsai/" class="social-link" target="_blank">
             <ion-icon name="logo-facebook" />
           </NuxtLink>
         </li>
 
         <li class="social-item">
-          <NuxtLink to="https://www.instagram.com/jakkawal_galaxy" class="social-link" target="_blank">
+          <NuxtLink to="https://www.tiktok.com/@jakkawal_galaxy" class="social-link" target="_blank">
             <ion-icon name="logo-tiktok" />
           </NuxtLink>
         </li>
 
         <li class="social-item">
-          <NuxtLink to="https://www.instagram.com/jakkawal_galaxy" class="social-link" target="_blank">
+          <NuxtLink to="https://www.youtube.com/@JAKKAWALGALAXY" class="social-link" target="_blank">
             <ion-icon name="logo-youtube" />
           </NuxtLink>
         </li>
 
-        <li class="social-item">
+        <!-- <li class="social-item">
           <NuxtLink to="https://www.twitter.com/jakkawal_galaxy" class="social-link" target="_blank">
             <ion-icon name="logo-twitter" />
           </NuxtLink>
-        </li>
+        </li> -->
 
         <li class="social-item">
-          <NuxtLink to="https://www.instagram.com/jakkawal_galaxy" class="social-link" target="_blank">
+          <NuxtLink to="https://medium.com/@jakkawal.phooluemsai" class="social-link" target="_blank">
             <ion-icon name="logo-medium" />
           </NuxtLink>
         </li>
