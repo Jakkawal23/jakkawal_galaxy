@@ -81,7 +81,7 @@ const partnerLogos = Array.from({ length: 5 }, (_, i) => ({
       <AutoScrollList
         :items="highlightAward"
         :locale="locale"
-        base-path="/award"
+        base-path="/activity"
       />
     </section>
 
@@ -97,9 +97,11 @@ const partnerLogos = Array.from({ length: 5 }, (_, i) => ({
         <li
           v-for="skill in [
             'Problem Solving',
+            'Team Leadership',
+            'Product Planning',
+            'Public Speaking',
+            'Growth Mindset ',
             'Teamwork',
-            'Adaptability',
-            'Leadership',
             'Communication',
             'Time Management',
           ]"
@@ -123,14 +125,18 @@ const partnerLogos = Array.from({ length: 5 }, (_, i) => ({
           v-for="tech in [
             'JavaScript',
             'TypeScript',
-            'Vue.js',
-            'Nuxt',
-            'Node.js',
-            'Flutter',
             'Python',
-            'Tailwind CSS',
-            'REST API',
-            'Docker',
+            'Node.js',
+            'C',
+            'C#',
+            'Dart',
+            'Angular',
+            'Vue',
+            '.NET',
+            'Flutter',
+            'PostgreSQL',
+            'SQL Server',
+            'NoSQL',
           ]"
           :key="tech"
         >
@@ -150,15 +156,16 @@ const partnerLogos = Array.from({ length: 5 }, (_, i) => ({
       <ul class="tag-list">
         <li
           v-for="tool in [
-            'VS Code',
-            'Postman',
+
+            'Docker',
             'Git',
-            'GitHub',
+            'Postman',
             'Figma',
-            'Vercel',
             'Firebase',
+            'Vercel',
             'Notion',
             'Jira',
+            'ClickUp',
           ]"
           :key="tool"
         >

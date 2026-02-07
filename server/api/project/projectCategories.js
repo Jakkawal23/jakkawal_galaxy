@@ -30,5 +30,12 @@ export default defineEventHandler(() => {
         th: 'งานอดิเรก',
       },
     },
+    {
+      id: 5,
+      title: {
+        en: 'AI',
+        th: 'เอไอ',
+      },
+    },
   ]
 })

@@ -5,43 +5,36 @@ export default defineEventHandler(() => {
     {
       id: 1,
       title: {
-        en: 'High School',
-        th: 'มัธยมศึกษา',
+        en: 'Training',
+        th: 'การอบรม',
       },
     },
     {
       id: 2,
+      title: {
+        en: 'Startup',
+        th: 'สตาร์ทอัพ',
+      },
+    },
+    {
+      id: 3,
+      title: {
+        en: 'Company',
+        th: 'บริษัท',
+      },
+    },
+    {
+      id: 4,
       title: {
         en: 'University',
         th: 'มหาวิทยาลัย',
       },
     },
     {
-      id: 3,
-      title: {
-        en: 'Work',
-        th: 'ทำงาน',
-      },
-    },
-    {
-      id: 4,
-      title: {
-        en: 'Company activities',
-        th: 'Company activities',
-      },
-    },
-    {
       id: 5,
       title: {
-        en: 'Tuek Som Garage (Startup)',
-        th: 'Tuek Som Garage (Startup)',
-      },
-    },
-    {
-      id: 6,
-      title: {
-        en: 'Training',
-        th: 'Training',
+        en: 'High School',
+        th: 'มัธยมศึกษา',
       },
     },
   ]

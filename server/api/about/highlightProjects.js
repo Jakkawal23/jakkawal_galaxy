@@ -24,7 +24,7 @@ export default defineEventHandler(() => {
         en: 'An enterprise-grade disbursement system featuring multi-level approval workflows for vendor expenses and seamless accounting integration for precise financial tracking.',
         th: 'ระบบเบิกจ่ายเงินระดับองค์กร จัดการ Workflow การอนุมัติเอกสารและเบิกจ่ายเงินให้ Vendor พร้อมเชื่อมต่อระบบบัญชีเพื่อติดตามสถานะการเงินอย่างแม่นยำ',
       },
-      slug: '2025/20250101_taladhub',
+      slug: '2024/20240401_burgundy_prq',
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ export default defineEventHandler(() => {
         en: 'A full-scale mobile application for agriculture management, including production recipes, cultivation planning, daily activity logs, and harvesting analytics.',
         th: 'แอปพลิเคชันบริหารจัดการฟาร์มแบบครบวงจร ตั้งแต่การวางแผนสูตรการผลิต บันทึกกิจกรรมประจำวัน ไปจนถึงระบบวิเคราะห์ข้อมูลการเก็บเกี่ยว',
       },
-      slug: '2025/20250101_taladhub',
+      slug: '2025/20251101_farm_management',
     },
     {
       id: 4,
@@ -48,19 +48,19 @@ export default defineEventHandler(() => {
         en: 'Automated data extraction system utilizing OCR technology to scan utility meters and QR codes, achieving 95% accuracy and significantly speeding up data entry.',
         th: 'ระบบสกัดข้อมูลอัตโนมัติด้วยเทคโนโลยี OCR สำหรับอ่านมิเตอร์น้ำ/ไฟ และ QR Code เพิ่มความรวดเร็วในการบันทึกข้อมูลด้วยความแม่นยำถึง 95%',
       },
-      slug: '2025/20250101_taladhub',
+      slug: '2024/20240801_ocr_auto_create_document',
     },
     {
       id: 5,
       title: {
-        en: 'S-Power',
-        th: 'S-Power',
+        en: 'S-Power Line LIFF',
+        th: 'S-Power Line LIFF',
       },
       content: {
         en: 'An internal employee leave management system integrated with LINE LIFF, designed to provide a seamless and accessible user experience for staff members.',
         th: 'ระบบบริหารจัดการการลงลางานสำหรับพนักงานผ่าน LINE LIFF เพื่อสร้างประสบการณ์การใช้งานที่สะดวกและเข้าถึงง่ายผ่านแอปพลิเคชันที่ใช้เป็นประจำ',
       },
-      slug: '2025/20250101_taladhub',
+      slug: '2025/20250301_s_power',
     },
   ]
 })

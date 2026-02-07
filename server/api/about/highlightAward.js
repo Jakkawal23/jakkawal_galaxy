@@ -12,7 +12,7 @@ export default defineEventHandler(() => {
         en: 'Graduated with a Bachelor of Computer Engineering (1st Class Honors, Gold Medal) from the University of Phayao, demonstrating academic excellence and dedication.',
         th: 'สำเร็จการศึกษาหลักสูตรวิศวกรรมคอมพิวเตอร์ เกียรตินิยมอันดับ 1 เหรียญทอง จากมหาวิทยาลัยพะเยา การันตีความมุ่งมั่นและศักยภาพด้านวิชาการในระดับสูงสุด',
       },
-      slug: '2025/20250101_taladhub',
+      slug: '2025/',
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export default defineEventHandler(() => {
         en: 'Achieved 1st place in an internal corporate startup competition by delivering a high-impact business solution that demonstrated a strong Product Owner mindset.',
         th: 'ได้รับรางวัลชนะเลิศจากการแข่งขัน Startup ภายในองค์กร ด้วยการนำเสนอโซลูชันที่ตอบโจทย์ธุรกิจและแสดงถึงแนวคิดแบบเจ้าของผลิตภัณฑ์ (Product Owner Mindset) อย่างชัดเจน',
       },
-      slug: '2025/20250101_taladhub',
+      slug: '2025/20250624_tuek_som_garage_final_pitching',
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ export default defineEventHandler(() => {
         en: 'Recognized as one of the top 200 national teams in the Startup Thailand League, proving excellence in pitching innovative business-tech ideas.',
         th: 'ผ่านเข้ารอบ 200 ทีมสุดท้ายระดับประเทศในเวที Startup Thailand League พิสูจน์ความสามารถในการนำเสนอ (Pitching) และการปั้นนวัตกรรมเทคโนโลยีสู่ธุรกิจ',
       },
-      slug: '2025/20250101_taladhub',
+      slug: '2025/',
     },
     {
       id: 4,
@@ -48,7 +48,7 @@ export default defineEventHandler(() => {
         en: 'Awarded the Silver Medal in the TESA Top Gun national engineering competition, focusing on advanced embedded systems and technical problem-solving.',
         th: 'คว้าเหรียญเงินจากการแข่งขัน TESA Top Gun ซึ่งเป็นเวทีประลองทักษะวิศวกรรมระดับประเทศ เน้นการแก้ไขปัญหาทางเทคนิคและระบบฝังตัวขั้นสูง',
       },
-      slug: '2025/20250101_taladhub',
+      slug: '2025/',
     },
     {
       id: 5,
@@ -60,7 +60,7 @@ export default defineEventHandler(() => {
         en: 'Won 1st place for presenting a specialized Computer Engineering project, highlighting technical expertise and effective communication skills.',
         th: 'ได้รับรางวัลชนะเลิศในการนำเสนอโครงงานวิศวกรรมคอมพิวเตอร์ แสดงถึงความเชี่ยวชาญเชิงลึกในโปรเจกต์ที่ทำพร้อมทักษะการถ่ายทอดข้อมูลที่ดีเยี่ยม',
       },
-      slug: '2025/20250101_taladhub',
+      slug: '2025/',
     },
   ]
 })

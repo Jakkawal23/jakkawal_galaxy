@@ -9,7 +9,7 @@ export default defineEventHandler(() => {
         th: 'Friday Party STAFF',
       },
       categories: [
-        { id: 4, title: { en: 'Company', th: 'Company' } },
+        { id: 3, title: { en: 'Company', th: 'บริษัท' } },
       ],
       date: '17 July 2025',
       slug: '2025/20250717_company_activity_live',
@@ -26,7 +26,7 @@ export default defineEventHandler(() => {
         th: 'Tuek Som Final Pitching',
       },
       categories: [
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '24 June 2025',
       slug: '2025/20250624_tuek_som_garage_final_pitching',
@@ -43,7 +43,7 @@ export default defineEventHandler(() => {
         th: 'Semi Final Pitching',
       },
       categories: [
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '6 June 2025',
       slug: '2025/20250606_tuek_som_garage_semi_final_pitching',
@@ -60,7 +60,7 @@ export default defineEventHandler(() => {
         th: 'New Year Event STAFF',
       },
       categories: [
-        { id: 4, title: { en: 'Company', th: 'Company' } },
+        { id: 3, title: { en: 'Company', th: 'บริษัท' } },
       ],
       date: '22 November 2024',
       slug: '2024/20241122_new_year_event_staff',
@@ -77,7 +77,7 @@ export default defineEventHandler(() => {
         th: 'TaladHb Development',
       },
       categories: [
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '2 November 2024',
       slug: '2024/20241102_taladhb_development',
@@ -94,7 +94,7 @@ export default defineEventHandler(() => {
         th: 'Tuek Som Garage Pitching',
       },
       categories: [
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '1 November 2024',
       slug: '2024/20241101_tuek_som_garage_pitching_6_teams',
@@ -111,7 +111,7 @@ export default defineEventHandler(() => {
         th: 'TaladHub Content Creator',
       },
       categories: [
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '15 October 2024',
       slug: '2024/20241015_taladhub_content',
@@ -128,7 +128,7 @@ export default defineEventHandler(() => {
         th: 'TaladHub Prodct Research',
       },
       categories: [
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '14 September 2024',
       slug: '2024/20240914_taladhub_research',
@@ -145,8 +145,8 @@ export default defineEventHandler(() => {
         th: 'Training Financial plan',
       },
       categories: [
-        { id: 6, title: { en: 'Training', th: 'Training' } },
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 1, title: { en: 'Training', th: 'การอบรม' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '13 September 2024',
       slug: '2024/20240913_02_training_financial_plan',
@@ -163,8 +163,8 @@ export default defineEventHandler(() => {
         th: 'Training BMC',
       },
       categories: [
-        { id: 6, title: { en: 'Training', th: 'Training' } },
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 1, title: { en: 'Training', th: 'การอบรม' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '13 September 2024',
       slug: '2024/20240913_01_training_bmc',
@@ -181,8 +181,8 @@ export default defineEventHandler(() => {
         th: 'Training Pitcing and Story telling',
       },
       categories: [
-        { id: 6, title: { en: 'Training', th: 'Training' } },
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 1, title: { en: 'Training', th: 'การอบรม' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '12 September 2024',
       slug: '2024/20240912_trainng_story_telling',
@@ -199,8 +199,8 @@ export default defineEventHandler(() => {
         th: 'Training Design Sprint',
       },
       categories: [
-        { id: 6, title: { en: 'Training', th: 'Training' } },
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 1, title: { en: 'Training', th: 'การอบรม' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '6 September 2024',
       slug: '2024/20240909_training_desgn_sprint',
@@ -217,8 +217,8 @@ export default defineEventHandler(() => {
         th: 'Training MVP Development',
       },
       categories: [
-        { id: 6, title: { en: 'Training', th: 'Training' } },
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 1, title: { en: 'Training', th: 'การอบรม' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '23 August 2024',
       slug: '2024/20240823_training_mvp_development',
@@ -235,8 +235,8 @@ export default defineEventHandler(() => {
         th: 'Training Design Thinking',
       },
       categories: [
-        { id: 6, title: { en: 'Training', th: 'Training' } },
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 1, title: { en: 'Training', th: 'การอบรม' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '16 August 2024',
       slug: '2024/20240816_training_desgn_thinking',
@@ -253,7 +253,7 @@ export default defineEventHandler(() => {
         th: 'Tuek Som Final 10 Teams',
       },
       categories: [
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '8 August 2024',
       slug: '2024/20240808_tuek_som_garage_final_10_teams',
@@ -270,7 +270,7 @@ export default defineEventHandler(() => {
         th: 'Tuek Som Final 12 Teams',
       },
       categories: [
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '1 August 2024',
       slug: '2024/20240801_tuek_som_garage_final_12_teams',
@@ -287,7 +287,7 @@ export default defineEventHandler(() => {
         th: 'SSG IDEAS CONTEST 2024',
       },
       categories: [
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '14 July 2024',
       slug: '2024/20240714_ssg_ideas_contest',
@@ -304,7 +304,7 @@ export default defineEventHandler(() => {
         th: 'Code Mania 2024',
       },
       categories: [
-        { id: 6, title: { en: 'Training', th: 'Training' } },
+        { id: 1, title: { en: 'Training', th: 'การอบรม' } },
       ],
       date: '29 June 2024',
       slug: '2024/20240629_code_mania',
@@ -321,8 +321,8 @@ export default defineEventHandler(() => {
         th: 'Company Cameraman',
       },
       categories: [
-        { id: 4, title: { en: 'Company', th: 'Company' } },
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 3, title: { en: 'Company', th: 'บริษัท' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '25 June 2024',
       slug: '2024/20240625_company_cameraman',
@@ -339,8 +339,8 @@ export default defineEventHandler(() => {
         th: 'Company Live Stream',
       },
       categories: [
-        { id: 4, title: { en: 'Company', th: 'Company' } },
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 3, title: { en: 'Company', th: 'บริษัท' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '13 June 2024',
       slug: '2024/20240613_tuek_som_garage_live',
@@ -357,8 +357,8 @@ export default defineEventHandler(() => {
         th: 'Tuek Som Garage STAFF',
       },
       categories: [
-        { id: 4, title: { en: 'Company', th: 'Company' } },
-        { id: 5, title: { en: 'Tuek Som Garage (Startup)', th: 'Tuek Som Garage (Startup)' } },
+        { id: 3, title: { en: 'Company', th: 'บริษัท' } },
+        { id: 2, title: { en: 'Startup', th: 'สตาร์ทอัพ' } },
       ],
       date: '12 June 2024',
       slug: '2024/20240612_tuek_som_garage_staff',

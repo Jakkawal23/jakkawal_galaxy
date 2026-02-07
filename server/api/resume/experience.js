@@ -14,8 +14,8 @@ export default defineEventHandler(() => {
         th: 'SOFT SQUARE 1999 CO.,LTD',
       },
       remark: {
-        en: 'Remark',
-        th: 'Remark',
+        en: 'Description',
+        th: 'รายละเอียด',
       },
       content: [
         {
@@ -35,7 +35,7 @@ export default defineEventHandler(() => {
           },
           description: {
             en: "Developed a full-cycle vendor reimbursement system, managing workflows from initial request and multi-level approval to double-entry bookkeeping and disbursement.",
-            th: "พัฒนาระบบเบิกจ่ายสำหรับคู่ค้า ครอบคลุมตั้งแต่กระบวนการขออนุมัติ การบันทึกบัญชีคู่ขนาน จนถึงขั้นตอนการจ่ายเงิน"
+            th: "พัฒนาระบบเบิกจ่ายสำหรับคู่ค้า (Vendor) ครอบคลุมตั้งแต่กระบวนการขออนุมัติ การบันทึกบัญชีคู่ขนาน จนถึงขั้นตอนการจ่ายเงิน"
           }
         },
         {
@@ -122,8 +122,8 @@ export default defineEventHandler(() => {
         th: 'SOFT SQUARE 1999 CO.,LTD',
       },
       remark: {
-        en: 'Remark',
-        th: 'Remark',
+        en: 'Description',
+        th: 'รายละเอียด',
       },
       content: [
         {
@@ -160,8 +160,8 @@ export default defineEventHandler(() => {
         th: 'SOFT SQUARE 1999 CO.,LTD',
       },
       remark: {
-        en: 'Remark',
-        th: 'Remark',
+        en: 'Description',
+        th: 'รายละเอียด',
       },
       content: [
         {
@@ -198,8 +198,8 @@ export default defineEventHandler(() => {
         th: 'SOFT SQUARE 1999 CO.,LTD',
       },
       remark: {
-        en: 'Remark',
-        th: 'Remark',
+        en: 'Description',
+        th: 'รายละเอียดห',
       },
       content: [
         {

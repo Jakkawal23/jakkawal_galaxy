@@ -516,7 +516,10 @@ main {
 
 .service { margin-bottom: 35px; }
 
-.service-title { margin-bottom: 20px; }
+.service-title { 
+  margin-top: 10px;
+  margin-bottom: 20px; 
+}
 
 .service-list {
   display: grid;
@@ -745,7 +748,7 @@ main {
   align-items: flex-start;
   gap: 15px;
   margin: 0 -15px;
-  padding: 25px;
+  padding: 40px;
   padding-bottom: 25px;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -767,6 +770,7 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
+.clients-title { margin-bottom: 20px; }
 
 
 
@@ -1667,7 +1671,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .clients-list {
     gap: 50px;
     margin: 0 -30px;
-    padding: 45px;
+    padding: 65px;
     scroll-padding-inline: 45px;
   }
 

@@ -29,11 +29,6 @@ const { data: experience } = await useFetch("/api/resume/experience");
           <span>{{ item.period }}</span>
           <p v-if="item.description" class="timeline-text">{{ item.description[locale] }}</p>
           <p v-if="item.remark" class="timeline-text">{{ item.remark[locale] }}</p> 
-          <!-- <ul v-if="item.content" class="timeline-sublist">
-            <li v-for="(con, index) in item.content" :key="index" class="timeline-text">
-              <strong>- {{ con.title[locale] }}</strong> : {{ con.description[locale] }}
-            </li>
-          </ul> -->
           <ul v-if="item.content" class="timeline-sublist">
             <li v-for="(con, index) in item.content" :key="index" class="timeline-subitem">
               <span class="bullet">•</span> 
@@ -72,17 +67,11 @@ const { data: experience } = await useFetch("/api/resume/experience");
               </div>
             </li>
           </ul>
-
-          <!-- <ul v-if="item.content" class="timeline-sublist">
-            <li v-for="(con, index) in item.content" :key="index" class="timeline-text">
-              <strong>- {{ con.title[locale] }}</strong> : {{ con.description[locale] }}
-            </li>
-          </ul> -->
         </li>
       </ol>
     </section>
 
-    <!-- 💬 Languages -->
+    <!-- Languages -->
     <section class="resume-section">
       <div class="title-wrapper">
         <div class="icon-box">
@@ -127,7 +116,7 @@ const { data: experience } = await useFetch("/api/resume/experience");
       </ul>
     </section>
 
-    <!-- 🎯 Soft Skills -->
+    <!-- Soft Skills -->
     <section class="resume-section">
       <div class="title-wrapper">
         <div class="icon-box">
@@ -139,9 +128,11 @@ const { data: experience } = await useFetch("/api/resume/experience");
         <li
           v-for="skill in [
             'Problem Solving',
+            'Team Leadership',
+            'Product Planning',
+            'Public Speaking',
+            'Growth Mindset ',
             'Teamwork',
-            'Adaptability',
-            'Leadership',
             'Communication',
             'Time Management',
           ]"
@@ -152,7 +143,7 @@ const { data: experience } = await useFetch("/api/resume/experience");
       </ul>
     </section>
 
-    <!-- 🧠 Technical Skills -->
+    <!-- Technical Skills -->
     <section class="resume-section">
       <div class="title-wrapper">
         <div class="icon-box">
@@ -165,14 +156,18 @@ const { data: experience } = await useFetch("/api/resume/experience");
           v-for="tech in [
             'JavaScript',
             'TypeScript',
-            'Vue.js',
-            'Nuxt',
-            'Node.js',
-            'Flutter',
             'Python',
-            'Tailwind CSS',
-            'REST API',
-            'Docker',
+            'Node.js',
+            'C',
+            'C#',
+            'Dart',
+            'Angular',
+            'Vue',
+            '.NET',
+            'Flutter',
+            'PostgreSQL',
+            'SQL Server',
+            'NoSQL',
           ]"
           :key="tech"
         >
@@ -181,7 +176,7 @@ const { data: experience } = await useFetch("/api/resume/experience");
       </ul>
     </section>
 
-    <!-- ⚙️ Tools & Platforms -->
+    <!-- Tools & Platforms -->
     <section class="resume-section">
       <div class="title-wrapper">
         <div class="icon-box">
@@ -192,15 +187,16 @@ const { data: experience } = await useFetch("/api/resume/experience");
       <ul class="tag-list">
         <li
           v-for="tool in [
-            'VS Code',
-            'Postman',
+
+            'Docker',
             'Git',
-            'GitHub',
+            'Postman',
             'Figma',
-            'Vercel',
             'Firebase',
+            'Vercel',
             'Notion',
             'Jira',
+            'ClickUp',
           ]"
           :key="tool"
         >
