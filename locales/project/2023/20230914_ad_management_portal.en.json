@@ -1,0 +1,23 @@
+{
+  "title": "Active Directory Portal: Self-Service Identity and Access Management",
+  "image1Description": "Self-service password management and profile platform via Web Interface and API to optimize IT Helpdesk operations",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "In enterprise organizations, Active Directory (AD) serves as the heart of Identity and Access Management (IAM). However, a common pain point occurs when security policies enforce periodic password changes or when employees forget their credentials—the burden immediately falls on IT Helpdesk. This inspired me to develop a Self-Service Web Portal, acting as an intermediary for employees to securely manage their profiles and reset passwords independently. This reduces operational bottlenecks and ensures business continuity."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed the system as a middleware Web Portal that communicates with the AD database through a custom-developed API. The focus was on creating a user-friendly interface accessible to employees at all technical levels. This platform allows users to update personal information or perform instant password resets online. This 24/7 accessibility is crucial for remote work scenarios or situations where a user is locked out of their primary workstation."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The ultimate challenge was maintaining 'Gatekeeper' level security; any vulnerability here could compromise every identity within the organization's AD. To mitigate this risk, I implemented Multi-Factor Authentication (MFA) for every transaction. Whether resetting a password or updating sensitive data, users must verify their identity via an Authenticator app or email. This ensures that only the legitimate account owner can execute critical changes, preventing unauthorized access and identity theft."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This system is poised to evolve into a Unified Identity Management platform, supporting Hybrid Cloud structures by integrating with Azure AD (Entra ID) and OpenLDAP. Future plans include implementing Passwordless Login and OTP-based web access to strike a balance between convenience and maximum security. This will help steer the organization toward a complete Zero Trust Architecture, where every access request is continuously verified."
+  },
+  "gallery": {
+    "heading": "System Architecture & MFA Workflow"
+  }
+}

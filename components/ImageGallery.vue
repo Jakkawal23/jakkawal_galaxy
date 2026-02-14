@@ -46,14 +46,34 @@
             </button>
           </template>
 
-          <div class="relative max-w-5xl max-h-[85vh] flex flex-col items-center" @click.stop>
-            <img 
-              :src="images[currentIndex]" 
-              class="max-w-full max-h-full rounded shadow-2xl animate-zoom object-contain" 
-            />
-            <p v-if="images.length > 1" class="text-gray-400 mt-4 text-sm font-mono">
-              {{ currentIndex + 1 }} / {{ images.length }}
-            </p>
+          <div class="relative w-full h-full flex flex-col items-center justify-center" @click.stop>
+            <div 
+              class="relative flex items-center justify-center transition-all duration-300 overflow-auto max-w-[90vw] max-h-[85vh]"
+              :class="isZoomed ? 'cursor-zoom-out' : 'cursor-zoom-in'"
+              @click="toggleZoom"
+            >
+              <img 
+                :src="images[currentIndex]" 
+                class="rounded shadow-2xl transition-transform duration-300 ease-in-out"
+                :class="[
+                  isZoomed ? 'scale-150 max-w-none' : 'max-w-full max-h-[75vh] object-contain'
+                ]" 
+              />
+            </div>
+
+            <div class="mt-6 flex flex-col items-center gap-2">
+               <button 
+                @click="toggleZoom" 
+                class="bg-white/10 hover:bg-white/20 text-white px-4 py-1 rounded-full text-sm backdrop-blur-md transition flex items-center gap-2"
+              >
+                <ion-icon :name="isZoomed ? 'remove-circle-outline' : 'add-circle-outline'"></ion-icon>
+                {{ isZoomed ? 'Zoom Out' : 'Zoom In' }}
+              </button>
+              
+              <p v-if="images.length > 1" class="text-gray-400 text-sm font-mono">
+                {{ currentIndex + 1 }} / {{ images.length }}
+              </p>
+            </div>
           </div>
         </div>
       </Transition>
@@ -73,15 +93,20 @@ const props = defineProps({
 })
 
 const isOpen = ref(false)
+const isZoomed = ref(false)
 const currentIndex = ref(0)
 const lightboxRef = ref(null)
+
+const toggleZoom = () => {
+  isZoomed.value = !isZoomed.value
+}
 
 const openLightbox = (index) => {
   currentIndex.value = index
   isOpen.value = true
+  isZoomed.value = false // Reset zoom on open
   document.body.style.overflow = 'hidden'
   
-  // ให้ Focus ที่ Modal เพื่อให้กดปุ่มลูกศรที่คีย์บอร์ดได้ทันที
   nextTick(() => {
     lightboxRef.value?.focus()
   })
@@ -89,16 +114,19 @@ const openLightbox = (index) => {
 
 const closeLightbox = () => {
   isOpen.value = false
+  isZoomed.value = false // Reset zoom on close
   document.body.style.overflow = 'auto'
 }
 
 const nextImage = () => {
   if (props.images.length <= 1) return
+  isZoomed.value = false // Reset zoom when changing image
   currentIndex.value = (currentIndex.value + 1) % props.images.length
 }
 
 const prevImage = () => {
   if (props.images.length <= 1) return
+  isZoomed.value = false // Reset zoom when changing image
   currentIndex.value = (currentIndex.value - 1 + props.images.length) % props.images.length
 }
 </script>
@@ -106,11 +134,16 @@ const prevImage = () => {
 <style scoped>
 .fade-enter-active, .fade-leave-active { transition: opacity 0.3s; }
 .fade-enter-from, .fade-leave-to { opacity: 0; }
-.animate-zoom { animation: zoom 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); }
-@keyframes zoom {
-  from { transform: scale(0.9); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+
+/* Custom scrollbar for zoomed image if needed */
+div::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
 }
-/* ลบเส้นขอบสีฟ้าเวลา Focus Modal */
+div::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
 div:focus { outline: none; }
 </style>

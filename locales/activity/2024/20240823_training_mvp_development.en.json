@@ -1,0 +1,29 @@
+{
+    "title": "MVP Development Strategy: Guidelines for creating products focused on value and real testing",
+
+    "image1Description": "Learning the process of developing a Minimum Viable Product (MVP) to test business assumptions",
+    
+    "section1": {
+        "heading": "Origin and Intent",
+        "content": "The biggest challenge in software development is investing huge resources into something that does not meet market needs. I joined the MVP Development training to learn how to create the simplest initial version of a product that has enough value to solve customer problems. My goal was to use the MVP as a tool to get feedback from real users (Early Adopters) to reduce risk and build confidence before expanding to full product development."
+    },
+
+    "section2": {
+        "heading": "Role and Action",
+        "content": "I practiced separating 'Must-have features' and 'Nice-to-have features' to define the sharpest MVP scope. I brought ideas from my Startup project into the Experiment Design process to test if the problem really exists and if my solution solves it correctly. This process focuses on Build-Measure-Learn to use the data to improve the product quickly."
+    },
+
+    "section3": {
+        "heading": "Challenges",
+        "content": "The important challenge was 'Hypothesis Validation' or accepting the truth that some assumptions we believe in might not be true for users. Trying to cut out unnecessary features to keep only the Core Value requires self-control and accurate decision-making to prevent software development Waste in terms of time, labor, and company budget."
+    },
+
+    "section4": {
+        "heading": "Results and Learning",
+        "content": "This training helped me have a more Lean work vision. I gained skills in planning a step-by-step product development Roadmap, starting from the smallest but strongest point. This experience changed my view from focusing on writing code (Coding-centric) to focusing on business success and user satisfaction (Outcome-centric), which is the heart of working in the Modern Agile era."
+    },
+
+    "gallery": {
+        "heading": "Photos of MVP design activities and defining measurement criteria (Metrics)"
+    }  
+}

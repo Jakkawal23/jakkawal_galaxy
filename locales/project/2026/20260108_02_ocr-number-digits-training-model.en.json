@@ -1,0 +1,23 @@
+{
+  "title": "OCR Number Digits Training Model: High-Precision Intelligent Numeric Recognition",
+  "image1Description": "Analyzing and extracting numerical values from cropped images to achieve maximum precision across various surfaces.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "To achieve industrial or financial-grade accuracy, I separated this model to focus specifically on 'Numeric Recognition.' The core principle is to eliminate surrounding noise entirely, allowing the AI to concentrate on the strokes of each digit. This sets a new benchmark for accuracy that far exceeds full-frame image processing."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "This model is designed to process cropped input images containing only numerical sections. Utilizing a Deep Learning architecture that operates at the pixel level, it can distinguish between visually similar digits, such as 0 vs. 8 or 1 vs. 7. Rather than being limited to electric meters, it is designed as a 'Universal Numeric Recognition Model' with high stability when data is properly pre-processed."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The primary challenge was the variety of font styles and the behavior of analog rotating dials, which often stop halfway between two numbers. I solved this through Synthetic Data Generation, creating datasets that simulate digits in every possible rotation and font style. This allows the model to accurately predict a digit even when only half of it is visible."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This model is built for Modular Integration, allowing it to be paired with various detection systems. It can be integrated with factory cameras to read serial numbers, scan price tags in retail, or capture credit card digits. This flexibility enhances the efficiency of automation systems across diverse industries."
+  },
+  "gallery": {
+    "heading": "Character Segmentation & Recognition Accuracy"
+  }
+}

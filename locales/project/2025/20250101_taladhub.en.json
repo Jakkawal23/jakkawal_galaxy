@@ -1,0 +1,23 @@
+{
+  "title": "TaladHub: The All-in-One Digital Market Management System",
+  "image1Description": "End-to-end digital market management platform for owners and tenants",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "In 2025, I questioned why market management was still stuck in the era of manual paper invoices and cash collections. Combined with the pain points of aspiring vendors who found the booth booking process opaque, I developed an idea that eventually became a Top 10 finalist in the 'TuekSomGarage' project. Starting with intensive market research—ranging from academic papers to field observations of real-world user behavior—I transformed a simple concept into a Minimum Viable Product (MVP) named 'TaladHub,' designed to meet the comprehensive needs of modern market management."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "TaladHub is designed as an end-to-end management solution accessible via Web and LINE LIFF. Key features include a multi-branch Dashboard for revenue and arrears analysis, an online Booth Reservation and digital contracting system, automated utility meter recording (Water/Electricity) using OCR technology, and a digital invoicing system. To secure transactions, it features a Payment Gateway capable of automatically detecting fake or reused payment slips. It also includes dedicated modules for Service Requests and Refunds to ensure transparency and ease of use."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The greatest challenge was 'empathizing with users from a perspective I had never experienced,' as I had no prior background in retail or market vending. I solved this by adopting a User-Centric Approach, conducting on-site interviews with both market owners and vendors to identify what problems they were truly 'willing to pay' to solve. This field research provided deep insights, leading to features that directly address the burden of manual collection and complex bookkeeping, consolidating them into a single, streamlined system."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "With a rich database of rental spaces and tenant behavior, TaladHub is poised to evolve into a 'Smart Marketplace Matching' platform. By using Data Analytics to analyze historical sales data, we can recommend the most suitable locations for vendors, optimizing 'Merchant Circulation.' Future plans also include negotiating for vacant spaces to launch exclusive campaigns for our tenants, creating a sustainable ecosystem that adds long-term value to all stakeholders in the market business chain."
+  },
+  "gallery": {
+    "heading": "MVP Prototype & Field Research Documentation"
+  }
+}

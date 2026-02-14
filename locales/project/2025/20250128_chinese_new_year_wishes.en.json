@@ -1,0 +1,23 @@
+{
+  "title": "Chinese New Year Wishes: Smart Randomizer & Translation Web App",
+  "image1Description": "Interactive Web Card creating a Chinese New Year experience through virtual firecracker triggers",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Rooted in cultural beliefs surrounding fortune-telling and seeking auspicious predictions for motivation, I realized that blessings during major festivals like Chinese New Year are deeply valued. However, Chinese wishes often carry profound meanings that general audiences might not fully grasp. This inspired me to develop a Digital Card platform that not only shares goodwill but also conveys true meaning through a translation system, ensuring recipients connect with the value of each blessing."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I focused on creating an Interactive Experience where users start by 'lighting firecrackers' to reveal their wishes. Once the explosion effect ends, the system randomizes an auspicious blessing—symbolizing a bright start to the new year. The UI is designed with vibrant festive aesthetics, integrated with a multi-language translation support system to clarify the profound meanings behind traditional Chinese idioms."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The challenge was ensuring the randomization didn't feel like a mundane text generator. I solved this by introducing 'User Rituals'—the act of lighting the firecracker—to create a sense of agency, making the resulting wish feel earned and more meaningful. Furthermore, to maintain content integrity, I prioritized a curated database of high-quality blessings and elegant translations to ensure the output was both accurate and emotionally resonant."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This project can evolve into a broader randomization platform incorporating Data Persistence. By using member accounts or Local Storage to 'remember' past predictions, the experience becomes more personalized and unique to each individual. Future plans include a 'Shareable Card' feature that allows users to export beautiful result images directly to social media, expanding the reach of the application."
+  },
+  "gallery": {
+    "heading": "Interactive UI & Firecracker Animation Samples"
+  }
+}

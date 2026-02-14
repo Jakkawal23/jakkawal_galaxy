@@ -97,17 +97,19 @@ watch(locale, (newLang) => {
       <!-- Image Grid -->
       <div class="blog-section">
         <h3 class="blog-section-title">{{ t('activity.gallery.heading') }}</h3>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="/images/activity/2025/20250717/20250717_02.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/2025/20250717/20250717_03.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/2025/20250717/20250717_04.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/2025/20250717/20250717_05.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/2025/20250717/20250717_06.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/2025/20250717/20250717_07.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/2025/20250717/20250717_08.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/2025/20250717/20250717_09.png" class="rounded-lg object-cover" />
-          <img src="/images/activity/2025/20250717/20250717_10.png" class="rounded-lg object-cover" />
-        </div>
+        <ImageGallery 
+          :images="[
+            '/images/activity/2025/20250717/20250717_02.png',
+            '/images/activity/2025/20250717/20250717_03.png',
+            '/images/activity/2025/20250717/20250717_04.png',
+            '/images/activity/2025/20250717/20250717_05.png',
+            '/images/activity/2025/20250717/20250717_06.png',
+            '/images/activity/2025/20250717/20250717_07.png',
+            '/images/activity/2025/20250717/20250717_08.png',
+            '/images/activity/2025/20250717/20250717_09.png',
+            '/images/activity/2025/20250717/20250717_10.png',
+          ]" 
+        />
       </div>
 
       <!-- Tags + Share -->

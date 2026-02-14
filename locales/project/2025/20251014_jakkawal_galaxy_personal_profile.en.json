@@ -1,0 +1,23 @@
+{
+  "title": "Jakkawal Galaxy Profile: Personal Knowledge Management & Intellectual Repository",
+  "image1Description": "A centralized project and activity logging system designed for systematic lifelong data storage and retrieval.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Valuable projects and activities often fade away over time due to unsystematic data storage. This led me to develop 'Jakkawal Galaxy Profile' as a Personal Knowledge Management (PKM) hub. By consolidating every story, project detail, and past experience in one place, I ensure that knowledge is never lost and remains available to create new opportunities in the future."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed the system as an Interactive Portfolio and Blog Platform that emphasizes storytelling through project details. The architecture is highly organized, supporting advanced categorization and Search Optimization (SEO). The UI utilizes Responsive Design to ensure a seamless experience, allowing users to explore activities and histories across both desktop and mobile devices."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge was establishing a robust and fast system architecture without starting from scratch. I adopted a strategy of building upon standardized Open Source frameworks. This reduced infrastructure development time, allowing me to focus on feature customization. This approach not only ensured system stability but also allowed me to study global Best Practices and sharpen my skills in previously unfamiliar technical areas."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "In the future, this platform can evolve into a full-scale 'Tech & Experience Blog' to share professional technical knowledge. By prioritizing SEO, I aim to increase visibility and build a strong Personal Brand. The goal is to transition from a private repository to a learning center that provides value to the online community, opening doors to new opportunities in the tech industry."
+  },
+  "gallery": {
+    "heading": "Platform Interface & Categorization Structure"
+  }
+}

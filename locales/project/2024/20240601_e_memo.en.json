@@ -1,0 +1,23 @@
+{
+  "title": "E-Memo: Digital Internal Document Approval System",
+  "image1Description": "Digital internal document approval system for streamlined enterprise communication",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "In corporate operations, formal communication requires rigorous verification and approval to ensure content aligns with regulations. However, traditional paper-based processes or scattered email chains lack structure, are difficult to track, and fail to provide efficient historical searchability. I initiated the E-Memo project to transform internal approvals into a 100% digital experience, creating a new standard for transparent and auditable communication across all corporate sectors."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed the system to support complex organizational structures (Multi-Company & Multi-Branch). The core feature is a 'Dynamic Approval Workflow' that allows users to customize approval chains, add reviewers, or bypass steps based on specific requirements. Combined with an integrated Content Editor for document formatting, the system enables employees to create and monitor document status in real-time, from the initial draft to the final digital stamp of approval."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "A significant challenge was the vast diversity of document types, which made fixed forms impractical. To solve this, I designed a 'Universal Template' system that provides the freedom to create various formats and attach supporting files, treating the system as a 'Digital Endorsement' intermediary. To eliminate bottlenecks, I also developed an Automated Notification system that triggers emails for pending tasks or status changes, ensuring the communication process remains fluid and rapid."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "E-Memo is built to serve as an 'Internal Communication Engine' capable of future integrations, such as connecting to an Internal News Portal to automatically publish approved memos or linking with procurement systems for contract certification. By developing a highly flexible prototype, I have empowered the organization to reduce manual steps and successfully transition into a truly Paperless Organization."
+  },
+  "gallery": {
+    "heading": "Interface Workflow & Document Samples"
+  }
+}

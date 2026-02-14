@@ -1,0 +1,23 @@
+{
+  "title": "Card Draw Play: A Digital Platform for Self-Reflection and Deep Conversations",
+  "image1Description": "A deck management and random card drawing web application optimized for a realistic mobile experience.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Card games are a universal medium for building relationships, especially those focused on self-development and 'Deep Talk' among friends. However, carrying physical decks everywhere is impractical. I envisioned a way to digitize this experience, allowing users to access meaningful questions anytime, anywhere, through the one device everyone always has—a smartphone."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed the system with high flexibility, allowing users to select Decks based on their desired topics and manage the internal data themselves. A core feature is the inclusion of deck control logic, such as choosing whether to shuffle a drawn card back into the deck or remove it from play. This accommodates various playstyles. Additionally, the structure supports Master Data management for new card sets, making the system adaptable for multiple purposes."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge was recreating the 'emotional engagement' of physical drawing; simply clicking a button to show text immediately lacks the excitement of a game. I solved this by developing realistic shuffling animations that cycle through cards before landing on the final result to build anticipation. Furthermore, user testing showed that most access occurs via mobile, so I shifted from a general responsive design to a strict 'Mobile-First Experience' to ensure buttons and typography were perfectly scaled for real-world social circles."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This system has the potential to evolve into a 'Real-time Multiplayer Card Engine,' supporting multiple players in a shared online session. Participants could join the same virtual table to take turns drawing or playing more complex card games. Future plans also include expanding into a comprehensive Card Game Management ecosystem, where users can create and share their custom decks with a wider community."
+  },
+  "gallery": {
+    "heading": "Mobile UI & Animation Previews"
+  }
+}

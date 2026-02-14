@@ -1,0 +1,35 @@
+{
+  "title": "Verifying Thai ID Card Numbers: Genuine or Fake?",
+  "image1Description": "Thai National ID Number Verification Process",
+  "image2Description": "Structure of the Thai National ID Card (Department of Provincial Administration)",
+  "section1": {
+    "heading": "Did You Know?",
+    "content": "Did you know that we can manually verify a 13-digit National ID number to determine if it is a validly formatted ID or a fake one?"
+  },
+  "section2": {
+    "heading": "The 13 Digits are Divided into 5 Parts:",
+    "content01": "Part 1 (1st digit): Represents the category of the person holding the ID card. There are 8 categories in total.",
+    "content02": "Part 2 (Digits 2-5): Represents the registration office where the ID was issued. Digits 2-3 indicate the province, while digits 4-5 indicate the district, sub-district, or municipality.",
+    "content03": "Parts 3 and 4 (Digits 6-12): Represent the sequence of the person within their specific category and registration office.",
+    "content04": "Part 5 (13th digit): This is the 'Check Digit,' used to verify the mathematical accuracy of the entire 13-digit sequence."
+  },
+  "section3": {
+    "heading": "The Check Digit",
+    "content": "Once we understand that the 13th digit is the validation key, we realize that this final number exists specifically to check the integrity of the 12 preceding digits."
+  },
+  
+  "section4": {
+    "heading": "Calculating the 13th Digit",
+    "content": "Since the 13th digit is a mathematical product of the first 12, we can calculate what that number *should* be. If our calculated value matches the 13th digit on the card, the ID number follows the official algorithm. If it doesn't match, the ID number is invalid."
+  },
+  "section5": {
+    "heading": "Algorithm Examples for Verifying Thai ID Numbers",
+    "content01": "Example Algorithm in Python",
+    "content02": "Example Algorithm in C#",
+    "content03": "Example Algorithm in TypeScript"
+  },
+  "section6": {
+    "heading": "How Secure is Our 13-Digit ID?",
+    "content": "That concludes our guide on verifying National ID numbers. Understanding the logic behind these digits is the first step in data validation. I hope this article is useful to everyone! Stay safe."
+  }
+}

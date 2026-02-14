@@ -1,0 +1,23 @@
+{
+  "title": "Burgundy: Enterprise Accrued Expense Management System",
+  "image1Description": "System for tracking and managing accrued expenses and vendor liabilities",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Burgundy is an expense management product designed to bridge the gap between employees and the accounting department. The 'Accrued' (Accrued Expense) module was developed to solve the issue of tracking outstanding vendor liabilities, which are often overlooked and difficult to audit. This system focuses on creating a standardized approval workflow, featuring email notifications and data preparation for accounting system interfaces, enabling organizations to manage cash flow and track historical transactions with precision."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "The design prioritizes 'Approval Workflow Flexibility,' which can adapt based on document value and organizational structure—from team leads to department heads, finishing with the accounting department. The system supports verification (Verify) and revisable (Revisable) statuses. Furthermore, it is designed to simulate accounting entries and export data to Excel, providing maximum convenience for accountants to process further records."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge was the 'Redundancy of Steps' from a user perspective; typically, when making a credit purchase, employees already use the PRQ module. Requiring a separate Accrued document would increase the workload. I solved this by designing an 'Auto-Generation' function that allows the system to automatically create an accrued expense document alongside the PRQ creation. Additionally, I focused on 'Multi-currency' calculations, addressing sensitivities in decimal points and exchange rates by adding a calculation and validation system to prevent unbalanced accounting entries."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "In the future, this system can evolve into a Fully Automated Accounting Integration by establishing real-time API connections with leading accounting software. This would allow for immediate data synchronization without manual interfaces, enhancing backup security and providing management with a real-time Accrued Expense Report Dashboard to support strategic business decisions."
+  },
+  "gallery": {
+    "heading": "Workflow Diagrams & System Screenshots"
+  }
+}

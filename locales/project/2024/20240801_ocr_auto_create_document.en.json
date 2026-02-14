@@ -1,0 +1,23 @@
+{
+  "title": "Burgundy: Automated OCR Data Entry for Document Creation",
+  "image1Description": "Automated data entry system using OCR for efficient document processing",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "The biggest bottleneck in corporate expense reimbursement is 'delays and errors caused by manual data entry.' If an employee has 50 invoices, it takes an average of over 150 minutes to input the data, excluding the time required for four different departments to cross-check accuracy. This inspired me to implement OCR (Optical Character Recognition) technology to transform this into a semi-automated process. This reduces employee workload, minimizes expense coding errors, and significantly accelerates the entire approval cycle."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "The system is designed for simplicity: just 'Snap and Upload.' It processes documents in under two minutes each and supports parallel processing for multiple uploads. A key feature is the display of a 'Confidence Score,' which allows users to focus their verification only on areas where the system is uncertain. Additionally, a tracking system highlights manually edited data, enabling subsequent approvers to work faster without re-verifying accurate, system-validated points."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The ultimate challenge was that while OCR can read text, it cannot inherently determine 'Accounting Expense Codes' because this data isn't on the invoice. I solved this by developing advanced logic: using the Vendor's Tax ID to look up their Business Category (TSIC) from the Revenue Department. This data is then calculated alongside department codes and reimbursement topics through a Machine Learning model trained on configuration datasets. This allows the system to not just read the document, but to 'understand' the accounting context and predict the correct expense code automatically."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This project can evolve into a standalone Data Extraction Microservice that other internal systems can access via API. By decoupling the OCR data reading component from the Account Mapping logic, the system gains the flexibility to be applied to other document types in the future, such as employment contracts or purchase orders. This will further elevate the organization toward becoming a fully Data-Driven Organization."
+  },
+  "gallery": {
+    "heading": "OCR Processing Workflow & ML Prediction Accuracy"
+  }
+}

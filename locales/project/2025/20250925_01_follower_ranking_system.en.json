@@ -1,0 +1,23 @@
+{
+  "title": "Follower Game Ranking: Real-time Leaderboard & Analytics for Live Streaming",
+  "image1Description": "Transparent web-based overlay displaying real-time player rankings to boost viewer engagement and competition.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Engagement is the heartbeat of a successful live stream. I noticed that viewers become significantly more active and excited when they feel they are 'competing' and recognized on screen. This led me to develop a ranking system based on game statistics to create challenges and motivation for viewers to reach the top. It transforms passive viewing into a vibrant community defined by creative competition and mutual recognition."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed the system as a Web-based Overlay with a transparent background, allowing streamers to easily integrate the URL into broadcasting software like OBS. The system fetches database information and presents it in a beautiful, scannable Leaderboard format. This ensures both the streamer and the audience can see the latest rank updates without losing focus on the primary live activity."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge was ensuring Real-time Updates to maintain the competitive thrill. I prioritized a database architecture that updates immediately after each game round. Furthermore, from a Product Management perspective, I utilized the MVP (Minimum Viable Product) concept to validate my hypothesis. I began by manually recording stats to confirm if viewers actually wanted to compete before building the full automated system once the positive feedback was clear."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "In the future, this system can evolve into an 'Integrated Streamer Loyalty Platform.' This would allow viewers to register as permanent players to accumulate points over weekly or monthly 'Seasons.' Additional features could include linking live gifts to in-game power-ups and automated reward distribution for top-tier players, creating a complete and sustainable ecosystem for interactive live gaming."
+  },
+  "gallery": {
+    "heading": "Overlay UI Design & Leaderboard Logic"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Electric Meter Detection Model: Smart Localization and Analysis of Meter Digits",
+  "image1Description": "Utilizing Object Detection to pinpoint the coordinates of number sequences on electric meters before digital extraction.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "One of the most critical components of an automated meter reading system is the ability to correctly identify the location of the numeric sequence. Before we can transform an image into data, we must first answer: 'Where exactly is that data?' I focused on developing a model for Number Localization on electric meter faces, which serves as the core foundation determining the accuracy of the entire system in subsequent stages."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I integrated Image Processing with Object Detection, starting by adjusting the lighting and color balance of images to highlight object features. I then developed the model through a training process using electric meter datasets that underwent meticulous Data Labeling to identify digit frame positions in diverse environments. This allows the system to 'focus' on the target with high precision before the extraction process begins."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The primary challenge in achieving high performance is the ability to detect coordinates amidst the complexity of meter faces, which often contain various distracting text and symbols. I addressed this by focusing on increasing both the quality and quantity of training data. The more comprehensive the real-world use cases covered in the dataset, the smarter the model becomes at distinguishing the digit sequence, directly impacting the final output accuracy."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This system can be evolved into a 'Universal Meter Reader' that is not limited to electricity meters, but also covers water meters, gas meters, or various industrial gauges. By applying the principles of Number Sequence Detection, we can create a new standard for digitizing all forms of meter data instantly through a simple camera scan."
+  },
+  "gallery": {
+    "heading": "Detection Accuracy & Sample Datasets"
+  }
+}

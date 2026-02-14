@@ -1,0 +1,23 @@
+{
+  "title": "TikTok Live Wordle Auto: Smart Word-Guessing via Live Comment Processing",
+  "image1Description": "Transforming Wordle from a single-player game into a collaborative experience by automatically processing live viewer answers.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Wordle is an immensely popular solo word-guessing game, but in the world of livestreaming, the true power lies in audience collaboration. I developed the 'Group Interaction' concept to break the single-player barrier by extracting answers from a massive stream of viewer comments. This creates a shared sense of victory and a far more exciting competitive atmosphere than playing alone."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "The system is built on real-time comment scraping followed by intensive data cleaning to strip noise—numbers, English characters, special symbols, and emojis—leaving only the target Thai words. These words are then fed into a custom Wordle engine that supports 4–6 character difficulty levels. The engine includes an automated Hint System that displays colors based on correct character placement, guiding the audience toward the correct answer."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge was building a flawless game engine integrated with a live data fetcher. I solved this by optimizing reliable Open Source frameworks to support the Thai language and platform-specific APIs. To mitigate development risk, I conducted market research which showed high success rates for similar interactive models abroad, validating the hypothesis that this system would attract and retain a real-world user base."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "Future plans involve expanding this platform into a 'Crowdsourced Game Hub,' incorporating various brain teasers like Sudoku, spot-the-difference, or crosswords that rely on collective brainstorming. The ultimate goal is to provide streamers with a powerful tool to increase visibility and build a strong, loyal community through inclusive and interactive gameplay."
+  },
+  "gallery": {
+    "heading": "Game Interface & Data Processing Flow"
+  }
+}

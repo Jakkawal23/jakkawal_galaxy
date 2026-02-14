@@ -1,0 +1,23 @@
+{
+  "title": "TikTok Live Play Context Game: Automated Gameplay via Viewer Chat Analysis",
+  "image1Description": "Applying Python to extract live viewer comments to automatically control word-guessing games.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Word-guessing games are incredibly popular on TikTok Live, where viewers engage primarily through comments. However, streamers often struggle with latency, missing correct answers, or being unable to type fast enough, which disrupts the game's rhythm. I envisioned connecting the chat directly to the game engine so the system can 'type' viewer answers automatically. This closes the gap between the streamer and the audience, ensuring the smoothest possible gameplay experience."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I developed a Python middleware to filter chat data, removing irrelevant inputs like numbers, English characters, or emojis to isolate potential answers. The system then takes control of the game's web interface via input simulation. Once the streamer activates the process, the system pulls answers from a queue and inputs them into the game's text field automatically, allowing the streamer to focus entirely on hosting without worrying about manual data entry."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "Managing a high-volume data queue was the primary challenge. I designed a De-duplication system; for instance, if 'Bird' is already in the queue, repeated entries are blocked to save resources. I also implemented Latency Control to synchronize with the game's web loading times, preventing data loss. Regarding UX, I separated general chat from game answers by implementing a symbol-based rule (e.g., '_Bird'), serving as a simple yet effective method for Intent Classification."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "In the future, this system can evolve into a full 'Gamification Platform' by adding scoreboards and rankings for each level to boost viewer engagement. Furthermore, historical statistics can be stored to summarize each live session, making viewers feel like true participants in the streamer's community. This transition turns passive viewers into active players on the screen."
+  },
+  "gallery": {
+    "heading": "System Architecture & Live Game Integration"
+  }
+}

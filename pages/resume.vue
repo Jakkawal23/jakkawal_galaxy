@@ -83,34 +83,31 @@ const { data: experience } = await useFetch("/api/resume/experience");
       <ul class="language-list">
         <li class="language-item">
           <div class="language-header">
-            <h4 class="h4 language-name">Thai (ภาษาไทย)</h4>
-            <span class="language-level text-green-600 font-semibold">Native</span>
+            <h4 class="h4 language-name">{{ $t('resume.languageTh') }}</h4>
+            <span class="language-level text-green-600 font-semibold">{{ $t('resume.languageThLevel') }}</span>
           </div>
           <p class="language-description">
-            ภาษาหลักที่ใช้ในการสื่อสารในชีวิตประจำวัน
-            ทั้งการพูดและเขียนอย่างเป็นทางการและไม่เป็นทางการ
+            {{ $t('resume.languageThDetail') }}
           </p>
         </li>
 
         <li class="language-item">
           <div class="language-header">
-            <h4 class="h4 language-name">English (ภาษาอังกฤษ)</h4>
-            <span class="language-level text-blue-600 font-semibold">Fluent</span>
+            <h4 class="h4 language-name">{{ $t('resume.languageCh') }}</h4>
+            <span class="language-level text-yellow-600 font-semibold">{{ $t('resume.languageChLevel') }}</span>
           </div>
           <p class="language-description">
-            สามารถใช้ในการทำงานและสื่อสารได้อย่างคล่องแคล่ว ทั้งด้านเทคนิค การเขียนอีเมล
-            และการประชุมระหว่างประเทศ
+            {{ $t('resume.languageChDetail') }}
           </p>
         </li>
 
         <li class="language-item">
           <div class="language-header">
-            <h4 class="h4 language-name">Chinese (ภาษาจีน)</h4>
-            <span class="language-level text-yellow-600 font-semibold">Intermediate</span>
+            <h4 class="h4 language-name">{{ $t('resume.languageEn') }}</h4>
+            <span class="language-level text-blue-600 font-semibold">{{ $t('resume.languageEnLevel') }}</span>
           </div>
           <p class="language-description">
-            เข้าใจและสามารถสื่อสารในหัวข้อทั่วไป อ่านและเขียนตัวอักษรพื้นฐานได้ดี
-            เหมาะสำหรับการสื่อสารเบื้องต้นกับเจ้าของภาษา
+            {{ $t('resume.languageEnDetail') }}
           </p>
         </li>
       </ul>

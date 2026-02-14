@@ -1,0 +1,97 @@
+{
+  "title": "What is NAS? What is RAID?",
+
+  "image1Description": "NAS Network Attached Storage",
+  "image2Description": "Network Attached Storage Concept",
+  "image3Description": "Synology NAS Device Example",
+  "image4Description": "NAS Network Connection Diagram",
+  "image5Description": "Personal Cloud Storage via NAS",
+  "image6Description": "RAID Technology Explained",
+  "image7Description": "Redundant Array Of Independent Disks",
+  "image8Description": "RAID 0 Visualization (Striping)",
+  "image9Description": "RAID 1 Visualization (Mirroring)",
+  "image10Description": "RAID 5 Visualization (Striping with Parity)",
+  "image11Description": "RAID 6 Visualization (Double Parity)",
+  "image12Description": "RAID 10 Visualization (1+0)",
+  "image13Description": "Synology Hybrid RAID (SHR) Concept",
+  "image14Description": "Combining NAS and RAID for Data Security",
+
+  "section1": {
+    "heading": "NAS: Network Attached Storage",
+    "content01": "In this article, let's explore NAS (Network Attached Storage) together.",
+    "content02": "To understand the importance of NAS, we first need to look at Cloud Storage. Cloud Storage involves saving data on the 'Cloud' or the internet. However, we often don't know exactly where the servers holding our data are located globally, which can lead to concerns regarding data privacy and security.",
+    "content03": "NAS solves this issue. It is a storage device similar to an External Hard Drive, but it can share data across a network. Think of it as your own private Cloud Storage where you own the hardware. If you turn off the machine, no one can access the data. This puts you in full control of your information security."
+  },
+
+  "section2": {
+    "heading": "Defining NAS",
+    "content": "To define it briefly: NAS is a storage device that provides file-level data storage services to other devices on a network."
+  },
+
+  "section3": {
+    "heading": "Synology NAS",
+    "content": "Here is an example of a Synology NAS. They come in various sizes to fit different needs and feature a unique proprietary hard drive management system that is a standout feature of the brand."
+  },
+
+  "section4": {
+    "heading": "Connecting Your NAS",
+    "content": "As shown in the example, connecting a NAS to the internet involves plugging it into a Router, much like a computer. Once configured, you can access your data on the NAS from anywhere in the world via the internet."
+  },
+
+  "section5": {
+    "heading": "Why Should You Use NAS?",
+    "content01": "NAS expands your storage space. If your computer's local drive is full, NAS is a great alternative for adding capacity while making file sharing more convenient.",
+    "content02": "It offers easy accessibility. When multiple users need to work on the same files, everyone can access the data on the NAS simultaneously.",
+    "content03": "NAS provides access control. You can define specific permissions for different users, ensuring only authorized people can see sensitive files.",
+    "content04": "It acts as a multimedia hub. You can use it to stream videos or even as a central recorder for your security cameras (CCTV).",
+    "content05": "Automatic backup is a key feature. It can sync data between multiple drives. If one drive fails, the redundant drive ensures your data remains safe and recoverable.",
+    "content06": "It powers home multimedia systems. NAS serves as a private cloud and a central hub for all your family's photos, videos, and music.",
+    "content07": "High security: Since you control the hardware, you are 100% the owner of your data management.",
+    "content08": "Online accessibility: Access your files globally through a secure internet connection."
+  },
+
+  "section6": {
+    "heading": "Transitioning to Drive Management",
+    "content": "Now that we know NAS uses multiple hard drives connected together, the question is: How do we manage those drives effectively? That is where RAID comes in."
+  },
+  
+  "section7": {
+    "heading": "Redundant Array Of Independent Disks (RAID)",
+    "content": "RAID stands for Redundant Array Of Independent Disks. It is a technology used to combine multiple physical disk drive components into one or more logical units for data redundancy or performance improvement."
+  },
+
+  "section8": {
+    "heading": "RAID 0 (Striping)",
+    "content": "In RAID 0, data is split ('striped') across two or more disks. It is not recommended for long-term critical storage because there is no redundancy. Pros: It is much faster than a single disk because it can read/write to multiple drives at once. Cons: If even one disk fails, all data is lost. You get the full capacity of all disks combined."
+  },
+
+  "section9": {
+    "heading": "RAID 1 (Mirroring)",
+    "content": "RAID 1 mirrors data across disks, creating an exact copy. This is ideal for critical data because if one disk dies, the other still has everything. Pros: High data safety. Cons: You lose half of your total capacity (Total Capacity / 2)."
+  },
+
+  "section10": {
+    "heading": "RAID 5 (Striping with Parity)",
+    "content": "RAID 5 requires at least 3 disks. It uses striping with 'parity' (Ap, Bp, etc.) distributed across all drives. Pros: It provides a good balance of speed and safety. One disk can fail without data loss because the system can recalculate missing data from the parity. Cons: You lose the capacity of one disk for parity storage. Capacity = Disk Capacity x (Number of Disks - 1)."
+  },
+
+  "section11": {
+    "heading": "RAID 6 (Double Parity)",
+    "content": "RAID 6 works like RAID 5 but stores double parity data across at least 4 disks. Pros: Highly secure; up to 2 disks can fail simultaneously without data loss. Cons: You lose the capacity of two disks. Capacity = Disk Capacity x (Number of Disks - 2)."
+  },
+
+  "section12": {
+    "heading": "RAID 10 (1+0)",
+    "content": "RAID 10 combines RAID 1 and RAID 0. It offers both mirroring and striping. Pros: Excellent performance and high redundancy. Cons: It is expensive because it requires at least 4 disks and you lose 50% of the capacity to mirroring. Capacity = (Disk Capacity x Number of Disks) / 2."
+  },
+
+  "section13": {
+    "heading": "Synology Hybrid RAID (SHR)",
+    "content": "SHR is Synology's automated RAID management system. Unlike traditional RAID, SHR allows you to mix and match hard drives of different sizes effectively, maximizing your available storage."
+  },
+
+  "section14": {
+    "heading": "Conclusion: NAS + RAID",
+    "content": "That covers the basics of NAS and RAID. I hope this article helps you understand how to better manage and protect your data. Feel free to share your thoughts or exchange ideas in the comments!"
+  }
+}

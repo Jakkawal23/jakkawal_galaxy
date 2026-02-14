@@ -1,0 +1,23 @@
+{
+  "title": "MarqGo: Real-time Flea Market Vendor Data Management Platform (Mockup)",
+  "image1Description": "A mobile solution helping buyers locate vendors and menus in flea markets, featuring a 'What should I eat today?' decision-making tool.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Shopping at flea markets often involves uncertainty regarding vendor locations and daily operating hours. Additionally, consumers face the classic 'what to eat' dilemma. I conceptualized MarqGo to bridge the gap between vendors and buyers by providing shops with digital profiles. These profiles feature live location tracking for specific stalls and real-time status updates on menus, transforming the market experience into something more convenient and engaging."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed the system divided into two core segments: Buyer and Seller apps. The MVP focus is on the Buyer version, displaying active shop coordinates and signature menus. A standout feature is the 'Random Menu Game,' which utilizes vendor data to solve decision fatigue. Once a user receives a recommendation, the system immediately navigates them to the specific stall via a simulated market map."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The primary challenge was managing initial server infrastructure costs. I adopted a 'Backend as a Service (BaaS)' strategy to reduce the burden of complex database structuring during the testing phase. Furthermore, for Market Validation, I prioritized developing a Web Application over a Native App. This allowed for faster distribution and a cost-effective way to prove if real-time coordinate data is a feature consumers truly value before scaling."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This system has the potential to evolve into a 'Hyper-local SKU Search' covering all market goods beyond food. Users could search for specific items (e.g., scissors, screwdrivers) to see which stall has them in stock and their exact location. Future plans also include integrated loyalty points and market-wide promotions, creating a modern, Data-Driven Marketplace ecosystem."
+  },
+  "gallery": {
+    "heading": "Mobile UI Prototypes & Market Mapping Logic"
+  }
+}

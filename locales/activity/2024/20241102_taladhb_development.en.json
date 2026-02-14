@@ -1,0 +1,29 @@
+{
+    "title": "TaladHub Development: From idea to a comprehensive market and event management platform",
+
+    "image1Description": "Process of designing and developing the Full-stack Platform for the TaladHub system",
+    
+    "section1": {
+        "heading": "Origin and Intent",
+        "content": "After successfully leading the team into the Top 6 of the Tuek Som Garage project, I drove the project into a full Development Phase under the name 'TaladHub.' My goal was to change the data and solutions gathered from real field work into a Functional Product. This aimed to upgrade market and event management standards to be digital and highly efficient."
+    },
+
+    "section2": {
+        "heading": "Role and Action",
+        "content": "I held the roles of both Product Owner (PO) and Developer, defining the Product Roadmap and gathering a skilled development team. I designed and developed the system as a Multi-platform, consisting of a Web Platform for back-end management for market owners and LIFF (LINE Front-end Framework) as the main channel for communication and services for vendors and market visitors. This ensures the system is easy to access and fits real-world usage."
+    },
+
+    "section3": {
+        "heading": "Challenges",
+        "content": "The major challenge was managing resources and time to get a quality product within the competition deadline. I had to make complex technical decisions to ensure system stability and support many users at once. I also had to ensure the User Interface (UI) was easy to learn for diverse user groups, from executives to market vendors. Balancing the required Scope and the limited Timeline was a great test of my project management skills."
+    },
+
+    "section4": {
+        "heading": "Results and Learning",
+        "content": "We successfully developed a complete prototype ready for real testing (UAT), which is an important step toward the next competition round. This experience helped me develop Full-stack Developer skills with a big-picture view of the system and Product Owner skills that always consider Business Value. I learned to work with a development team in an Agile format. My greatest pride is seeing an idea that started from zero become a system ready to truly help people in the market industry."
+    },
+
+    "gallery": {
+        "heading": "TaladHub system Interface and atmosphere of developing the project with the team"
+    }  
+}

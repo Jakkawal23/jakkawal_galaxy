@@ -199,7 +199,7 @@ export default defineEventHandler(() => {
       },
       remark: {
         en: 'Description',
-        th: 'รายละเอียดห',
+        th: 'รายละเอียด',
       },
       content: [
         {

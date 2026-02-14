@@ -1,0 +1,23 @@
+{
+  "title": "myDAS: QR Code Document Submission System",
+  "image1Description": "Automated kiosk station for physical document check-in and tracking via QR Code",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "As part of the Digital Accounting System (DAS) initiative, I identified that the primary bottleneck was the delivery of original physical documents to the accounting department. Previously, there was no clear management system; employees hand-delivered documents without knowing the specific drop-off point or responsible officer. This led to lost documents, untraceable statuses, and delayed accounting entries. I initiated the development of a QR-enabled automated station to create a systematic hub that connects employees to accounting with 100% transparency and auditability."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "The system is designed for ease of use via a 'Smart Station.' Employees simply scan a pre-generated QR code from the system at the drop-off point and enter their contact details. The system then updates the document status to 'Submitted' and sends an instant email notification to accounting staff. Additionally, I implemented an Automated Reminder system that alerts employees of pending documents every morning and generates a summary of received items for the accounting intake desk to ensure a continuous workflow."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "A major challenge was Physical Terminal Security, as the kiosk is located in a public area. I designed the software to operate in a strict 'Kiosk Mode,' restricting access to a single application window. To prevent unauthorized command inputs, physical keyboards were removed, and the full-screen mode was protected by an admin-level password. This robust design minimizes data security vulnerabilities and prevents external interference with the system's core functions."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "In the future, the system could evolve into 'Autonomous Printing & Submission' to further reduce the manual workload. If an employee receives a secure e-Document, the system could accept the file online and automatically print it at the receiving station, updating the status instantly. This would centralize both paper and digital documents into a single source of truth, maximizing the efficiency of the organization's document lifecycle."
+  },
+  "gallery": {
+    "heading": "Kiosk Interface & Automated Notification Workflow"
+  }
+}

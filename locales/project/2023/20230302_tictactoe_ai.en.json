@@ -1,0 +1,23 @@
+{
+  "title": "Tic-Tac-Toe AI: A Playground for Learning Algorithms and Logic",
+  "image1Description": "Applying mathematics and algorithms to create an intelligent decision-making system through a classic game",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "For me, entering the world of Artificial Intelligence (AI) isn't just about using high-level tools; it's about understanding the underlying mathematics and algorithms that drive decision-making. I chose Tic-Tac-Toe as an experimental ground to study Machine Learning—from training to inference. My goal was to transform a simple game into a concrete simulation model that demonstrates the practical application of AI logic."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "The core of this project is proving the difference between random systems and strategic ones. I utilized the 'easyAI' library as the primary framework for gameplay. The AI analyzes every possible board state using the Minimax algorithm to find the optimal move in any situation. This process highlights the clear distinction between 'code executing fixed instructions' and 'AI selecting moves based on a winning strategy.'"
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge wasn't just coding, but transitioning from building models from scratch to utilizing frameworks while maintaining a deep understanding of the internal logic. I addressed this by diving deep into data mapping between board states and the easyAI framework, while also analyzing heuristic scoring for each move. This ensured that the tools used performed at full efficiency and responded to players accurately according to computer science principles."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "In the future, this project can evolve into an 'Adaptive AI' capable of scaling difficulty based on the player's skill level—ranging from beginner to 'Unbeatable.' Furthermore, I plan to scale the game board to 4x4 or 5x5, which requires more complex computations like Reinforcement Learning. This would allow the AI to learn, adapt, and improve its skills independently through real-world experience in every match."
+  },
+  "gallery": {
+    "heading": "Additional Screenshots"
+  }
+}

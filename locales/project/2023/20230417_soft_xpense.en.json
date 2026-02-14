@@ -1,0 +1,23 @@
+{
+  "title": "Soft Xpense: Digital Payment Request & Approval System for Enterprises",
+  "image1Description": "Digital expense management and approval workflow system for organizations",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Soft Xpense is an internal expense management system covering everything from travel reimbursements to branch petty cash. However, I identified a significant gap: payments to external third parties (Vendors). Previously, these were handled entirely through offline paper documents, making status tracking difficult, causing delays, and risking data loss. My goal was to lead the digitization of this process, creating a comprehensive and transparent payment standard."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "As the lead developer for the 'PRQ' (Payment Request) module, I initiated the project with User Research involving the Accounting and Finance departments to map out actual operational flows. I then designed a multi-level Approval Workflow and a real-time email notification system. A key highlight was the automated data interface linking to the core accounting system, reducing manual entry errors and enabling faster, more accurate financial reporting."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The biggest hurdle was the gap in 'Domain Knowledge,' as accounting and finance involve complex terminology. Initially, interpreting user requirements was difficult. To bridge this, I meticulously documented every meeting for post-session analysis and prepared deep-dive questions to re-check understanding. Furthermore, I proactively studied accounting and finance principles independently to communicate more effectively with stakeholders and ensure the system met professional accounting standards."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This project was not only implemented successfully within the organization but also evolved into a Computer Engineering thesis. It won first place (highest score) in a competition judged by experts from seven leading companies and distinguished faculty members. This success validates the efficiency of the solution and currently serves as a blueprint for the company's new product developments. It stands as a testament to my commitment to cross-functional learning."
+  },
+  "gallery": {
+    "heading": "System Interface & Award Certification"
+  }
+}

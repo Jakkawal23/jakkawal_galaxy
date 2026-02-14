@@ -1,0 +1,160 @@
+{
+    "title": "What is a Double-Entry System?",
+    "image1Description": "What is the Double-Entry Accounting System?",
+    "image2Description": "Single-Entry Accounting System",
+    "image3Description": "Recording Transactions in a Single-Entry System",
+    "image4Description": "Problems with Single-Entry Systems",
+    "image5Description": "The Concept of Double-Entry Accounting",
+    "image6Description": "Recording Transactions in a Double-Entry System",
+    "image7Description": "Double-Entry Recording with Multiple Accounts (Compound Entry)",
+    "image8Description": "General Journal Example",
+    "image9Description": "The 5 Categories of Accounting",
+    "image10Description": "Accounting Category: Assets",
+    "image11Description": "Accounting Category: Liabilities",
+    "image12Description": "Accounting Category: Equity (Owner's Equity)",
+    "image13Description": "Accounting Category: Revenue",
+    "image14Description": "Accounting Category: Expenses",
+    "image15Description": "Recording Credits and Debits",
+    "image16Description": "The Hand Rule for Remembering Debits and Credits",
+    "image17Description": "Accounting Entry Example 1",
+    "image18Description": "Accounting Entry Example 2",
+    "image19Description": "General Ledger Example",
+    "image20Description": "General Journal Recording Example",
+    "image21Description": "Is Accounting Actually Easy?",
+    "section1": {
+        "heading": "Let's Get to Know the Double-Entry System",
+        "content": "In this article, we will explore the 'Double-Entry System.' You might have heard terms like 'Accounting Pairs,' 'Credits,' or 'Debits.' If you work in a field related to finance or software development for business, understanding this system is crucial. We will learn what it is and why it is so beneficial together."
+    },
+    "section2": {
+        "heading": "The Single-Entry System",
+        "content": "Before diving into Double-Entry, we must understand the Single-Entry System. This method records only one side of a transaction. It is often considered an incomplete system. For example, a business might record only cash received or cash paid without recording the corresponding sale or purchase. While you see the cash flow, you don't see the full picture of what increased or decreased in exchange for that cash."
+    },
+    "section3": {
+        "heading": "Example of Single-Entry Recording",
+        "content01": "Company A sells goods to Company B. Company A wants to sell the product, and Company B wants to pay in cash.",
+        "content02": "From Company A's perspective: They record only the cash received. They might not track how much inventory is left or which specific items were sold, making it hard to audit later.",
+        "content03": "From Company B's perspective: They focus only on receiving the goods. They might record the new inventory but fail to record the decrease in cash simultaneously."
+    },
+    "section4": {
+        "heading": "The Problems with Single-Entry Systems",
+        "content": "Single-entry bookkeeping has many loopholes. It is prone to errors and fraud because it is incomplete. It struggles with recording capital increases during the year and makes it difficult to track accounts receivable (money owed to you) and accounts payable (money you owe)."
+    },
+    "section5": {
+        "heading": "What is the Double-Entry System?",
+        "content01": "The Double-Entry System solves these problems by recording every transaction in at least two accounts. One side is a 'Debit' and the other is a 'Credit.' The total amounts must always be equal, though the number of accounts involved might differ. For example:",
+        "content02": "If you buy goods for 2,000 Baht, you record a Debit of 2,000 (value gained) and a Credit of 2,000 (value lost). The totals match perfectly.",
+        "content03": "If you buy goods for 2,000 Baht but pay 1,000 in cash and 1,000 on credit (debt): You gain 2,000 in goods (one debit), but you have two credits (1,000 cash + 1,000 liability). The number of accounts is different, but the total amount ($2,000 = 1,000 + 1,000$) remains equal.",
+        "content04": "This dual recording prevents data loss, allows for transaction tracking, and makes it easy to verify the accuracy of the books."
+    },
+    "section6": {
+        "heading": "Recording in a Double-Entry System",
+        "content01": "Let's revisit Company A and Company B using Double-Entry:",
+        "content02": "Company A records: Cash Increase AND Inventory Decrease.",
+        "content03": "Company B records: Inventory Increase AND Cash Decrease.",
+        "content04": "Company A: Cash (+), Goods (-)",
+        "content05": "Company B: Goods (+), Cash (-)"
+    },
+    "section7": {
+        "heading": "Example: Unequal Number of Accounts",
+        "content01": "Company A: Cash Increase / Accounts Receivable Increase / Inventory Decrease.",
+        "content02": "Company B: Inventory Increase / Accounts Payable Increase / Cash Decrease."
+    },
+    "section8": {
+        "heading": "The General Journal",
+        "description": "Example: On January 1, 2026, a company purchases office equipment for 20,000 Baht in cash. The entry would be:",
+        "list": [
+            "Debit: Office Equipment 20,000 Baht",
+            "Credit: Cash 20,000 Baht"
+        ]
+    },
+    "section9": {
+        "heading": "What Do Accounting Categories Tell Us?",
+        "content": "To know what to Debit and what to Credit, we look at Accounting Categories: Assets, Liabilities, Equity, Revenue, and Expenses. These categories help us build the Income Statement (from Revenue/Expenses) and the Balance Sheet (from Assets/Liabilities/Equity)."
+    },
+    
+    "section10": {
+        "heading": "Category: Assets",
+        "content01": "Assets are divided into Current and Non-Current Assets.",
+        "content02": "Current Assets: Can be converted to cash quickly (usually within 1 year). These include:",
+        "content03": "Cash / Office Supplies / Inventory / Accounts Receivable / Short-term Investments.",
+        "content04": "Non-Current Assets: Held for longer than 1 year, including intangible assets:",
+        "content05": "Land / Vehicles / Machinery / Copyrights / Patents / Long-term Loans."
+    },
+    "section11": {
+        "heading": "Category: Liabilities",
+        "content01": "Liabilities are divided into Current and Non-Current.",
+        "content02": "Current Liabilities: Short-term debts due within 1 year.",
+        "content03": "Accounts Payable / Notes Payable / Accrued Taxes / Dividends Payable.",
+        "content04": "Non-Current Liabilities: Debts due after more than 1 year.",
+        "content05": "Long-term Loans / Bonds Payable / Lease Obligations."
+    },
+    "section12": {
+        "heading": "Category: Equity (Owner's Equity)",
+        "content01": "Equity represents the owner's investment in the business.",
+        "content02": "Fundamental Equation: $$Assets = Liabilities + Equity$$",
+        "content03": "Capital Account / Drawings (Withdrawals) / Common Stock / Retained Earnings."
+    },
+    "section13": {
+        "heading": "Category: Revenue",
+        "description": "Revenue (Increase in assets or decrease in liabilities):",
+        "list": [
+            "Economic benefit increase (Sales/Income).",
+            "Increase in the value of assets.",
+            "Decrease in debt (Debt restructuring).",
+            "Does not include new capital investments from owners."
+        ]
+    },
+    "section14": {
+        "heading": "Category: Expenses",
+        "description": "Expenses (Decrease in assets or increase in liabilities):",
+        "list": [
+            "Purchasing goods, paying salaries, etc.",
+            "Decrease in asset value (Depreciation).",
+            "Increase in liabilities (e.g., exchange rate losses).",
+            "Does not include dividend payments to owners."
+        ]
+    },
+    "section15": {
+        "heading": "The Rules of Debit and Credit",
+        "content01": "Asset Increase: Debit | Asset Decrease: Credit",
+        "content02": "Liability Increase: Credit | Liability Decrease: Debit",
+        "content03": "Equity Increase: Credit | Equity Decrease: Debit",
+        "content04": "Revenue Increase: Credit | Revenue Decrease: Debit",
+        "content05": "Expense Increase: Debit | Expense Decrease: Credit"
+    },
+    "section16": {
+        "heading": "The Finger Rule for Debits and Credits",
+        "content01": "A simple way to remember: Assign each finger a category. Your Thumb and Pinky are 'Debit' by default; the middle three are 'Credit.'",
+        "content02": "Thumb = Assets. If you hold it out (increase), it's a Debit. If you tuck it in (decrease), it moves to the opposite side: Credit.",
+        "content03": "Apply this to all fingers: If the category increases, stay on the default side. If it decreases (fold the finger), use the opposite side."
+    },
+    
+    "section17": {
+        "heading": "Accounting Entry Example",
+        "description": "Company ABC buys office equipment for 20,000 Baht in cash.",
+        "list": [
+            "Office Equipment increases (Asset Category).",
+            "Cash decreases (Asset Category)."
+        ]
+    },
+    "section18": {
+        "heading": "Recording the Entry",
+        "description": "Following the rules:",
+        "list": [
+            "Increase in Asset -> Record as Debit.",
+            "Decrease in Asset -> Record as Credit."
+        ]
+    },
+    "section19": {
+        "heading": "The General Ledger",
+        "content": "The Ledger (or T-Account) tracks a specific account (e.g., Account 101: Cash). Every time cash goes up or down, it's recorded here, allowing the company to know its exact cash balance at any moment."
+    },
+    "section20": {
+        "heading": "The General Journal Entry",
+        "content": "Transactions are recorded chronologically. As seen in the example, the purchase of equipment for 20,000 Baht cash is recorded on the specific date it occurred."
+    },
+    "section21": {
+        "heading": "Accounting is Simple... (Or is it?)",
+        "content": "This is a summary of the Double-Entry system from a Software Developer's perspective. If there are any errors, feel free to share and exchange ideas. After all, accounting is... simple, right? *-*"
+    }
+}

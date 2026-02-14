@@ -1,0 +1,23 @@
+{
+  "title": "SS-Clean: Restructuring Systems for Multi-Organization Support",
+  "image1Description": "System architecture redesign for multi-tenant and multi-org management",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Originally, the company utilized 'SS-Clean' as a standard framework based on Clean Architecture to jumpstart new projects. However, as a B2B software house, the original database structure was limited to a Single-Tenant model, supporting only one company per instance. As business requirements evolved toward supporting Holding Companies and Multi-Tenant products, I recognized the urgent need to overhaul this standard. The goal was to break past previous limitations and enable the system to handle complex, diverse organizational structures within a single unified platform."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "The core concept involved redesigning the database schema and Master Data management into a Multi-Tier Support system. We focused on creating flexibility across 'System - Company - Branch' levels. The design allows a single system instance to manage data for multiple companies independently, whether that involves separating fundamental data structures or defining unique configurations for specific branches. This new standard prepares our foundation for both large-scale custom enterprise solutions and future product-based developments."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The primary challenge was defining the 'Data Hierarchy' to reflect real-world business logic. For instance, determining where to store 'Public Holidays'—at the System, Company, or Branch level—is a critical decision. Storing data too deep leads to data redundancy, while storing it too shallow sacrifices flexibility. The solution came from balancing business feasibility with technical performance. We structured the data based on high-probability use cases, ensuring the system remains streamlined without becoming over-engineered, yet retains maximum adaptability."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This improved standard has now become the Base Standard for all new projects within the company. However, the journey doesn't end here; we prioritize continuous improvement by gathering feedback from real-world implementations. By consistently updating the logic and technology stack, we ensure our company standard remains modern and capable of meeting rapidly changing market demands with speed and efficiency."
+  },
+  "gallery": {
+    "heading": "Additional Diagrams"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Work Assign Tracking: Construction Management with Agile & Man-days (Mds)",
+  "image1Description": "A construction management platform transforming complex plans into daily tasks for precise budget and time control.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Construction management is often plagued by complexity and lack of control. I applied my software development experience to this industry by introducing the Man-days (Mds) concept—breaking large projects down into tasks that must be completed within one day. Combined with a planning and evaluation cycle every 1–2 weeks (Sprint), this system ensures that construction management can maintain maximum efficiency in both scheduling and budgeting."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "The system is designed for proactive planning, featuring task and sub-task creation, labor database management, and individual task assignments. A central Dashboard compares the Master Plan against actual daily progress. It tracks individual labor history and summarizes human resource and time statistics to analyze whether the project is on track or falling behind schedule."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge was the volatile nature of on-site work, where plans change abruptly and computer access is limited. I addressed this by designing for High Flexibility and mobile-first accessibility. Before full development, I validated my hypothesis by using photo logs of daily planning boards to identify frequent bottlenecks. This data-driven approach ensured the system effectively solves real-world problems under high-pressure site conditions."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "Future iterations will evolve into 'Integrated Construction Management,' consolidating E-Attendance, automated overtime/wage calculations, and comprehensive equipment and material budget management. By centralizing all project data, the system will empower stakeholders to make precise, Data-Driven Decisions based on a unified source of truth."
+  },
+  "gallery": {
+    "heading": "Agile Sprint Boards & Labor Tracking UI"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "title": "What is NB-IoT (Narrowband Internet Of Things)?",
+
+  "image1Description": "NB-IOT",
+  "image2Description": "Internet Of Things",
+  "image3Description": "Internet Of Things (WiFi)",
+  "image4Description": "Sensor Communication Application",
+  "image5Description": "What is NB-IoT",
+  "image6Description": "Narrowband Internet Of Things",
+  "image7Description": "NB-IOT in Thai",
+  "image8Description": "Devio NB-Shield",
+  "image9Description": "True NB-IoT Shield",
+  "image10Description": "Key Features of NB-IOT",
+  "image11Description": "NB-IOT installation for wildfire detection",
+  "image12Description": "Tracking bus locations at University of Phayao",
+  "image13Description": "NB-IOT for remote car air conditioning activation",
+  "image14Description": "NB-IOT Motor Tracker",
+  "image15Description": "Benefits of NB-IOT Motor Tracker",
+  "image16Description": "Is NB-IOT closer than you think?",
+
+  "section1": {
+    "heading": "Introduction",
+    "content01": "Now that we are familiar with IoT, let's dive into the world of NB-IoT in this article.",
+    "content02": "When we think of IoT, we usually imagine devices connecting to the Internet via WiFi. However, in some cases, devices are located in remote areas or places where WiFi signals cannot reach. NB-IoT was created specifically to solve this problem."
+  },
+
+  "section2": {
+    "heading": "Internet Of Things",
+    "content": "IoT refers to the interconnection of various electronic devices, enabling them to exchange data via the internet—commonly through the WiFi networks we use every day."
+  },
+
+  "section3": {
+    "heading": "Internet Of Things (WiFi)",
+    "content": "The figure illustrates a simulation of various devices connecting to the Internet or WiFi within a home or office environment."
+  },
+
+  "section4": {
+    "heading": "Sensor Communication Application",
+    "content": "IoT consists of Sensors, which detect and sense various events. Communication is the method used for data transfer—Bluetooth and WiFi are well-known channels. Another method is Cellular, which we use for mobile internet; while it is a valid IoT communication method, it traditionally hasn't been as popular as WiFi for IoT until recently. Finally, Application refers to the interface used to display data and control the connected IoT devices."
+  },
+
+  "section5": {
+    "heading": "What is NB-IoT",
+    "content": "As we've learned, Cellular is one method for IoT communication, specifically a standard called NB-IoT, which stands for Narrowband Internet of Things. It is a low-power wide-area network (LPWAN) standard developed to enable a wide range of cellular devices and services. Simply put, it involves using cellular signals to facilitate communication between IoT devices."
+  },
+  
+  "section6": {
+    "heading": "Narrowband Internet Of Things",
+    "content01": "There are three primary modes of operation for Narrowband Internet Of Things: In-band, Guard-band, and Standalone.",
+    "content02": "In-band: This mode uses the same frequency block as current LTE services. For example, while you are streaming video on social media, IoT devices use the same channel to communicate. In-band offers the fastest communication but comes with higher operational costs.",
+    "content03": "Guard-band: This utilizes the unused resource blocks within an LTE carrier's guard-band. It is highly popular for sending sensor data because it is sufficient for transmitting text or numerical data while remaining cost-effective.",
+    "content04": "Standalone: As the name suggests, this mode utilizes a dedicated frequency spectrum specifically for IoT communication, operating independently of other signals."
+  },
+
+  "section7": {
+    "heading": "NB-IOT in Thailand",
+    "content": "Major NB-IoT service providers in Thailand include AIS and True. They offer annual service plans and provide their own specialized development boards."
+  },
+
+  "section8": {
+    "heading": "Devio NB-Shield",
+    "content": "The Devio NB-Shield is the NB-IoT board from AIS. It is a 'Shield' designed to connect with microcontrollers like the Arduino UNO. The Shield is priced at approximately 1,047 THB with an annual service fee of 350 THB. It offers a Downlink speed of 24 kbps and an Uplink speed of 15.625 kbps."
+  },
+  
+  "section9": {
+    "heading": "True NB-IoT Shield",
+    "content": "The True NB-IoT Shield is the board from True. Similar to the AIS version, it connects to microcontrollers like the Arduino UNO. It is priced at 1,150 THB with an annual service fee of 330 THB. It also provides a Downlink speed of 24 kbps and an Uplink speed of 15.625 kbps."
+  },
+
+  "section10": {
+    "heading": "Key Advantages of NB-IOT",
+    "description": "Significant highlights of NB-IOT technology:",
+    "list": [
+      "Built upon existing LTE cellular network infrastructure.",
+      "Low power consumption; batteries for Uplink tasks can last up to 10 years.",
+      "Supports a high density of devices, up to 100,000 per base station.",
+      "Extensive coverage range of over 10 km per base station.",
+      "Fast deployment as it integrates with current 4G technology."
+    ]
+  },
+
+  "section11": {
+    "heading": "NB-IOT for Wildfire Detection",
+    "content": "A practical example is using NB-IOT for wildfire detection. Since deep forests lack WiFi signals, NB-IOT solves this by transmitting data from smoke and heat sensors over long distances to a central monitoring system."
+  },
+
+  "section12": {
+    "heading": "Bus Tracking at University of Phayao",
+    "content": "A bus tracking system can utilize NB-IOT to pinpoint locations by reading GPS coordinates and transmitting the data via the NB-IOT network. This allows for real-time location display and arrival time analysis. (Note: Currently, the University of Phayao utilizes a similar technology called LoRa)."
+  },
+
+  "section13": {
+    "heading": "NB-IOT for Remote Car Air Conditioning",
+    "content": "Using AIS NB-IOT Devio, you can remotely turn on a car's air conditioning via a mobile phone from anywhere with an internet connection. This is a great example of using technology to solve daily life problems and maximize convenience."
+  },
+
+  "section14": {
+    "heading": "NB-IOT Motor Tracker",
+    "content": "For motorcycle owners, the NB-IOT Motor Tracker helps track location and movement. It can send notifications for vibrations (anti-theft), movement, speeding, overheating, or when the vehicle enters/exits a geofenced area. This demonstrates how NB-IOT can facilitate daily convenience and security more than we might expect."
+  },
+
+  "section15": {
+    "heading": "Benefits of NB-IOT Motor Tracker",
+    "description": "NB-IOT MOTOR TRACKER FEATURES:",
+    "list": [
+      "Suitable for cars and motorcycles.",
+      "GPS for current coordinates and historical route tracking.",
+      "Vibration alerts (unauthorized movement) or general displacement.",
+      "Accident detection (vehicle fall or tip-over).",
+      "Speed limit monitoring.",
+      "Overheating temperature alerts.",
+      "Geofencing notifications (100m – 10km range)."
+    ]
+  },
+
+  "section16": {
+    "heading": "Is NB-IOT closer than you think?",
+    "content": "That concludes our overview of NB-IOT. If there is any missing information or if you'd like to share, exchange ideas, or offer feedback, please feel free to comment. I hope this article proves useful to all readers. Keep up the great work!"
+  }
+}

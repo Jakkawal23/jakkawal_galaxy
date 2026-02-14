@@ -1,0 +1,23 @@
+{
+  "title": "Burgundy: Enterprise PRQ (Vendor) Payment Request System",
+  "image1Description": "Digital payment request and vendor management system for enterprises",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Within the Burgundy ecosystem, the 'PRQ' (Payment Request) module was created to revolutionize the payment process for partners (Vendors). By transforming complex and difficult-to-track manual processes into a transparent digital system, employees can now submit payment requests through a clear approval workflow. This enables the Accounting and Finance departments to manage cash flow effectively and access real-time summaries of historical transactions for organizational expense analysis."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "The PRQ structure is designed to support Advanced Approval Logic, allowing for the definition of reviewers and approvers based on document priority and value—ranging from team leads to department heads. If errors are found, documents can be sent back for immediate revision (Reword). Furthermore, the system links directly to Accounting and Finance for final verification before payment, ensuring a rigorous process with a complete Audit Trail."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "A significant challenge was managing Vendor data, particularly for new partners not yet in the system, which poses a high risk of manual entry errors. I solved this by implementing a Checksum Algorithm to validate tax ID patterns against official standards. Additionally, I applied API integration with the Revenue Department to automatically fetch and display partner information (Auto-fill). This not only reduced data entry errors but also significantly increased speed and convenience for users."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "The next step for PRQ is evolving into a 'Vendor Portal'—a platform where partners can independently track their payment status (Self-Service), similar to tracking a shipping parcel. The system will automatically send email notifications upon approval or payment, reducing the burden of phone inquiries and fostering better partner relationships through data transparency while maintaining strict corporate data security."
+  },
+  "gallery": {
+    "heading": "Workflow Visualization & Interface Previews"
+  }
+}

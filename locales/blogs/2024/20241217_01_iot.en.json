@@ -1,0 +1,77 @@
+{
+  "title": "What is IoT (Internet of Things)?",
+
+  "image1Description": "INTERNET OF THINGS",
+  "image2Description": "Machine To Machine",
+  "image3Description": "IoT != Software JOIN Hardware",
+  "image4Description": "What is Internet of Things",
+  "image5Description": "Example Internet of Things",
+  "image6Description": "Smart City",
+  "image7Description": "We are in the era of 'Smart'….",
+  "image8Description": "Summary and Comparison of Internet of Things",
+  "image9Description": "How would you define IoT?",
+
+  "section1": {
+    "heading": "Introduction",
+    "content": "In an era where the global economy is rapidly driven by technology, it's undeniable that IoT has become a part of our daily lives. However, it might still be a new concept for many. This article will take you to experience, learn, and journey into the world of IoT (Internet of Things)."
+  },
+
+  "section2": {
+    "heading": "What is IoT?",
+    "content": "IoT stands for 'Internet of Things.' In Thai, it is often referred to by various names such as 'Internet of all things' or 'Internet connecting all things.' Regardless of the name, the core heart of IoT consists of two main elements: the 'Internet' and 'Things.' If you hear these two words together, you can interpret it as IoT, because all things are interconnected through the internet."
+  },
+
+  "section3": {
+    "heading": "Machine To Machine",
+    "content": "To visualize IoT simply: it is the connection of various smart devices via the internet, forming a 'Machine to Machine' connection. These 'Machines' might be devices we already use in daily life but previously lacked internet connectivity. Making one machine communicate with another via the internet—such as in Smart Homes, Smart Cities, or through Smart Devices—marks the beginning of the era of the Internet of Things."
+  },
+
+  "section4": {
+    "heading": "IoT != Software JOIN Hardware",
+    "content01": "If IoT means machines communicating with each other, does that mean a machine is just Hardware and Software?",
+    "content02": "Many people might misunderstand that IoT is simply Hardware with Software as a program or set of instructions (IoT = Hardware + Software).",
+    "content03": "In reality, IoT is more than just Hardware devices and Software instructions. It also consists of: Connectivity (standards for data connection between devices), Data (information from devices often stored on the Cloud for further application), and Intelligence/AI (to enhance system capabilities and maximize the utility of data stored on the Cloud)."
+  },
+
+  "section5": {
+    "heading": "What is Internet of Things (Development Tools)",
+    "content01": "Basic tools for learning and developing IoT that are easy to use and popular include the Raspberry Pi and Arduino boards. These boards are like small computers used to process data and operate according to the programs we define.",
+    "content02": "Just like the computers we use daily require a mouse and keyboard for Input and a monitor for Output, Raspberry Pi and Arduino work similarly. Input data might come from sensors, such as motion detection, temperature measurement, or light intensity. Once the board receives the input, it processes the data and executes the program—for example, by triggering an Output command to a Servo or a motor."
+  },
+
+  "section6": {
+    "heading": "Examples of Internet of Things",
+    "description": "IoT systems in daily life:",
+    "list": [
+      "Smart Home",
+      "Smart Wearables",
+      "Smart City",
+      "Smart Grids",
+      "Connected Car",
+      "Smart Retail",
+      "Smart Supply Chain",
+      "Smart Farming"
+    ]
+  },
+
+  "section7": {
+    "heading": "Smart City",
+    "content": "Today, IoT is not just a concept; it is a reality in many countries. A global model for IoT application is Barcelona. Their Smart Parking system generates up to $50 million in value per year, and Smart Lighting creates up to $37 million annually. Other systems include Smart Irrigation (using soil moisture, temperature, and sunlight sensors), Smart Waste Management (sensors in bins notifying trucks when full), Public Bike-sharing via apps, and Smart Transportation (using hybrid vehicles and IoT tracking to provide real-time arrival info)."
+  },
+
+  "section8": {
+    "heading": "We are in the era of 'Smart'….",
+    "content01": "If we observe the IoT around us from the moment we wake up until we go to bed, we'll realize that IoT truly surrounds us.",
+    "content02": "When we wake up, IoT devices can detect our movement and automatically turn on lights, open curtains, brew coffee, or turn on the TV. When leaving for work, we can check bus schedules and locations via IoT tracking. We can lock/unlock doors, turn off air conditioning, or retract clotheslines when it rains—all via mobile phone. We use fingerprints instead of keys and receive alerts if security cameras detect anomalies. We have truly entered the IoT era, even if we don't realize it."
+  },
+
+  "section9": {
+    "heading": "Summary and Comparison",
+    "content": "Although IoT has many advantages, it still has limitations. For instance, devices rely heavily on the Internet, data security must be a primary concern, and there is always the possibility of hardware failure."
+  },
+
+  "section10": {
+    "heading": "How would you define IoT?",
+    "content": "That concludes our topic on IoT. If there is any missing information or if you'd like to share opinions and exchange ideas, please feel free to comment. I hope this article is useful to all readers. Keep going!"
+  }
+}

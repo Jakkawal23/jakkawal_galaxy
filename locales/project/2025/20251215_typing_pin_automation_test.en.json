@@ -1,0 +1,23 @@
+{
+  "title": "Typing PIN: Security Testing and Automation Scripting",
+  "image1Description": "Developing scripts to simulate PIN entry and testing data transmission performance via API and UI Automation.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "This project began as a study on system access recovery for cases where a PIN is forgotten and email recovery is unavailable. Using Brute-force Simulation (0000 - 9999) allowed me to deeply understand authentication mechanisms and served as a primary tool for testing the security strength of my own developed systems."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed two primary operational modes: 1) Direct API requests for high-speed validation, and 2) UI Automation acting as an 'Input Helper' by controlling simulated mouse and keyboard events to fill screen fields automatically. The system utilizes looping logic that continues until a data set meets the specified 'success' condition."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge was managing the rate of data transmission to avoid crashing the target. I implemented 'Delay Management' to synchronize the script with the server's response time and web page loading speeds. Furthermore, I placed heavy emphasis on Ethics & Compliance, strictly limiting the scope of this tool to self-testing and authorized recovery to prevent any illegal or unethical misuse."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "These techniques can be evolved into 'Load & Stress Testing' systems to determine how many concurrent requests a server can handle before experiencing downtime. Additionally, it can be repurposed for 'Mass Data Entry' during User Acceptance Testing (UAT), allowing for rapid simulation of real-world user behaviors across various complex scenarios."
+  },
+  "gallery": {
+    "heading": "Automation Logic & Test Result Samples"
+  }
+}

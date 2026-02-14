@@ -1,0 +1,23 @@
+{
+  "title": "E-Procurement: Automated PRQ Generation for Enterprise Efficiency",
+  "image1Description": "Automated system converting Purchase Orders (PO) into Payment Requests (PRQ) through cross-system integration.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Within the standard procurement cycle (PR > PO > GR), I identified a critical bottleneck in the transition to the accounting system—specifically regarding 'Credit Purchases.' Employees frequently forgot to create Payment Request (PRQ) documents once a PO reached 'Complete' status. This led to payment delays, strained vendor relationships, and inaccurate cash flow forecasting. I initiated the integration between the E-Procurement and Digital Accounting System (DAS) to automate this workflow, eliminate human error, and optimize accounts payable management."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed an 'Auto-Generation' engine for PRQ documents. As soon as a user marks a PO as 'Complete,' the system cross-references data to automatically generate the payment request and triggers an email notification for the owner to perform a final audit. Additionally, I implemented 'Two-way Sync' logic to monitor status changes across both systems; if an order is canceled or modified in one, the financial linkage in the other is verified to prevent data duplication or payment discrepancies."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The primary challenge was ensuring secure Cross-System Communication between siloed platforms. I utilized API-driven communication secured with HMAC (Hash-based Message Authentication Code) to prevent data tampering. To handle large file attachments without straining network bandwidth, I utilized a shared Database View to exchange the unique 'Attachment ID' rather than transferring raw binary data through the API. This significantly optimized processing speeds across the infrastructure."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "The next goal is achieving 'Touchless Procurement' by integrating real-time market price APIs. This would minimize the variance between estimated PR prices and actual purchase costs. By establishing a 'Tolerance' threshold, the system could automatically push documents into the approval workflow without manual intervention if the discrepancy is negligible. This will shorten the Procurement Cycle Time and enhance the organization's overall competitive edge."
+  },
+  "gallery": {
+    "heading": "System Integration Architecture & Automation Workflow"
+  }
+}

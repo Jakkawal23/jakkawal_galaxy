@@ -1,0 +1,23 @@
+{
+  "title": "OCR Meter Segment Training Model (Integrated Electric Meter Reading System)",
+  "image1Description": "End-to-End electric meter image processing, from capturing the meter face to automatic digital value conversion.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "In the utility billing industry, relying on manual data entry is time-consuming and prone to human error. I developed this model to transform meter photos into digital data instantly. The focus is on a seamless User Experience: the user simply captures the meter face, and the system handles the rest."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "This model is designed as an End-to-End system, integrating Localization (detecting the display) and Recognition (identifying digits). I utilized a Neural Network architecture capable of learning the specific characteristics of various electric meters. This allows the system to distinguish between usage digits, serial numbers, and other symbols, ensuring it only returns the actual electricity units consumed."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "A common challenge is 'imperfect photography'—images that are tilted, have glares, or are taken in low light. I addressed this using Image Augmentation during the training phase to expose the model to various harsh conditions. Furthermore, I fine-tuned Hyperparameters to ensure the model maintains a high Confidence Score before finalizing and outputting the result."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This model is a key component for Smart City initiatives and energy management in large buildings. It can be integrated via API into billing applications to automate invoicing or analyze real-time electricity consumption patterns directly from captured images."
+  },
+  "gallery": {
+    "heading": "Model Training Architecture & Detection Results"
+  }
+}

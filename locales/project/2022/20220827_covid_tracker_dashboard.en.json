@@ -1,0 +1,23 @@
+{
+  "title": "Covid-19 Tracker: Smart Outbreak Analysis Dashboard",
+  "image1Description": "Real-time Data Visualization system integrated with government APIs for pandemic reporting",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "During the COVID-19 crisis, the overwhelming and scattered nature of information made it difficult to filter facts from noise. I believe that 'Data as a Source of Truth' is the best tool for building public confidence. This inspired me to develop a systematic dashboard for outbreak statistics, allowing citizens to track the latest situation and make informed decisions regarding their safety and daily planning with precision and timeliness."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed the web application as a Data Visualization tool focused on simplicity and accessibility. The system provides insights at both the national and provincial levels, focusing on four key metrics: New Cases, Accumulated Cases, Recoveries, and Deaths. It features an intelligent search system that allows users to drill down into specific areas to clearly assess local risk levels."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge was ensuring data reliability and frequent updates. I integrated the system with the Ministry of Public Health's Open API to fetch data directly from government sources. To address API latency and the risk of source downtime, I structured a scalable data-fetching architecture. This ensures the system can process and display the latest information efficiently, even during high-traffic periods."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This project could evolve into a 'Public Health Surveillance Platform' by incorporating geospatial Heatmaps to visualize virus clusters more clearly. Future plans include transitioning from direct API calls to a Data Caching and local storage architecture. This will enhance system stability (High Availability) and support advanced Data Analytics for forecasting future outbreak trends."
+  },
+  "gallery": {
+    "heading": "Additional UI Screens"
+  }
+}

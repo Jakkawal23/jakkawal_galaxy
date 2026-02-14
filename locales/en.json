@@ -14,17 +14,25 @@
     "contact": "Contact",
     "github": "GitHub"
   },
-
   "about": {
-    "intro1": "Full-stack Developer & Strategic Thinker (3+ Years Experience) I am a Full-stack Developer specializing in Angular and .NET Core with over 3 years of experience. Beyond writing code, I bring a Product Owner Mindset to every project—transforming raw ideas into high-impact MVPs. My track record of success is backed by multiple awards from national and corporate Startup competitions.",
-    "intro2": "Bilingual Communicator & Presentation Expert I excel at pitching and translating complex technical concepts into clear business value. With professional proficiency in Mandarin Chinese, I bridge the gap between technology and international collaboration. I am ready to leverage my technical skills and communication strengths to drive meaningful growth for your team.",
-
-    "servicesTitle": "",
-    "highlightProjectTitle": "",
-    "highlightActivityTitle": "",
-    "highlightAwardTitle": "",
-
-    "clientsTitle": "",
-    "clientAlt": "Client logo"
+    "intro1": "Software Developer with 3 years of experience and a Product Owner mindset. I am a Full-stack Developer (Angular & .NET Core) with over 3 years of experience who uses a Product Owner Mindset as a core principle. I am skilled at changing ideas into working MVPs effectively. Guaranteed success with first prize awards from corporate Startup competitions and national Startup competitions.",
+    "intro2": "A bilingual communicator ready to connect technology to business. I am skilled in Pitching and can explain technical matters in an easy-to-understand way. I can also communicate in Chinese very well. These skills help me communicate with teams and partners smoothly, ready to drive innovation and create real success for the organization.",
+    "servicesTitle": "What describes me",
+    "highlightProjectTitle": "Interesting Projects",
+    "highlightActivityTitle": "Interesting Activities",
+    "highlightAwardTitle": "Interesting Awards",
+    "clientsTitle": "Online Presence",
+    "clientAlt": "Client logo number"
+  },
+  "resume": {
+    "languageTh": "Thai",
+    "languageThDetail": "Main language used for daily communication, both formal and informal speaking and writing.",
+    "languageThLevel": "Native",
+    "languageCh": "Chinese",
+    "languageChDetail": "Can communicate fluently in daily life, general interpreting, and business communication (beginner level).",
+    "languageChLevel": "Fluent",
+    "languageEn": "English",
+    "languageEnDetail": "Understand and can communicate about general topics, suitable for basic communication (currently practicing).",
+    "languageEnLevel": "Basic"
   }
 }

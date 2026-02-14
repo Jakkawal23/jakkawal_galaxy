@@ -1,0 +1,23 @@
+{
+  "title": "S-Power: Mobile Leave Management via LINE LIFF",
+  "image1Description": "Corporate leave management interface integrated within the LINE application",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "S-Power serves as the central system for tracking work hours and managing employee leave. Originally, the system was restricted to web browsers, which created significant friction during emergencies, such as unexpected sick leave when employees couldn't easily access a computer. I was tasked with lead responsibility for enhancing the User Experience (UX) by enabling leave requests and approvals directly via smartphones, aligning with modern mobile-first behaviors and accelerating internal communication."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I opted for LINE LIFF (LINE Front-end Framework) technology over native app development to eliminate the complexities of App Store/Play Store maintenance and installation. By leveraging the fact that employees already use LINE for communication, I designed a responsive web interface with seamless User Mapping. This allows employees to log in and request leave instantly within their chat room. Additionally, I implemented Line Flex Messages—beautifully designed, easy-to-read notifications—that allow supervisors to approve leave requests directly from their mobile screens."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The primary challenge was the messaging quota limitations of free-tier LINE Official Accounts; high usage volumes could lead to unexpected costs. To address this, I engineered a 'Dual Channel' notification system. By using Email as the primary reliable backbone alongside Flex Messages, I ensured the system remained fully functional and trustworthy even if the LINE messaging quota was reached. This 'Cost Optimization' strategy maximized limited resources without disrupting the user workflow."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "Currently, the LIFF-based leave system is fully operational and has set a new standard for internal communication within the company. We are continuously adding extensions, such as an on-site Check-in system and Real-time Task Tracking for teams. The integrated data from leave and work logs will be analyzed for advanced Resource Management. This project proves that selecting the right technology can create a massive organizational impact while maintaining cost-efficiency."
+  },
+  "gallery": {
+    "heading": "Flex Message Designs & Mobile Interface"
+  }
+}

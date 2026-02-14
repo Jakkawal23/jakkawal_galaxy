@@ -1,0 +1,23 @@
+{
+  "title": "Detect Water Meter Model: Automated Localization and Analysis of Water Meter Digits",
+  "image1Description": "Developing Deep Learning models to locate numeric sequences on water meters under complex environmental conditions.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "In the development of automated meter reading systems, the most challenging step isn't reading the value—it's identifying the correct location of the numbers (Number Localization) amidst all the other components on a water meter face. I focused specifically on building a model for digit sequence detection because precise coordinate identification is the heart of the system. Knowing exactly where to focus allows the system to process data accurately and prevents errors caused by pulling information from the wrong location."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I integrated Image Processing technology with Object Detection, starting with preliminary image processing to adjust color and contrast, making the numeric sequences stand out. I then developed the model through training with a diverse dataset of water meter images, utilizing meticulous labeling to teach the AI exactly where the numeric area resides. This process ensures high accuracy in identifying the Region of Interest (ROI) before passing the data to the digital OCR system."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The primary challenge was achieving production-grade accuracy, which depends heavily on the volume and quality of training data. I addressed this by prioritizing the preparation of a massive dataset that covers real-world site conditions, such as meters in dark areas, those covered in water stains, or shots from difficult camera angles. The more efficient and diverse the dataset, the smarter and more stable the model becomes at detecting digit positions."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This model can be expanded into a 'Universal Digit Detector' not limited to water meters. It can be applied to any measurement device featuring a number sequence, such as industrial gauges or license plate recognition systems. By focusing on detecting visible numeric sequences through a camera, this technology enables the rapid and accurate digitization of physical-world data on a broad scale."
+  },
+  "gallery": {
+    "heading": "Detection Accuracy & Sample Datasets"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "TaladHub: OCR Utility Meter Reading for Markets",
+  "image1Description": "Automated water and electricity meter reading using OCR technology",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "From studying market management processes with numerous stalls, I found that traditional manual meter recording is a high-risk, labor-intensive task. For a market with 100 stalls, staff must manually record and input over 2,000 digits, leading to frequent errors. Furthermore, tenants often question transparency due to a lack of physical evidence of the meter reading at the time of recording. This inspired me to move from manual entry to a photo-evidence-based system, increasing both accuracy and trust in the billing process."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed the system around the 'Single Shot Capture' concept, replacing data entry with automated photo processing. The technology uses Object Detection to split the image into two components: 1) A QR Code to identify the specific meter, stall, and market branch, and 2) The Digit Counter using an OCR module trained to read each individual digit. The extracted data is automatically calculated against pre-set rates and displayed in a familiar Excel-like grid, allowing users to verify values and view the 'Confidence Score' of the AI reading instantly."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge lay in the real-world image quality; QR codes are often high-resolution or captured in low light, making them difficult to read. I addressed this by implementing Image Processing enhancement techniques before the data enters the recognition model. Additionally, I designed a 'Human-in-the-loop' flexibility feature where the system flags low-confidence readings for manual verification, balancing automation convenience with the absolute accuracy required for accounting."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "While the system currently processes one meter per photo, my next goal is 'Multi-Meter Detection'—allowing a single wide-angle photo to detect and read multiple meters simultaneously. This will drastically reduce field survey time. Furthermore, historical meter photos can be used for Data Visualization to analyze energy consumption patterns across different market zones, empowering owners to plan water and electricity resources more efficiently in the future."
+  },
+  "gallery": {
+    "heading": "OCR Meter Detection & Billing Interface Samples"
+  }
+}

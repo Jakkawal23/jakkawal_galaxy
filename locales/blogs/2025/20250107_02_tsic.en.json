@@ -1,0 +1,48 @@
+{
+  "title": "What is TSIC?",
+  "image1Description": "Thailand Standard Industrial Classification Overview",
+  "image2Description": "Structure of Economic Classification in Thailand",
+  "section1": {
+    "heading": "Introduction to SIC/TSIC",
+    "content": "TSIC stands for **Thailand Standard Industrial Classification**. It is a vital tool developed by the **National Statistical Office (NSO)** to organize Thailand's economic and industrial data. This system categorizes economic activities based on the nature of the work or services provided by businesses and organizations. It ensures that data analysis, policy planning, and economic management follow a consistent, standardized format."
+  },
+  "section2": {
+    "heading": "Origins of TSIC",
+    "content": "TSIC was developed based on the **ISIC (International Standard Industrial Classification)** system from the United Nations. This international alignment ensures that Thailand's economic data can be compared and integrated with global standards."
+  },
+  
+  "section3": {
+    "heading": "The Hierarchy of Economic Activities",
+    "description": "TSIC organizes economic activities into a specific hierarchical structure:",
+    "list": [
+      "**Sections:** The broadest categories, consisting of 21 major industrial groups represented by a single letter (A - U).",
+      "**Divisions:** Sub-divided from Sections into 88 categories, represented by the first 2 digits of the code.",
+      "**Groups:** Sub-divided from Divisions into 243 categories, represented by the first 3 digits.",
+      "**Classes:** Sub-divided from Groups into 441 categories, represented by the first 4 digits.",
+      "**Activities:** The most granular level, consisting of 1,091 specific activities, represented by the full 5-digit code."
+    ]
+  },
+  "section4": {
+    "heading": "Applications of TSIC",
+    "description": "TSIC is widely used by the public sector, private companies, and international organizations for various purposes:",
+    "list": [
+      "**Statistical Collection:** Standardizes data collection for economic surveys, employment rates, and industrial investment.",
+      "**Business Registration:** Used by the Department of Business Development (DBD) to categorize businesses for licensing and monitoring.",
+      "**Policy Planning:** Helps the government analyze data to develop economic policies, such as designating Special Economic Zones.",
+      "**Economic Research:** Researchers use TSIC to analyze industrial trends and efficiency to provide academic insights and recommendations."
+    ]
+  },
+  "imageSection": {
+    "heading02": "Search for Business Categories (TSIC) at https://tsic.dbd.go.th/",
+    "heading03": "Example of Section-level Data",
+    "heading04": "Example of Division-level Data"
+  },
+  "section5": {
+    "heading": "Additional Resources",
+    "content": "For more detailed information about TSIC codes, visit the official portal: https://tsic.dbd.go.th/"
+  },
+  "section6": {
+    "heading": "Final Thoughts",
+    "content": "That wraps up our guide on TSIC. I hope this provides a clearer picture of how industrial classification works in Thailand. Whether you're a data analyst or a 'tiny developer' building business applications, understanding TSIC will surely be useful—if not now, then in the long run. See you in 5, 4, 3, 2..."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Give Me My Money: Peer-to-Peer Debt and Interest Management System",
+  "image1Description": "Web application for debt tracking and dynamic interest calculation to foster financial discipline",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "This project was born from the pain points of Peer-to-Peer (P2P) lending, where social awkwardness and a lack of standardized tracking often lead to friction. I envisioned a system that transforms casual lending into a 'micro-loan with an interest mechanism' to instill financial discipline and ease the discomfort for both parties. The core focus is solving the complexity of staggered transactions—where multiple borrowings and partial repayments occur at different times. These require an 'Interest-first Allocation' logic, which is difficult and error-prone when recorded manually."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I transitioned the workflow from cumbersome Excel templates to a mobile-accessible Responsive Web Application. The heart of the system is the 'Dynamic Interest Engine,' which meticulously logs every transaction. It calculates the remaining balance by separating principal and interest in real-time based on the transaction date. This allows users to visualize capital flow, total outstanding balance, and interest profits through a clean, auditable interface."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "A major challenge was designing data persistence that balances convenience with data privacy. I adopted a 'Serverless Data Portability' approach, allowing users to export and import their own data files. This minimizes database overhead and maximizes user privacy. Furthermore, to enhance transparency, I developed a 'Payment Report' feature that generates a shareable image summary of the calculations, establishing a standard of trust during the collection process."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "In the future, this system can evolve into a 'Credit Scoring Analytics' platform. By analyzing payment history through the lens of Behavioral Finance—such as punctuality and average repayment amounts—the system can generate credit scores to assist in future lending decisions. Additionally, implementing automated reminders for upcoming due dates will complete the system's function as a comprehensive Risk Management tool for personal lending."
+  },
+  "gallery": {
+    "heading": "UI Dashboard & Transaction Reports"
+  }
+}

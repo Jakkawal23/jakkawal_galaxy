@@ -1,0 +1,23 @@
+{
+  "title": "TikTok Live Connect: Interactive Livestreaming and Real-time Data Processing",
+  "image1Description": "Utilizing Python to connect TikTok Live interaction data for automated control and viewer engagement experiences.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "TikTok Live has gained immense popularity, yet it remains largely a one-way communication channel. I asked myself: 'What if viewers could participate in the live stream beyond just watching?' Transforming viewer energy into active live participation makes communication more engaging and fun. This led me to explore methods for capturing real-time interaction data to create a uniquely impressive Interactive Livestreaming experience."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I developed a Python script integrated with the 'TikTok Live Connect' library to serve as middleware. This system connects to TikTok's servers to intercept live events, such as comments, likes, and gifts. The captured data is processed to trigger external automated systems, ranging from IoT hardware control and in-game character movement to screen macro simulations, allowing the stream to respond to viewers instantaneously."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The primary challenge was managing high-traffic data and noise filtering, as live rooms often contain irrelevant comments. I designed a 'Command Filter' to recognize specific command patterns and implemented Queue Management techniques to prevent system bottlenecks during spikes in gifts or comments. This ensures that viewer interactions remain smooth and highly efficient."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This project could evolve into an 'All-in-One Streamer Dashboard'—a no-code software for general streamers. With a user-friendly UI, streamers could define custom triggers and actions, such as playing specific sound effects automatically upon receiving certain gifts. This would transform traditional streaming into a smart studio, adding value and a unique identity to every creator's content."
+  },
+  "gallery": {
+    "heading": "Real-time Interaction Workflow & Dashboard UI"
+  }
+}

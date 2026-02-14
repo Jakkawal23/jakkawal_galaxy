@@ -1,0 +1,23 @@
+{
+  "title": "Read Meter OCR: Integrated AI for Smart Meter Reading and Identification",
+  "image1Description": "Combining Object Detection and OCR models via FastAPI for comprehensive end-to-end image data processing.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "Having developed several specialized models—from QR code detection to meter digit localization—I saw the opportunity to consolidate this knowledge into a single, complete solution (System Integration). My goal was to create a system that can process a single image and extract all vital information: the identity of the meter from a QR code and the numerical value from the dial simultaneously."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I chose Python's FastAPI as the high-performance backbone for the API. The workflow begins by receiving an image and applying preprocessing (binarization) to reduce noise. The system then runs parallel detection models to locate the QR code and the digit sequence. Finally, OCR techniques are applied to extract the values. The output includes both the meter identity and the reading, accompanied by a Confidence Score for each digit to allow for downstream verification."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main challenge was handling incomplete or invalid data, such as dark images or irrelevant uploads. I designed a Validation Layer to address this: if the system cannot reliably read a specific section, it avoids making incorrect guesses. Instead, it returns a specific Status Code and error type, allowing the user to take precise corrective action. This ensures the system remains trustworthy and fully auditable."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "To maximize flexibility, I transitioned the system from a monolithic structure to a secure API Service using API Key authentication. This allows other developers to integrate this meter-reading service into their own projects instantly. Future plans include expanding this into a 'Universal OCR Service' that supports all meter formats and document types, returning results in a standard JSON format to create a complete image-to-data ecosystem."
+  },
+  "gallery": {
+    "heading": "API Architecture & JSON Response Samples"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "QR Code Detection Model: Developing Deep Learning for Smart Scanning",
+  "image1Description": "Object Detection system locating and analyzing QR codes in challenging environments using deep learning models",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "The goal of this project was to develop a specialized Object Detection model to locate and identify QR codes within images. By training the model on custom datasets, I enabled it to distinguish exact coordinates and output them as Bounding Boxes. This serves as a critical foundation for automated scanning systems that do not require fixed positioning, allowing for a more flexible and robust user experience."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed the workflow to handle real-world edge cases. The process begins with model training using image augmentation techniques, such as contrast adjustment and perspective rotation simulation. Once the model detects a QR code, the system automatically crops the specific area and applies Binarization (converting the image to black and white) to sharpen the data patterns before passing it to the final decoder."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The main obstacles were poor lighting, motion blur, and small scale, which often cause traditional scanners to fail. I solved this by integrating Image Processing techniques to recalibrate colors and contrast prior to scanning. Furthermore, fine-tuning the model during training improved localization accuracy. These adjustments ensure that even low-quality source images are enhanced to preserve data integrity, leading to successful decodes."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "Building on the success of static image detection, the next phase involves real-time detection via live video feeds. This would allow for instantaneous QR code tracking during movement. Such technology has vast industrial applications, including smart warehousing for object localization, parcel tracking on high-speed conveyor belts, or empowering robotics to navigate and identify objects via QR-coded landmarks."
+  },
+  "gallery": {
+    "heading": "Detection Coordinates & Pre-processing Workflow"
+  }
+}

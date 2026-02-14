@@ -1,0 +1,23 @@
+{
+  "title": "Color Sonic Pro: Screen Color Detection for Automated Sound Effects",
+  "image1Description": "Decision-support software that automatically triggers sound effects via real-time screen pixel color analysis.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "The heart of an engaging livestream is timing, particularly when using sound effects. Most streamers struggle to balance speaking, playing a game, and triggering sounds at the exact right moment. I developed 'Color Sonic Pro' to act as an intelligent assistant that 'watches the visual rhythm' instead of requiring manual input. This allows streamers to focus entirely on their audience while maintaining high-quality production value."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "I designed the system to function through Pixel Detection at specific screen coordinates. For example, in a quiz game, if the screen turns green (correct answer), the system immediately triggers a cheer sound effect. If it turns gray (incorrect), it triggers a 'wrong answer' sound. Users can freely define coordinates, specify color codes (Hex/RGB), and link specific audio files, making the system highly flexible and compatible with various software."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The primary challenge was ensuring zero-latency audio during a live broadcast. I implemented a 'Virtual Hotkey Bridge' instead of playing audio directly through the software. The system sends a keyboard command (e.g., pressing '1') to a standard soundboard application. This method allows the streamer to retain manual control if needed. To prevent 'False Positives' when switching windows, I added a Toggle Start/Stop function so the user can control exactly when screen detection is active."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "This project can evolve into a full 'Broadcast Automation' system. Beyond audio, it could trigger screen overlays—such as automatically displaying a winner's list when green is detected. Additionally, I plan to add Automated Data Logging to track win-loss statistics, which can be used to generate real-time community leaderboards, taking viewer engagement to the next level."
+  },
+  "gallery": {
+    "heading": "UI Dashboard & Pixel Mapping Samples"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "FarmSook: Digital Farm Management for Modern Agriculture",
+  "image1Description": "Digital farm management platform providing end-to-end traceability and operational control for farmers.",
+  "section1": {
+    "heading": "Inspiration",
+    "content": "FarmSook was created with the ambition to elevate Thai agricultural standards to a global level, focusing on End-to-End Traceability—from soil preparation to the delivery of raw materials to processing plants. I recognized the critical need for farmers and factories to share a 'single standard' to ensure consistent quality and transparency. Furthermore, the system prepares farmers for modern agriculture by meticulously tracking costs, input factors, and carbon credit data, which are the keys to accessing international export markets in the future."
+  },
+  "section2": {
+    "heading": "Concept and Design",
+    "content": "The solution is a Mobile Application acting as a 'personal assistant' for farmers. It covers core functions such as Geo-fencing for plot mapping, customized input formulas (fertilizer/water) tailored to specific crops and soil conditions, and warehouse/labor management. The heart of the system is the 'Smart Scheduling' feature, which generates an automated agricultural activity calendar. This guides farmers through daily tasks to maximize limited resources and ensure compliance with factory-mandated standards."
+  },
+  "section3": {
+    "heading": "Challenges and Solutions",
+    "content": "The primary challenge was designing a system architecture flexible enough to support diverse crops with vastly different cultivation methods. I utilized Collaborative Research, gathering insights from factory owners, academics, and model farmers to translate traditional knowledge into system logic. Additionally, I studied the adoption patterns of agricultural drones to understand technology receptivity among farmers, allowing me to refine the User Interface to be as intuitive and user-friendly as possible for the target demographic."
+  },
+  "section4": {
+    "heading": "Opportunities for Further Development",
+    "content": "FarmSook is positioned to become a comprehensive Agri-Platform connecting farmers to the entire supply chain. Future developments include using Digital Logging to instantly generate quality certifications, reducing redundant inspection steps. The platform can also expand into a Marketplace for booking agricultural machinery or integrating with financial institutions to facilitate data-driven agricultural loans, ultimately creating a more sustainable and robust agricultural ecosystem."
+  },
+  "gallery": {
+    "heading": "Farm Management Interface & Smart Scheduling Samples"
+  }
+}
