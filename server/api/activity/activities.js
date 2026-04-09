@@ -3,6 +3,40 @@ import { defineEventHandler } from 'h3'
 export default defineEventHandler(() => {
   return [
     {
+      id: 20260206,
+      title: {
+        en: 'CU Friday Activities Week 5 Advanced SQL Training',
+        th: 'CU Friday Activities Week 5 Advanced SQL Training',
+      },
+      categories: [
+        { id: 1, title: { en: 'Training', th: 'การอบรม' } },
+      ],
+      date: '6 February 2026',
+      slug: '2026/20260206_cu_friday_activities_week_5',
+      image: '/images/activity/2026/20260206/20260206_01.png',
+      description: {
+        en: 'ร่วมกิจกรรม Friday Activities ของมหาวิทยาลัยจุฬาลงกรณ์ ในหัวข้อ Advanced SQL Training โดยรับหน้าที่เป็นผู้บรรยาย นำกิจกรรม Workshop และกิจกรรมการตอบคำถามต่างๆให้กับผู้เข้าร่วมกิจกรรม',
+        th: 'ร่วมกิจกรรม Friday Activities ของมหาวิทยาลัยจุฬาลงกรณ์ ในหัวข้อ Advanced SQL Training โดยรับหน้าที่เป็นผู้บรรยาย นำกิจกรรม Workshop และกิจกรรมการตอบคำถามต่างๆให้กับผู้เข้าร่วมกิจกรรม',
+      },
+    },
+    {
+      id: 20260130,
+      title: {
+        en: 'CU Friday Activities Week 4 Basic SQL Training (STAFF)',
+        th: 'CU Friday Activities Week 4 Basic SQL Training (STAFF)',
+      },
+      categories: [
+        { id: 1, title: { en: 'Training', th: 'การอบรม' } },
+      ],
+      date: '30 January 2026',
+      slug: '2026/20260130_cu_friday_activities_week_4',
+      image: '/images/activity/2026/20260130/20260130_01.png',
+      description: {
+        en: 'ร่วมกิจกรรม Friday Activities ของมหาวิทยาลัยจุฬาลงกรณ์ ในหัวข้อ Basic SQL Training โดยรับหน้าที่เป็น STAFF ในการช่วยอบรม และแก้ไขปัญหาต่างๆให้กับผู้เข้าร่วมกิจกรรม',
+        th: 'ร่วมกิจกรรม Friday Activities ของมหาวิทยาลัยจุฬาลงกรณ์ ในหัวข้อ Basic SQL Training โดยรับหน้าที่เป็น STAFF ในการช่วยอบรม และแก้ไขปัญหาต่างๆให้กับผู้เข้าร่วมกิจกรรม',
+      },
+    },
+    {
       id: 20250717,
       title: {
         en: 'Friday Party STAFF',
@@ -367,6 +401,6 @@ export default defineEventHandler(() => {
         en: 'เข้าร่วมทีมจัดโครงการ Tuek Som Garage (Startup) โดยรับผิดชอบหน้าที่ส่วนจัดเตรียมสถานที่ เครื่องเสียง และระบบออนไลน์',
         th: 'เข้าร่วมทีมจัดโครงการ Tuek Som Garage (Startup) โดยรับผิดชอบหน้าที่ส่วนจัดเตรียมสถานที่ เครื่องเสียง และระบบออนไลน์',
       },
-    }
+    },
   ]
 })
